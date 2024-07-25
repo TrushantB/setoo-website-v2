@@ -92,7 +92,7 @@ const ContactArea = () => {
                               </div>
                               <div className="col-xl-12">
                                  <div className="tp-contact-btn">
-                                    <button type="submit" className="tp-btn-yellow-lg yellow-bg w-100">Get a free consultation</button>
+                                    <button type="submit" className="tp-btn-yellow h-14 w-100">Get a free consultation</button>
                                  </div>
                               </div>
                            </div>

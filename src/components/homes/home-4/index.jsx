@@ -12,6 +12,9 @@ import PlatformArea from "../../../common/platform-area";
 import SecurityArea from "./security-area";
 import ServiceArea from "./service-area";
 import TeamArea from "./team-area"; 
+import TestimonialArea from "../home-3/testimonial-area";
+import Brand from "@/components/about/brand";
+import Recognition from "./recognition";
 
 const HomeFour = () => {
   return (
@@ -23,13 +26,15 @@ const HomeFour = () => {
             <HeroArea />
             <BrandArea />
             <ServiceArea />
-            <AboutArea />
+            {/* <AboutArea /> */}
             <FunFactArea />
             <PlatformArea />
             {/* <PriceArea /> */}
             {/* <TeamArea /> */}
+            <TestimonialArea />
             <SecurityArea />
-            <BlogArea />
+            {/* <BlogArea /> */}
+            <Recognition />
             <ContactArea />
           </main>
           <FooterFour />
