@@ -41,7 +41,7 @@ const VideoArea = () => {
                   playsInline
                   muted
                   alt="All the devices"
-                  src="https://html.hixstudio.net/videos/softec/softec-video.mp4"
+                  src="https://html.hixstudio.net/videos/Setoo/Setoo-video.mp4"
                   ref={videoEl}
                   > 
                   </video>

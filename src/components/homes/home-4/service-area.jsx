@@ -8,8 +8,8 @@ import img from "../../../../public/assets/img/service/service-shape-right.png";
 
 const service_content = {
     sub_title: "WHAT WE DO",
-    title: "Our Services",
-    description: <>Softec provides all customer management <br /> service within one software.</>,
+    title: "Our Studios",
+    description: <>Setoo provides all customer management <br /> service within one software.</>,
 }
 const {sub_title, title, description}  = service_content
 
@@ -37,8 +37,8 @@ const ServiceArea = () => {
                   </div>
                   <div className="tp-service-4-border-top  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                      <div className="row">
-                        {service_data.slice(9, 13).map((item , i) => 
-                            <div key={i} className={`col-xl-3 col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-${item.cls}`}>
+                        {service_data.slice(9, 12).map((item , i) => 
+                            <div key={i} className={`col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-${item.cls}`}>
                                 <div className="tp-service-4-item z-index">
                                     <div className="tp-service-4-icon">
                                         <Image src={item.img} alt="theme-pure" />
