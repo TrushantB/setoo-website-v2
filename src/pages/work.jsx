@@ -1,13 +1,13 @@
 import React from "react";
 import SEO from "../common/seo";
-import Project from "../components/project";
+import Work from "../components/work";
 import Wrapper from "../layout/wrapper";
 
 const indx = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"Setoo - Data analytics"} />
-      <Project />
+      <Work />
     </Wrapper>
   );
 };

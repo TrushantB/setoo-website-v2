@@ -112,7 +112,7 @@ const FooterFour = () => {
                <div className="tp-copyright__area pt-20 pb-20 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                   <div className="container">
                      <div className="row justify-content-center">
-                        <div className="col-xl-4 col-lg-6 col-md-6">
+                        <div className="col-xl-6 col-lg-6 col-md-6">
                            <div className="tp-copyright__text tp-copyright__text-4 text-center">
                               <span><CopyRight /></span>
                            </div>

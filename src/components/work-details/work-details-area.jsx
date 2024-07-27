@@ -31,23 +31,23 @@ const project_details_data = [
     },
 ]
 
-const project_details_content = { 
+const work_details_content = { 
     solution_title: "Solution & Result",
     des_1: <>Felis morbi ut tristique pretium libero. Eget purus, enim, orci, quis tempor sed. Sed nec eget nibh et Ut orci, sagittis tellus dui congue. Blandit laoreet nullam amet eget. Ut tincidunt diam tempor sed turpis odio vitae sem lobortis. Lobortis enim non eu a. In gravida velit pretium commodo odio ridiculus odio enim.Tincidunt eget tellus pellentesque nulla.</>,
     des_2: <>Sed morbi dignissim odio enim volutpat. Viverra facilisi aliquet sed purus id ornare nunc, sit ipsum.Risus amet non eget velit nunc, libero vitae. Arcu maecenas in montes, tincidunt pulvinar euismod ac proin</>,
 }
-const {solution_title, des_1, des_2 }  = project_details_content;
+const {solution_title, des_1, des_2 }  = work_details_content;
 
-const ProjectDetailsArea = () => {
+const WorkDetailsArea = () => {
    
    useIsomorphicLayoutEffect(() => {
-      ScrollTrigger.create({
-         trigger: ".social-box-pin",
-         start: "top 10%",
-         end: "bottom 60%",
-         pin: ".social-box-pin",
-         pinSpacing: false
-        });
+      // ScrollTrigger.create({
+      //    trigger: ".social-box-pin",
+      //    start: "top 10%",
+      //    end: "bottom 60%",
+      //    pin: ".social-box-pin",
+      //    pinSpacing: false
+      //   });
    },[])
 
     return (
@@ -110,4 +110,4 @@ const ProjectDetailsArea = () => {
     );
 };
 
-export default ProjectDetailsArea;
+export default WorkDetailsArea;

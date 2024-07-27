@@ -1,9 +1,9 @@
 import BreadcrumbEight from "@/common/breadcrumbs/breadcrumb-8";
-import FooterFive from "@/layout/footers/footer-5";
+import FooterFour from "@/layout/footers/footer-4";
 import Header from "@/layout/headers/header";
 import React from "react";
-import ProjectArea from "../homes/home/project-area";
-import ProjectDetailsArea from "./project-details-area";
+import WorkArea from "../homes/home/work-area";
+import WorkDetailsArea from "./work-details-area";
 import ThumbArea from "./thumb-area";
 
 const ProjectDetails = () => {
@@ -15,10 +15,10 @@ const ProjectDetails = () => {
           <main>
             <BreadcrumbEight />
             <ThumbArea />
-            <ProjectDetailsArea />
-            <ProjectArea />
+            <WorkDetailsArea />
+            <WorkArea />
           </main>
-          <FooterFive style_contact={true}  style_team={true} bg_style={false} />
+          <FooterFour />
         </div>
       </div>
     </>

@@ -31,8 +31,8 @@ const portfolio_data = [
         title: <>Airbnb Upgrade</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Design Work",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "AI",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development" ],
     }, 
     {
         id: 2,
@@ -42,8 +42,8 @@ const portfolio_data = [
         title: <>Mobile App Design</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Branding",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "Web Studio",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
     {
         id: 3,
@@ -53,8 +53,8 @@ const portfolio_data = [
         title: <>Branding & Identity</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Design Work",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "Custom Product Development",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
     {
         id: 4,
@@ -64,8 +64,8 @@ const portfolio_data = [
         title: <>Muckup Design</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Development",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "AI",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
     {
         id: 5,
@@ -75,8 +75,8 @@ const portfolio_data = [
         title: <>Realistic Scenarios</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Illusutration",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "Custom Product Development",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
     {
         id: 6,
@@ -86,8 +86,8 @@ const portfolio_data = [
         title: <>Design System & Ul Kit</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Design Work",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "AI",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
     {
         id: 7,
@@ -97,8 +97,8 @@ const portfolio_data = [
         title: <>Web Design</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "App Design",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "Web Studio",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
     {
         id: 8,
@@ -108,8 +108,8 @@ const portfolio_data = [
         title: <>Landing Page Design</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Development",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "Web Studio",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
     {
         id: 9,
@@ -119,8 +119,8 @@ const portfolio_data = [
         title: <>Mobile Design</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "App Design",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "AI",
+        filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
     }, 
 
     
