@@ -5,7 +5,7 @@ import React from "react";
 import CtaArea from "../contact/cta-area";
 import Portfolio from "./portfolio";
 
-const Project = () => {
+const Work = () => {
   return (
     <>
       <Header />
@@ -19,4 +19,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Work;

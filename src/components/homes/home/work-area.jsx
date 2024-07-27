@@ -35,7 +35,7 @@ const setting = {
    },
 }
 
-const ProjectArea = () => {
+const WorkArea = () => {
    const [isDragged, setIsDragged] = useState(false);
 
    const handleSlideChange = () => {
@@ -121,4 +121,4 @@ const ProjectArea = () => {
    );
 };
 
-export default ProjectArea;
+export default WorkArea;
