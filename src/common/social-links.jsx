@@ -67,26 +67,13 @@ export const CopyRight = ()  => {
 // home 04 social link
 const social_links_two = [
   {
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    color: "1", 
-  },
-  {
-      link: "https://www.instagram.com",
+      link: "https://www.instagram.com/setooists/",
       target: "_blank",
       icon: "fab fa-instagram", 
       color: "2",
   },
-
   {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter", 
-    color: "3",
-  },
-  {
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/company/setoos",
     target: "_blank",
     icon: "fab fa-linkedin-in",
     color: "4", 

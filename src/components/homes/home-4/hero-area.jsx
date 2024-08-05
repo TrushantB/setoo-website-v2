@@ -13,8 +13,8 @@ import hero_4_img_2  from "../../../../public/assets/img/hero/hero-4-2.png";
 const hero_content = {
     sub_title: "Wellcome to Setoo",
     title: <>
-    <span><span className='child'>A1-Driven</span></span>{" "}
-    <span><span className='child'>Web</span></span>{" "}
+    <span><span className='child'>AI-Driven</span></span>{" "}
+    <span><span className='child'>Software</span></span>{" "}
     <span><span className='child'>Solutions</span></span>
     </>,
    //  title: "A1-Driven Cyber Security Solutions",

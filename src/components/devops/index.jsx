@@ -1,16 +1,15 @@
 import Header from "@/layout/headers/header";
 import FooterFour from "@/layout/footers/footer-4";
 import React from "react"; 
-import HeroArea from "./hero-area";
-import AboutPd from "./about-pd";
-import ServiceArea from "./service-area";
-import TechStack from "./techstack";
-import CaseStudies from "./case-studies";
-import BlogArea from "./blog-area";
+import CtaArea from "../contact/cta-area";
 import FaqArea from "./faq-area";
-import JourneyArea from "./journey-area";
+import HeroArea from "./hero-area";
+import ServiceArea from "./service-area";
+import CaseStudies from "./case-studies";
+import TechStack from "./techstack";
+import BlogArea from "./blog-area";
 
-const ProductDevelopment = () => {
+const Devops = () => {
   return (
     <>
       <Header />
@@ -18,13 +17,12 @@ const ProductDevelopment = () => {
         <div id="smooth-content">
           <main>
             <HeroArea />
-            <AboutPd />
-            <ServiceArea />
+            <ServiceArea style_service={true} />
             <TechStack />
             <CaseStudies />
-            <JourneyArea />
             <BlogArea />
-            <FaqArea  style_service={true} />
+            <FaqArea style_service={true} />
+            <CtaArea />
           </main>
           <FooterFour />
         </div>
@@ -33,4 +31,4 @@ const ProductDevelopment = () => {
   );
 };
 
-export default ProductDevelopment;
+export default Devops;

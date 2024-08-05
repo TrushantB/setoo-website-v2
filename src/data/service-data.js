@@ -266,7 +266,7 @@ const  service_data = [
         id: 27,
         icon: <ServiceIconOne />,
         img: <ServiceIconOne />,
-        title: "AI application Development",
+        title: <>AI <br /> application Development</>,
         description: <>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</>,
         delay: ".9s",
     },

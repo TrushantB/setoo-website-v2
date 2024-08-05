@@ -33,7 +33,7 @@ const HomeFour = () => {
             {/* <TeamArea /> */}
             <TestimonialArea />
             <SecurityArea />
-            {/* <BlogArea /> */}
+            <BlogArea />
             <Recognition />
             <ContactArea />
           </main>

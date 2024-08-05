@@ -61,6 +61,7 @@ const Portfolio = () => {
                                 <span className="inner-project-category-title">{item.job_title}</span>
                                 <h4 className="inner-project-title"><Link href="/work-details">{item.title}</Link></h4>
                                 <p>{item.des}</p>
+                                <p class="pb-0"><Link href="/work-details" class="tp-btn-service">Read More</Link></p>
                             </div>
                             </div>
                         </div>

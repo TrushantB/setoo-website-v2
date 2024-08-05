@@ -360,9 +360,6 @@
 		z-index: 5;
 		transition: .3s;
 		color: var(--tp-common-white);
-		&:hover{
-			color: var(--tp-common-black);
-		}
 	}
 	&.inner-color{
 		background: #FFCE5A;
