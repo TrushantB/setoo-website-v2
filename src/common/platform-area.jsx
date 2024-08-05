@@ -6,7 +6,7 @@ import platform_img from "../../public/assets/img/payment/platform-1.png";
 
 const platform_content ={
     sub_title: "What we offer",
-    title: "Our Studios",
+    title: "Our Services",
     description: <>Explore how Setoo can help you toassess AI and Web solutions continuously.</>,
 
 }
@@ -18,8 +18,8 @@ const platform_data = [
         id: 1,
         cls: "one", 
         count: "01",
-        title: "AI LAB",
-        sub_title: "AI LAB",
+        title: "Jamstack",
+        sub_title: "Jamstack",
         des: <>Blocks infected website tracking programs and annoying.</>
         
     },
@@ -27,8 +27,8 @@ const platform_data = [
         id: 2,
         cls: "two", 
         count: "02",
-        title: "Web Studio",
-        sub_title: "Web Studio",
+        title: "DevOps",
+        sub_title: "DevOps",
         des: <>Blocks infected website tracking programs and annoying.</>,
         
     },
@@ -36,8 +36,8 @@ const platform_data = [
         id: 3,
         cls: "three", 
         count: "03",
-        title: "Product Development",
-        sub_title: "Live Security",
+        title: "Remote Resourcing",
+        sub_title: "Remote Resourcing",
         des: <>Blocks infected website tracking programs and annoying.</>,
         
     },

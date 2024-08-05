@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import SEO from "../common/seo";
-import Footer from "../layout/footers/footer";
-import Header from "../layout/headers/header";
+import Header from "@/layout/headers/header";
+import FooterFour from "@/layout/footers/footer-4";
 
 // error shape import here 
 import error_shape_1 from "../../public/assets/img/login/error-shape.png";
@@ -14,8 +14,7 @@ const index = () => {
   return (
     <>
     <SEO pageTitle={"Oops.! Page Not Found!"} />
-      <Header style_error={true} />
-      {/* <Header /> */}
+      <Header />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
@@ -46,7 +45,7 @@ const index = () => {
               </div>
             </div>
           </main>
-          <Footer />
+          <FooterFour />
         </div>
       </div>
     </>

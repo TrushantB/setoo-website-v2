@@ -31,10 +31,13 @@ const menu_data = [
   {
     id: 4,
     mega_menu: false,
-    has_dropdown: false,
+    has_dropdown: true,
     title: "Insights",
-    link: "/blog-list",
-    active: "",
+    link: "/",
+    active: "active",
+    sub_menus: [
+      { link: "/blog-list", title: "Blogs" }
+    ],
   },
   // {
   //   id: 1,

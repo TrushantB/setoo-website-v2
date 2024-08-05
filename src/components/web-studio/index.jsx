@@ -1,10 +1,12 @@
-import FooterFive from "@/layout/footers/footer-5";
 import Header from "@/layout/headers/header";
+import FooterFour from "@/layout/footers/footer-4";
 import React from "react"; 
 import HeroArea from "./hero-area";
 import ServiceArea from "./service-area";
 import WebStudioServices from "./web-studio-services";
 import CaseStudies from "./case-studies";
+import BlogArea from "./blog-area";
+import FaqArea from "./faq-area";
 
 const WebStudio = () => {
   return (
@@ -17,8 +19,10 @@ const WebStudio = () => {
             <ServiceArea />
             <WebStudioServices />
             <CaseStudies/>
+            <BlogArea />
+            <FaqArea  style_service={true} />
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <FooterFour />
         </div>
       </div>
     </>

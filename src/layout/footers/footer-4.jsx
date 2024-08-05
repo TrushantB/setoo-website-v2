@@ -14,23 +14,19 @@ import footer_logo from "../../../public/assets/img/logo/logo-white.svg";
 
 const footer_content = {
    sub_title: "SUBSCRIBE TO OUR NEWSLETTER",
-   policy_text: <>By subscribing, you accepted the our <a href="#">Policy</a></>,
+   policy_text: <>By subscribing, you accepted the our Policy</>,
    phone: "+91 204 675 0640",
    contact_mail: "hello@setoo.co",
    location: "Swar Vishwa, Ekdant Dutta Mandir Rd, Aundh Pune 411007",
 
    footer_lisks: [
-      { name: "Damo page", link: "#" },
-      { name: "FAQ", link: "/faq" },
-      { name: "About", link: "/about" },
-      { name: "Pricing Plan", link: "/price" },
-      { name: "Integrations", link: "/integrations" },
-      { name: "Blog", link: "/blog" },
+      { name: "AI", link: "/ai" },
+      { name: "Product Development", link: "/product-development" },
+      { name: "Web Studio", link: "/web-studio" },
+      { name: "Who We Are", link: "/about" },
+      { name: "Blogs", link: "/blog-list" },
       { name: "Contact", link: "/contact" },
-      { name: "Tools & Integrations", link: "/integrations" },
-      { name: "Security", link: "#" },
-      { name: "Customers", link: "#" },
-      { name: "Career", link: "#" },
+      { name: "Career", link: "/career" },
 
    ],
 }
