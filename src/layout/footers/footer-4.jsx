@@ -21,12 +21,14 @@ const footer_content = {
 
    footer_lisks: [
       { name: "AI", link: "/ai" },
-      { name: "Product Development", link: "/product-development" },
-      { name: "Web Studio", link: "/web-studio" },
       { name: "Who We Are", link: "/about" },
+      { name: "Product Development", link: "/product-development" },
       { name: "Blogs", link: "/blog-list" },
-      { name: "Contact", link: "/contact" },
+      { name: "Web Studio", link: "/web-studio" },
       { name: "Career", link: "/career" },
+      { name: "DevOps", link: "/devops" },
+      { name: "Contact", link: "/contact" },
+      { name: "Remote Resourcing", link: "/remote-resourcing" },
 
    ],
 }

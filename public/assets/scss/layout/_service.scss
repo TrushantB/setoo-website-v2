@@ -758,6 +758,7 @@
         position: absolute;
         background-repeat: no-repeat;
         z-index: -1;
+        background-position: right;
         @media #{$md,$xs}{
             width: 100%;
         }
