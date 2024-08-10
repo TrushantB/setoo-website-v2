@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, {useEffect, useState} from 'react';
-
+import Link from 'next/link';
 import bg_shape from "../../public/assets/img/platform/p-bg.png";
 import platform_img from "../../public/assets/img/payment/platform-1.png"; 
 
@@ -20,7 +20,8 @@ const platform_data = [
         count: "01",
         title: "Jamstack",
         sub_title: "Jamstack",
-        des: <>Blocks infected website tracking programs and annoying.</>
+        des: <>Blocks infected website tracking programs and annoying.</>,
+        link: "https://jamstack.plus/"
         
     },
     {
@@ -30,6 +31,7 @@ const platform_data = [
         title: "DevOps",
         sub_title: "DevOps",
         des: <>Blocks infected website tracking programs and annoying.</>,
+        link: "/devops"
         
     },
     {
@@ -39,6 +41,7 @@ const platform_data = [
         title: "Remote Resourcing",
         sub_title: "Remote Resourcing",
         des: <>Blocks infected website tracking programs and annoying.</>,
+        link: "/staff-augmentation"
         
     },
     // {
@@ -127,6 +130,7 @@ const PlatformArea = ({style_carrer}) => {
                                         <span>{item.count}.</span>
                                         <h4 className="tp-panel-title-2">{item.title}</h4>
                                         <p>{item.des}</p>
+                                            <Link className='text-primary mt-30 d-inline-block' href={item.link}>Read more about {item.title} <i className='fal fa-arrow-right'></i> </Link>
                                         </div>
                                     </div>
                                 </div>

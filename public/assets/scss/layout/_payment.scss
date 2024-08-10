@@ -1029,7 +1029,8 @@
     @include transition(.3s);
 }
   
-.tp-panel-content-2 p {
+.tp-panel-content-2 p,
+.tp-panel-content-2 a{
     transform: translateY(5px);
     visibility: hidden;
     opacity: 0;
@@ -1037,7 +1038,8 @@
     @include transition(.3s);
 }
 
-.col-custom.active .tp-panel-content-2 span {
+.col-custom.active .tp-panel-content-2 span,
+.col-custom.active .tp-panel-content-2 a {
     transform: translateY(0);
     visibility: visible;
     opacity: 1;

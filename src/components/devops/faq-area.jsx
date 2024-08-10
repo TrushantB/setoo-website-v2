@@ -1,4 +1,4 @@
-import AnswerQuestion from '@/common/answer-question';
+import Faqs from './faqs';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -8,8 +8,8 @@ import img from "../../../public/assets/img/faq/faq-1.png"
 const faq_content = {
     sub_title: "Support",
     title: <>Frequently <br /> Asked Questions</>,
-    description: <>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</>,
-    btn_text: "Get in Touch",
+    description: <>Curious About DevOps? Get Your Answers Here</>,
+    btn_text: "Schedule a Meeting",
 }
 const {sub_title, title, description, btn_text }  = faq_content
 
@@ -30,18 +30,18 @@ const FaqArea = ({style_service}) => {
                            </div>
                            <div className="tp-faq-btn">
                               <Link className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn-green"} `} 
-                                  href="/contact">
-                                    {btn_text}
+                                 href="https://calendar.app.google/ysZR4E4rDsJe" target='_blank' passHref={true}>
+                                 <span>{btn_text}</span>
                               </Link>
                            </div>
-                           <div className="tp-faq-img" data-parallax='{"x": -50, "smoothness": 30}'>
+                           {/* <div className="tp-faq-img" data-parallax='{"x": -50, "smoothness": 30}'>
                               <Image src={img} alt="" />
-                           </div>
+                           </div> */}
                         </div>
                      </div>
 
                      <div className="col-xl-6 col-lg-6">
-                        <AnswerQuestion /> 
+                      <Faqs /> 
                      </div>
                   </div>
                </div>

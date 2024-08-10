@@ -414,7 +414,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: -1;
 }
 
 .tp-hero-pt{
@@ -684,11 +684,11 @@
 .tp-hero-title-5{
     font-weight: 200;
     font-size: 74px;
-    line-height: .85;
+    line-height: 1.125;
     letter-spacing: -0.03em;
     overflow: hidden;
     @media #{$xxl}{
-        font-size: 65px;
+        font-size: 72px;
     }
     @media #{$xl}{
         font-size: 55px;

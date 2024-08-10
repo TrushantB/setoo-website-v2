@@ -39,6 +39,14 @@ const menu_data = [
       { link: "/blog-list", title: "Blogs" }
     ],
   },
+  {
+    id: 5,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "Careers",
+    link: "/career",
+    active: "",
+  }
   // {
   //   id: 1,
   //   mega_menu: false,

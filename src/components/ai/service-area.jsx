@@ -7,8 +7,8 @@ import sales_img_2 from "../../../public/assets/img/card/sale-2.png"
 import sales_img_3 from "../../../public/assets/img/card/sale-3.png"
 
 const sales_content = {
-    title: <>About AI lab and what we do at Setoo.</>,
-    dub_title: <>About AI lab and what we do at Setoo.</>,
+    title: <>How AI Lab can benefits your AI requirements</>,
+    dub_title: <>Maximizing Benefits with AI Lab</>,
     description: <>Centralize and simplify payments, and get comprehensive <br /> insights on your financials Setoo.!</>,
 
     sales_feature: [
