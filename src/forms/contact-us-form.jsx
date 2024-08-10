@@ -30,11 +30,13 @@ const ContactUsForm = () => {
               <NiceSelect
                 options={[
                   { value: "Your Inquiry about", text: "Your Inquiry about" },
-                  { value: "01 Year", text: "01 Year" },
-                  { value: "02 Year", text: "02 Year" },
-                  { value: "03 Year", text: "03 Year" },
-                  { value: "04 Year", text: "04 Year" },
-                  { value: "05 Year", text: "05 Year" },
+                  { value: "AI Lab", text: "AI Lab" },
+                  { value: "Web Studio", text: "Web Studio" },
+                  { value: "Software Development", text: "Software Development" },
+                  { value: "Jamstack", text: "Jamstack" },
+                  { value: "Staff Augmentation", text: "Staff Augmentation" },
+                  { value: "DevOps", text: "DevOps" },
+                  { value: "Other", text: "Other" },
                 ]}
                 defaultCurrent={0}
                 onChange={selectHandler}

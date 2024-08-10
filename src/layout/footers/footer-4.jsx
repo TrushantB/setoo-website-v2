@@ -74,7 +74,7 @@ const FooterFour = () => {
                         </div>
                         <div className="col-xl-5 col-lg-5 col-md-6 pb-45 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                            <div className="tp-footer__widget footer-widget-4 footer-col-4-2">
-                              <h4 className="tp-footer__widget-title">Platform</h4>
+                              <h4 className="tp-footer__widget-title">Useful Links</h4>
                               <div className="tp-footer__content">
                                  <ul>
                                     {footer_lisks.map((item, i) =>

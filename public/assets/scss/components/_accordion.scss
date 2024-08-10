@@ -21,10 +21,10 @@
     & .accordion-buttons {
         position: relative;
         width: 100%;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 22px;
-        line-height: 20px;
-        font-family: var(--tp-ff-mont);
+        line-height: 1.35;
+        font-family: var(--tp-ff-body);
         text-align: left;
         padding: 35px 0;
         @media #{$xs}{

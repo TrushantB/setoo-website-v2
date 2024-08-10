@@ -38,10 +38,8 @@ const HeroArea = () => {
                   <div className="row">
                      <div className="col-xl-7 col-lg-7">
                         <div className="tp-hero-4-section-box pt-10 z-index-3">
-                           <h5 className="tp-section-subtitle-4 tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</h5>
-
-                           <h3 className="tp-hero-title-4 pb-35 tp-char-animation">{title}</h3>
-
+                           <h3 className="tp-section-subtitle-4 tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</h3>
+                           <h5 className="tp-hero-title-5 fw-bolder pb-35 tp-char-animation">{title}</h5>
                            <Link className="tp-btn-yellow-border wow tpfadeRight" 
                                  data-wow-duration=".9s" 
                                  data-wow-delay=".7s" href="/contact">

@@ -1,9 +1,10 @@
 import Header from "@/layout/headers/header";
 import FooterFour from "@/layout/footers/footer-4";
 import React from "react"; 
-import CtaArea from "../contact/cta-area";
+import CtaArea from "./cta-area";
 import FaqArea from "./faq-area";
 import HeroArea from "./hero-area";
+import BenefitsArea from "./benefits-area";
 import ServiceArea from "./service-area";
 import CaseStudies from "./case-studies";
 import TechStack from "./techstack";
@@ -17,10 +18,11 @@ const Devops = () => {
         <div id="smooth-content">
           <main>
             <HeroArea />
+            <BenefitsArea />
             <ServiceArea style_service={true} />
             <TechStack />
-            <CaseStudies />
-            <BlogArea />
+            {/* <CaseStudies /> */}
+            {/* <BlogArea /> */}
             <FaqArea style_service={true} />
             <CtaArea />
           </main>

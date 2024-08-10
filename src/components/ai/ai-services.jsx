@@ -1,4 +1,4 @@
-import service_data from '@/data/service-data';
+import service_data from '@/data/ai-service-data';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -8,7 +8,7 @@ const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
     title: <>Services in AI </>,
-    description: <>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</>,
+   description: <>Transform your business with conversational digital human, AI model development, and seamless AI integration for automated success and innovation.</>,
     btn_text: "View Details",
 }
 const {bg_img, sub_title, title, description, btn_text}  = service_content
@@ -36,7 +36,7 @@ const Aiservice = () => {
                         </div>
                         <div className="col-lg-8">
                            <div className="row g-0">
-                            {service_data.slice(23, 30).map((item, i)  => 
+                            {service_data.slice(0, 6).map((item, i)  => 
                                 <div key={i} className="col-md-4">
                                  <div className="tp-service-five-item z-index">
                                     <div className="tp-services-five-item-bg">
@@ -44,7 +44,8 @@ const Aiservice = () => {
                                     </div>
                                     <div className="tp-service-five-wrapper">
                                        <div className="tp-service-five-icon">
-                                          <Image src={item.img} alt="theme-pure" />
+                                          {/* <Image src={item.img} alt="theme-pure" /> */}
+                                          {item.icon}
                                        </div>
                                        <div className="tp-service-five-content">
                                           <h3 className="tp-service-five-title-sm">

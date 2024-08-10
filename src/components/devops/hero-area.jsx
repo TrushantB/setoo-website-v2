@@ -15,9 +15,9 @@ import Link from 'next/link';
 const hero_content = { 
    title_1: <>DevOps</>,
    title_2: "",
-   info: <>Setoo provides all customer management service within one software. <br /> Our landing works on all devices.</>,
-   btn_1: "Live Damo",
-   btn_2: "Try it on Browser",
+   info: <>DevOps acts as a roadmap to streamline software development, <br /> integration, and deployment for optimized efficiency.</>,
+   btn_1: "Consult Our DevOps Experts",
+   btn_2: "",
    
 }
 const { title_1, title_2, info, btn_1, btn_2 } = hero_content
@@ -51,14 +51,14 @@ const HeroArea = () => {
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="#">
+                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/contact">
                            <span>{btn_1}</span>
                            <b></b>
                         </Link>
-                        <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
+                        {/* <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
                            <span>{btn_2}</span>
                            <b></b>
-                        </Link>
+                        </Link> */}
                      </div>
                      <div className="tp-hero-browser-wrapper d-flex align-items-center justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                         <Brwoser />

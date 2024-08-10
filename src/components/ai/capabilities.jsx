@@ -30,41 +30,52 @@ const accordion_data = [
     {
         id: 1,
         question: "Conversational AI",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
-        accordion_id: "headingOne",
+        answer: <>Conversational AI understands context, interprets nuances, and provides accurate, human-like interactions across platforms to enhance your customer experience and business growth.</> ,
+        accordion_id: "convAI",
         collapsed: "collapsed",
-        data_bs_target: "#collapseOne",
+        data_bs_target: "#conversAI",
         aria_expanded: true,
-        aria_controls: "collapseOne",
+        aria_controls: "conversAI",
         show: "show",
         actice: "",
       },
     {
         id: 2,
         question: "Computer Vision",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
-        accordion_id: "headingTwo",
+        answer: <>Computer Vision analyzes visual data for smooth integration with AI solutions, enhancing data interpretation and overall system functionality.</>,
+        accordion_id: "computerVision",
         collapsed: "",
-        data_bs_target: "#collapseTwo",
+        data_bs_target: "#compVision",
         aria_expanded: false,
-        aria_controls: "collapseTwo",
+        aria_controls: "compVision",
         show: "",
         actice: "",
     
       },
       {
-          id: 2,
+          id: 3,
           question: "NLP",
-          answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
-          accordion_id: "headingThree",
+          answer: <>NLP bridges the gap between computer and human-understandable languages. Our expert team uses a strong stack of AI technologies to provide suitable solutions for business growth.</> ,
+          accordion_id: "nlpHeading",
           collapsed: "",
-          data_bs_target: "#collapseThree",
+          data_bs_target: "#nlp",
           aria_expanded: false,
-          aria_controls: "collapseThree",
+          aria_controls: "nlp",
           show: "",
           actice: "",
-      
         },
+        {
+            id: 4,
+            question: "RAG and LLM Langchain",
+            answer: <>Retrieval Augmented Generation (RAG) uses external knowledge with the power of Large Language Models (LLMs). <br /> A well-liked framework for creating RAG apps is called Langchain. RAG models offer more precise, educational, and current answers by gaining access to pertinent data. This method improves LLMs' performance in a range of applications.</>,
+            accordion_id: "llmLangChain",
+            collapsed: "",
+            data_bs_target: "#llm",
+            aria_expanded: false,
+            aria_controls: "llm",
+            show: "",
+            actice: "",
+        }
 ]
 const Capabilities = () => {
     return (
@@ -81,7 +92,7 @@ const Capabilities = () => {
                               <h3 className= "tp-section-title-5 pb-25">{title} </h3>
                         </div> 
                         <div className= "tp-custom-accordio-2">
-                              <div className= "accordion" id="accordionExample">
+                              <div className= "accordion" id="capabilitiesAI">
                                 {accordion_data.map((item, i) => 
                                     <div key={i} className= "accordion-items">
                                         <h2 className= "accordion-header" id={item.accordion_id}>
@@ -100,7 +111,7 @@ const Capabilities = () => {
                                         id={item.aria_controls} 
                                         className= {`accordion-collapse collapse ${item.show}`} 
                                         aria-labelledby={item.accordion_id}
-                                        data-bs-parent="#accordionExample"
+                                        data-bs-parent="#capabilitiesAI"
                                         >
                                         <div className= "accordion-body">
                                             {item.answer}

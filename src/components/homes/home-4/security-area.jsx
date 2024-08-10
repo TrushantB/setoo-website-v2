@@ -56,33 +56,83 @@ const security_data = [
     {
         id: 1,
         img: security_img_1,
-        title: <>Business <br /> Security</>,        
+        title: <>Healthcare </>,        
     },
     {
         id: 2,
         img: security_img_2,
-        title: <>Logistics <br /> Security</>,        
+        title: <>Cyber <br /> Security</>,        
     },
     {
         id: 3,
         img: security_img_3,
-        title: <>Education <br /> Security</>,        
+        title: <>Fashion & <br /> Apparel</>,        
     },
     {
         id: 4,
         img: security_img_4,
-        title: <>Food <br /> & Beverage</>,        
+        title: <>eCommerce</>,        
     },
     {
         id: 5,
         img: security_img_1,
-        title: <>Media & <br /> Entertainment</>,        
+        title: <>Real Estate</>,        
     },
     {
         id: 6,
         img: security_img_6,
-        title: <>Business <br /> Security</>,        
+        title: <> Legal <br /> Services</>,
     },
+    {
+        id: 7,
+        img: security_img_6,
+        title: <> NGO </>,
+    },
+    {
+        id: 8,
+        img: security_img_6,
+        title: <> Art & Design </>,
+    },
+    {
+        id: 9,
+        img: security_img_6,
+        title: <> Education </>,
+    },
+    {
+        id: 10,
+        img: security_img_6,
+        title: <> Personal <br /> Branding</>,
+    },
+    {
+        id: 11,
+        img: security_img_6,
+        title: <> Telecomm </>,
+    },
+    {
+        id: 12,
+        img: security_img_6,
+        title: <> Fintech </>,
+    },
+    {
+        id: 13,
+        img: security_img_6,
+        title: <> Industry 4.0 </>,
+    },
+    {
+        id: 14,
+        img: security_img_6,
+        title: <> Consultancy </>,
+    },
+    {
+        id: 14,
+        img: security_img_6,
+        title: <> Marketing </>,
+    },
+    {
+        id: 14,
+        img: security_img_6,
+        title: <> Information <br /> Technology </>,
+    }
 ]
 
 const SecurityArea = () => {
