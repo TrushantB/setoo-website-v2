@@ -34,9 +34,9 @@ const FaqArea = ({style_service}) => {
                                     {btn_text}
                               </Link>
                            </div>
-                           <div className="tp-faq-img" data-parallax='{"x": -50, "smoothness": 30}'>
+                           {/* <div className="tp-faq-img" data-parallax='{"x": -50, "smoothness": 30}'>
                               <Image src={img} alt="" />
-                           </div>
+                           </div> */}
                         </div>
                      </div>
 

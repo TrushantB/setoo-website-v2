@@ -5,11 +5,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // slider setting
 const setting = {
     loop: true, 
-    slidesPerView: 5,
+    slidesPerView: 4,
     spaceBetween: 30,
     breakpoints: {
         '1200': {
-            slidesPerView: 5,
+            slidesPerView: 4,
         },
         '992': {
             slidesPerView: 3,
@@ -29,67 +29,47 @@ const setting = {
         clickable: true,
     },
   }
-// journey_data
-  const journey_data =[
+// process_data
+  const process_data =[
     {
         id: "01", 
-        date: "OCT 2019",
-        title: <>Level 0: <br /> Getting to know</>,
-        description: <>We envision sales teams having the tools <br />
-        and talent they need to make remote <br /> work.</>,
+        date: "step",
+        title: <>Evaluation of Staff's Requirements</>,
+        description: <>A discovery call is set to understand your project requirements, objectives, etc.</>,
     },
     {
         id: "02", 
-        date: "OCT 2020",
-        title: <>Level 1: <br/> Research and Learn</>,
-        description: <>We envision sales teams having the tools <br />
-        and talent they need to make remote <br /> work.</>,
+        date: "step",
+        title: <>Availability of Specialists</>,
+        description: <>The availability of resources is checked with respect to the expertise required. </>,
     },
     {
         id: "03", 
-        date: "OCT 2021",
-        title: <>Level 2: <br/> Ideate</>,
-        description: <>We envision sales teams having the tools <br />
-        and talent they need to make remote <br /> work.</>,
+        date: "step",
+        title: <>Assessment of Qualifications</>,
+        description: <>As per your project needs we check the qualifications of selected candidates and send their CVs.</>,
     },
     {
         id: '04', 
-        date: "OCT 2022",
-        title: <>Level 3: <br/> User map flow</>,
-        description: <>We envision sales teams having the tools <br />
-        and talent they need to make remote <br /> work.</>,
+        date: "step",
+        title: <>External Requirement</>,
+        description: <>In the internal resource network if no suitable candidate is found then the recruiter's network is used to find a suitable candidate.</>,
     },
     {
         id: "05", 
-        date: "Present",
-        title: <>Level 4: <br />Prioritise desired and viable features</>,
-        description: <>We envision sales teams having the tools <br />
-        and talent they need to make remote <br /> work.</>,
+        date: "step",
+        title: <>Final Qualification</>,
+        description: <>Suitable candidates can be interviewed to understand their qualifications and communication skills.</>,
     },
     {
-        id: "06", 
-        date: "OCT 2020",
-        title: <>Level 5: <br/> Design</>,
-        description: <>We envision sales teams having the tools <br />
-        and talent they need to make remote <br /> work.</>,
+      id: "06",
+      date: "step",
+      title: <>Continuous Support</>,
+      description: <>Continuous support is provided to integrate the workers in your team.</>,
     },
-    {
-      id: "07", 
-      date: "OCT 2021",
-      title: <>Level 6: <br/> Development</>,
-      description: <>We envision sales teams having the tools <br />
-      and talent they need to make remote <br /> work.</>,
-  },
-  {
-      id: '08', 
-      date: "OCT 2022",
-      title: <>Level 7: <br/> Launch</>,
-      description: <>We envision sales teams having the tools <br />
-      and talent they need to make remote <br /> work.</>,
-  },
   ]
 
-const JourneyArea = () => {
+const ProcessArea = () => {
 
   const [isDragged, setIsDragged] = useState(false);
 
@@ -103,7 +83,7 @@ const JourneyArea = () => {
 
     return (
       <>
-        <div className="journey-area p-relative fix pt-80">
+        <div className="journey-area p-relative fix">
           <div className="journey-grey-bg black-bg"></div>
           <div className="container">
             <div className="row">
@@ -111,7 +91,7 @@ const JourneyArea = () => {
                 <div className="journey-section-box">
                   <h5 className="inner-section-subtitle pb-10">Process</h5>
                   <h3 className="ab-brand-title pb-0 mb-0">
-                    Product Development Process
+                    Staff Augmentation Process
                   </h3>
                 </div>
               </div>
@@ -128,13 +108,13 @@ const JourneyArea = () => {
                     modules={[Navigation, Scrollbar]}
                     className={`swiper-container journey-slider-active ${isDragged ? "dragged" : ""}`}
                   >
-                    {journey_data.map((item, i) => (
+                    {process_data.map((item, i) => (
                       <SwiperSlide
                         key={i}
                         className="journey-slider-item p-relative"
                       > 
                         <div className="journey-stroke-text">
-                          <h2>{item.id - 1}</h2>
+                          <h2>{item.id}</h2>
                         </div>
                         <div className="journey-slider-meta">
                           <span>{item.date}</span>
@@ -156,4 +136,4 @@ const JourneyArea = () => {
     );
 };
 
-export default JourneyArea;
+export default ProcessArea;

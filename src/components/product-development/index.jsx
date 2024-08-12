@@ -3,7 +3,7 @@ import FooterFour from "@/layout/footers/footer-4";
 import React from "react"; 
 import HeroArea from "./hero-area";
 import AboutPd from "./about-pd";
-import ServiceArea from "./service-area";
+import DevOpsService from "./service-area";
 import TechStack from "./techstack";
 import CaseStudies from "./case-studies";
 import BlogArea from "./blog-area";
@@ -19,7 +19,7 @@ const ProductDevelopment = () => {
           <main>
             <HeroArea />
             <AboutPd />
-            <ServiceArea />
+            <DevOpsService />
             <TechStack />
             <CaseStudies />
             <JourneyArea />

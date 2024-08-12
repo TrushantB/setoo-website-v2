@@ -1,90 +1,72 @@
-import React from 'react';
+import service_data from '@/data/ai-service-data';
 import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 
-import sales_img_1 from "../../../public/assets/img/card/sale-1.png"
-import sales_img_2 from "../../../public/assets/img/card/sale-2.png"
-import sales_img_3 from "../../../public/assets/img/card/sale-3.png"
-
-const sales_content = {
-    title: <>How can it help customer solve their problems.</>,
-    dub_title: <>How can it help customer solve their problems.</>,
-    description: <>Centralize and simplify payments, and get comprehensive <br /> insights on your financials Setoo.!</>,
-
-    sales_feature: [
-        {
-            id: 1,
-            color: "yellow-1",
-            list: "No hidden fees."
-        },
-        {
-            id: 2,
-            color: "purple-2",
-            list: "100% security. Guaranteed."
-        },
-        {
-            id: 3,
-            color: "green-3",
-            list: "No training or maintenance needed"
-        },
-    ],
-
-    sales_img: [
-        {
-            id: 1,
-            cls: "main-thumb",
-            img: sales_img_1,
-        },
-        {
-            id: 2,
-            cls: "sub-img-1",
-            img: sales_img_2,
-        },
-        {
-            id: 3,
-            cls: "sub-img-2 d-none d-sm-block",
-            img: sales_img_3,
-        },
-    ],
-
-
+const service_content = {
+    bg_img: "/assets/img/service/service-5-1-bg.png",
+    sub_title: "What we Offer",
+    title: <>Product Development Services</>,
+    description: <>Understanding business requirements with an expert team of designers, developers, testers, and analysts to provide continuous support at rapid speed.</>,
+    btn_text: "View Details",
 }
-const {title, dub_title, description, sales_feature, sales_img}  = sales_content
+const { bg_img, sub_title, title, description, btn_text } = service_content
 
-const ServiceArea = ({style_service}) => {
+
+const DevOpsService = () => {
     return (
         <>
-            <div className="tp-sales-area tp-sales-space">
-               <div className="container">
-                  <div className="row align-items-center">
-                     <div className="col-xl-6 col-lg-6 order-1 order-md-1 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <div className="tp-sales-section-box pb-20">
-                           <h3 className="tp-section-title-3 pb-15 ">{ style_service ?  dub_title : title}</h3>
-                           <p className="tp-title-anim">{description}</p>
+            <div className="tp-service-area tp-services-five-item-bg-color p-relative fix">
+                <div className="container-fluid p-0">
+                    <div className="tp-service-five-bg"
+                        style={{ backgroundImage: `url(${bg_img})` }}
+                    ></div>
+                    <div className="row g-0 align-items-center">
+                        <div className="col-lg-4">
+                            <div className="tp-service-five-section-box">
+                                <span className="tp-section-subtitle-5">{sub_title}</span>
+                                <h3 className="tp-section-title-5 pb-15">
+                                    {title}
+                                </h3>
+                                <p className="pb-20">
+                                    {description}
+                                </p>
+                            </div>
                         </div>
-                        <div className="tp-sales-feature">
-                           <ul>
-                            {sales_feature.map((item, i)  => 
-                                <li key={i} className={item.color}><span><i className="far fa-check"></i> <em>{item.list}</em></span></li>
+                        <div className="col-lg-8">
+                            <div className="row g-0">
+                                {service_data.slice(0, 6).map((item, i) =>
+                                    <div key={i} className="col-md-4">
+                                        <div className="tp-service-five-item z-index">
+                                            <div className="tp-services-five-item-bg">
+                                                <div className="inner"></div>
+                                            </div>
+                                            <div className="tp-service-five-wrapper">
+                                                <div className="tp-service-five-icon">
+                                                    {/* <Image src={item.img} alt="theme-pure" /> */}
+                                                    {item.icon}
+                                                </div>
+                                                <div className="tp-service-five-content">
+                                                    <h3 className="tp-service-five-title-sm">
+                                                        <Link href="/service-details"> {item.title}</Link>
+                                                    </h3>
+                                                    <p>{item.description} </p>
+                                                </div>
+                                            </div>
+                                            {/* <div className="tp-service-five-btn text-end">
+                                       <Link href="/service-details"><i className="far fa-arrow-right"></i></Link>
+                                    </div> */}
+                                        </div>
+                                    </div>
                                 )}
-                            </ul>
+                            </div>
                         </div>
-                     </div>
-                     <div className="col-xl-6 col-lg-6 order-0 order-md-2 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
-                        <div className="tp-sales-img-wrapper p-relative text-end">
-                            {sales_img.map((item, i ) => 
-                                <div key={i} className={`tp-sales-${item.cls}`}>
-                                    <Image src={item.img} alt="theme-pure" />
-                                </div>
-                             )} 
-
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
         </>
     );
 };
 
-export default ServiceArea;
+export default DevOpsService;

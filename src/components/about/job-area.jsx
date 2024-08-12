@@ -22,20 +22,6 @@ const job_data = {
             job_time: "Full-time",
            job_location: "Pune, IN",
         },
-        {
-            id:3, 
-            category: "Junior Frontend Developer",
-            job_time: "Full-time",
-           job_location: "Pune, IN",
-        },
-        {
-            id:5, 
-            category: "Junior Copywriter",
-            job_time: "Full-time",
-            job_location: "Pune, IN",
-        },
-
-
     ]
 
 }
@@ -94,10 +80,17 @@ const JobArea = ({style_carrer}) => {
                               </Link>
                            </div>
                         </div>
-                     </div>
+                     </div>                     
                   </div>                    
                     )
                   } 
+                <div className="row pt-40 pb-40">
+                   <div className="col-12">
+                      <div className="tp-feature-five-link text-center">
+                         <span>Check out all of our <Link href="/career">Open Positions</Link></span>
+                      </div>
+                   </div>
+                </div>
                </div>
             </div>
         </>
