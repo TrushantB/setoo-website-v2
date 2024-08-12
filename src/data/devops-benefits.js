@@ -12,30 +12,8 @@ import img_2 from "../../public/assets/img/service/sv-icon-2.png";
 import img_3 from "../../public/assets/img/service/sv-icon-3.png";
 import img_4 from "../../public/assets/img/service/sv-icon-4.png";
 import img_5 from "../../public/assets/img/service/sv-icon-5.png";
-// for home 04
-import icon_1 from "../../public/assets/img/service/sv-icon-4-1.png"
-import icon_2 from "../../public/assets/img/service/sv-icon-4-2.png"
-import icon_3 from "../../public/assets/img/service/sv-icon-4-3.png"
-import icon_4 from "../../public/assets/img/service/sv-icon-4-4.png"
-
-// for home 05
-import img_6 from "../../public/assets/img/service/sv-icon-5-1.png";
-import img_7 from "../../public/assets/img/service/sv-icon-5-2.png";
-import img_8 from "../../public/assets/img/service/sv-icon-5-3.png";
-import img_9 from "../../public/assets/img/service/sv-icon-5-4.png";
-
-// import img_10 from "../../public/";
-// import img_11 from "../../public/";
-// import img_12 from "../../public/";
-// import img_13 from "../../public/";
-// import img_14 from "../../public/";
-// import img_15 from "../../public/";
-
-
-
 
 const  service_data = [
-    // for home 01 
     {
         id: 1,
         icon: img_1,

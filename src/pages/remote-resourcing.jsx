@@ -1,7 +1,7 @@
 import React from "react";
 import SEO from "../common/seo";
 import Wrapper from "../layout/wrapper";
-import RemoteResourcing from "@/components/remote-resourcing.jsx";
+import RemoteResourcing from "@/components/remote-resourcing/index";
 
 const index = () => {
   return (

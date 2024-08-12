@@ -26,7 +26,8 @@
         line-height: 1.35;
         font-family: var(--tp-ff-body);
         text-align: left;
-        padding: 35px 0;
+        padding: 1.5rem 0;
+        padding-inline-end: 2rem;
         @media #{$xs}{
             font-size: 14px;
         }

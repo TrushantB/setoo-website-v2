@@ -15,9 +15,9 @@ import Link from 'next/link';
 const hero_content = { 
    title_1: <>Product Development</>,
    title_2: "",
-   info: <>Setoo provides all customer management service within one software. <br /> Our landing works on all devices.</>,
-   btn_1: "Live Damo",
-   btn_2: "Try it on Browser",
+   info: <>Crafting a strategy to ensure smooth development with a structured process. </>,
+   btn_1: "Contact Us",
+   btn_2: "",
    
 }
 const { title_1, title_2, info, btn_1, btn_2 } = hero_content
@@ -55,10 +55,10 @@ const HeroArea = () => {
                            <span>{btn_1}</span>
                            <b></b>
                         </Link>
-                        <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
+                        {/* <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
                            <span>{btn_2}</span>
                            <b></b>
-                        </Link>
+                        </Link> */}
                      </div>
                      <div className="tp-hero-browser-wrapper d-flex align-items-center justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                         <Brwoser />

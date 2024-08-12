@@ -710,6 +710,7 @@
     &-section-box{
         padding-left: 220px;
         padding-right: 48px;
+        padding-block: 2rem;
         @media #{$xxl}{
             padding-left: 150px;
             padding-right: 32px;

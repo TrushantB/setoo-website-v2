@@ -15,7 +15,7 @@ import slider_img_2_4 from "../../../public/assets/img/integration/integration-8
 
 const integration_content ={
     sub_title: "Technologies",
-    title: <>Tech stack used <span></span></>,
+    title: <>Tech stack <span></span></>,
     int_title: <>Integrated with Your Favourite Apps</>,
     btn_text: "See all Integrations",
     bg_img: "/assets/img/integration/integration-bg.jpg"

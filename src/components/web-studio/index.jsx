@@ -20,7 +20,7 @@ const WebStudio = () => {
             <WebStudioServices />
             <CaseStudies/>
             <BlogArea />
-            <FaqArea  style_service={true} />
+            <FaqArea style_service={true} />
           </main>
           <FooterFour />
         </div>

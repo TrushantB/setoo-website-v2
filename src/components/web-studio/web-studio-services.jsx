@@ -1,4 +1,4 @@
-import service_data from '@/data/service-data';
+import service_data from '@/data/web-studio-service-data';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -36,7 +36,7 @@ const WebStudioServices = () => {
                         </div>
                         <div className="col-lg-8">
                            <div className="row g-0">
-                            {service_data.slice(23, 26).map((item, i)  => 
+                            {service_data.slice(0, 3).map((item, i)  => 
                                 <div key={i} className="col-md-4">
                                  <div className="tp-service-five-item z-index">
                                     <div className="tp-services-five-item-bg">
@@ -44,7 +44,8 @@ const WebStudioServices = () => {
                                     </div>
                                     <div className="tp-service-five-wrapper">
                                        <div className="tp-service-five-icon">
-                                          <Image src={item.img} alt="theme-pure" />
+                                          {/* <Image src={item.img} alt="theme-pure" /> */}
+                                          {item.icon}
                                        </div>
                                        <div className="tp-service-five-content">
                                           <h3 className="tp-service-five-title-sm">
