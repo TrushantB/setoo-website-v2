@@ -7,7 +7,7 @@ import platform_img from "../../public/assets/img/payment/platform-1.png";
 const platform_content ={
     sub_title: "What we offer",
     title: "Our Core Services",
-    description: <>Spectrum of our services delivering continuous successful results</>,
+    description: <>Explore how Setoo can help you toassess AI and Web solutions continuously.</>,
 
 }
 const { sub_title, title, description }  = platform_content
@@ -20,8 +20,7 @@ const platform_data = [
         count: "01",
         title: "Design",
         sub_title: "Design",
-        des: <>Crafting intuitive designs that transform user interactions into 
-        seamless experiences.</>,
+        des: <>Blocks infected website tracking programs and annoying.</>,
     },
     {
         id: 2,
@@ -29,16 +28,15 @@ const platform_data = [
         count: "02",
         title: "Development",
         sub_title: "Development",
-        des: <>Development involves converting an idea into a strategy built a 
-        product with efficient functionality.</>,
+        des: <>Blocks infected website tracking programs and annoying.</>,
     },
     {
         id: 3,
         cls: "three",
         count: "03",
-        title: "Quality Assurance",
-        sub_title: "Quality Assurance",
-        des: <>Delivering results with continuous testing to ensure efficient and effective quality.</>,
+        title: "Quality Analysis",
+        sub_title: "Quality Analysis",
+        des: <>Blocks infected website tracking programs and annoying.</>,
     },
     {
         id: 4,
@@ -46,7 +44,7 @@ const platform_data = [
         count: "04",
         title: "DevOps",
         sub_title: "DevOps",
-        des: <>Delivering applications and optimizing operations at high speed for maximum efficiency.</>,
+        des: <>Blocks infected website tracking programs and annoying.</>,
     },
     {
         id: 5,
@@ -54,7 +52,7 @@ const platform_data = [
         count: "05",
         title: "Remote Sourcing",
         sub_title: "Remote Sourcing",
-        des: <>Transform your hiring strategy with remote sourcing, where the perfect candidate is always within reach.</>,
+        des: <>Blocks infected website tracking programs and annoying.</>,
     }
 ]
 

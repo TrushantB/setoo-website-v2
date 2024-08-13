@@ -63,7 +63,7 @@ const CompanyArea = () => {
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
-                                    <span>RATE</span>
+                                    <span>VALUE</span>
                                     <h4>95<em>%</em></h4>
                                     <p>Client Satisfaction</p>
                                  </div>

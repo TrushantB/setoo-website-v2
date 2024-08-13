@@ -175,7 +175,7 @@
         background: linear-gradient(239.18deg, rgba(255, 255, 255, 0.16) 17.93%, rgba(255, 255, 255, 0.04) 81.51%);
         backdrop-filter: blur(20px);
         border-radius: 20px;
-        padding: 3.5rem 40px 2rem;
+        padding: 60px 40px;
         transition: .4s;
         height: 100%;
         &:hover{
@@ -237,7 +237,6 @@
         & .slick-slide{
             padding: 40px 15px;
             padding-bottom: 60px;
-            height: auto;
             > div{
                 height: 100%;
             }
