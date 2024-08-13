@@ -28,7 +28,7 @@ const footer_content = {
       { name: "Blogs", link: "/blog-list" },
       { name: "DevOps", link: "/devops" },
       { name: "Contact", link: "/contact" },
-      { name: "Remote Resourcing", link: "/remote-resourcing" },
+      { name: "Remote Sourcing", link: "/remote-sourcing" },
 
    ],
 }

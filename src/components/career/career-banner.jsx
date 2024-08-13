@@ -8,7 +8,7 @@ import Image from "next/image";
 
  
 
-const CarrerBanner = () => {
+const CareerBanner = () => {
   const [offset, setOffset] = useState(0);
 
   function handleScroll() {
@@ -55,4 +55,4 @@ const CarrerBanner = () => {
   );
 };
 
-export default CarrerBanner;
+export default CareerBanner;

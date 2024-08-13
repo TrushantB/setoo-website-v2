@@ -9,6 +9,7 @@ import Brand from "./brand";
 import CompanyArea from "./company-area";
 import JobArea from "./job-area";
 import JourneyArea from "./journey-area";
+import TestimonialArea from "./testimonial-area";
  
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
       <CompanyArea />
       <AboutArea />
       {/* <JourneyArea /> */}
+      <TestimonialArea />
       <JobArea />
       <CtaArea />
       <FooterFour />

@@ -6,7 +6,7 @@ import platform_img from "../../public/assets/img/payment/platform-1.png";
 
 const platform_content ={
     sub_title: "What we offer",
-    title: "Our Services",
+    title: "Our Core Services",
     description: <>Explore how Setoo can help you toassess AI and Web solutions continuously.</>,
 
 }
@@ -18,41 +18,42 @@ const platform_data = [
         id: 1,
         cls: "one", 
         count: "01",
-        title: "Jamstack",
-        sub_title: "Jamstack",
+        title: "Design",
+        sub_title: "Design",
         des: <>Blocks infected website tracking programs and annoying.</>,
-        link: "https://jamstack.plus/"
-        
     },
     {
         id: 2,
-        cls: "two", 
+        cls: "two",
         count: "02",
-        title: "DevOps",
-        sub_title: "DevOps",
+        title: "Development",
+        sub_title: "Development",
         des: <>Blocks infected website tracking programs and annoying.</>,
-        link: "/devops"
-        
     },
     {
         id: 3,
-        cls: "three", 
+        cls: "three",
         count: "03",
-        title: "Remote Resourcing",
-        sub_title: "Remote Resourcing",
+        title: "Quality Analysis",
+        sub_title: "Quality Analysis",
         des: <>Blocks infected website tracking programs and annoying.</>,
-        link: "/staff-augmentation"
-        
     },
-    // {
-    //     id: 4,
-    //     cls: "four", 
-    //     count: "04",
-    //     title: "Online Support",
-    //     sub_title: "Online Support",
-    //     des: <>Blocks infected website tracking programs and annoying.</>,
-        
-    // },
+    {
+        id: 4,
+        cls: "four", 
+        count: "04",
+        title: "DevOps",
+        sub_title: "DevOps",
+        des: <>Blocks infected website tracking programs and annoying.</>,
+    },
+    {
+        id: 5,
+        cls: "five", 
+        count: "05",
+        title: "Remote Sourcing",
+        sub_title: "Remote Sourcing",
+        des: <>Blocks infected website tracking programs and annoying.</>,
+    }
 ]
 
 const PlatformArea = ({style_carrer}) => {
@@ -71,7 +72,7 @@ const PlatformArea = ({style_carrer}) => {
 		if (window.matchMedia('(max-width: 768px)').matches) {
             setActive("all") 
 		} else {
-		 setActive(3)
+		 setActive(1)
 		}
 	};
 	
@@ -109,12 +110,12 @@ const PlatformArea = ({style_carrer}) => {
                      </div>
                   </div>
                   <div className="row align-items-center">
-                     <div className="col-xl-2 col-lg-2 d-none d-xl-block">
+                     {/* <div className="col-xl-2 col-lg-2 d-none d-xl-block">
                         <div className="tp-platform-img-box">
                            <Image src={platform_img} alt="" />
                         </div>
-                     </div>
-                     <div className="col-xl-10 col-lg-12">
+                     </div> */}
+                     <div className="col-xl-12 col-lg-12">
                         <div className="row-custom-wrapper">
                            <div className="row-custom">
                             {platform_data.map((item, i)  => 
@@ -130,7 +131,7 @@ const PlatformArea = ({style_carrer}) => {
                                         <span>{item.count}.</span>
                                         <h4 className="tp-panel-title-2">{item.title}</h4>
                                         <p>{item.des}</p>
-                                            <Link className='text-primary mt-30 d-inline-block' href={item.link}>Read more about {item.title} <i className='fal fa-arrow-right'></i> </Link>
+                                        {/* <Link className='text-primary mt-30 d-inline-block' href={item.link}>Read more about {item.title} <i className='fal fa-arrow-right'></i> </Link> */}
                                         </div>
                                     </div>
                                 </div>

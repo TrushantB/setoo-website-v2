@@ -1,11 +1,10 @@
 import BreadcrumbThree from "@/common/breadcrumbs/breadcrumb-3";
-import FooterFive from "@/layout/footers/footer-5";
+import FooterFour from "@/layout/footers/footer-4";
 import Header from "@/layout/headers/header";
 import React from "react";
-import PlatformArea from "../../common/platform-area";
-import JobArea from "../about/job-area";
-import CtaArea from "../contact/cta-area";
-import CarrerBanner from "./carrer-banner";
+import JobArea from "./job-area";
+import CtaArea from "./cta-area";
+import CareerBanner from "./career-banner";
 
 const Career = () => {
   return (
@@ -15,12 +14,11 @@ const Career = () => {
         <div id="smooth-content">
           <main> 
             <BreadcrumbThree />
-            <CarrerBanner />
-            <PlatformArea style_carrer={true} />
-            <JobArea style_carrer={true} />
+            <CareerBanner />
+              <JobArea style_carrer={true} />
             <CtaArea />
           </main>
-          <FooterFive style_contact={true} style_team={true}/>
+          <FooterFour />
         </div>
       </div>
     </>

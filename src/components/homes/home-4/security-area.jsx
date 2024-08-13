@@ -81,7 +81,7 @@ const security_data = [
     {
         id: 6,
         img: security_img_6,
-        title: <> Legal <br /> Services</>,
+        title: <> Legal Services</>,
     },
     {
         id: 7,
@@ -111,15 +111,10 @@ const security_data = [
     {
         id: 12,
         img: security_img_6,
-        title: <> Fintech </>,
-    },
-    {
-        id: 13,
-        img: security_img_6,
         title: <> Industry 4.0 </>,
     },
     {
-        id: 14,
+        id: 13,
         img: security_img_6,
         title: <> Consultancy </>,
     },
@@ -129,7 +124,7 @@ const security_data = [
         title: <> Marketing </>,
     },
     {
-        id: 14,
+        id: 15,
         img: security_img_6,
         title: <> Information <br /> Technology </>,
     }
@@ -145,7 +140,7 @@ const SecurityArea = () => {
                         <div className="tp-security-section-box text-center pb-100">
                            <h5 className="tp-section-subtitle-4 both pb-10 wow tpfadeUp" data-wow-duration=".9s"
                               data-wow-delay=".3s">Explore Our Level</h5>
-                           <h3 className="tp-section-title-4">Security by Industry</h3>
+                           <h3 className="tp-section-title-4">Served by Industry</h3>
                         </div>
                      </div>
                   </div>
@@ -163,11 +158,11 @@ const SecurityArea = () => {
                                             <h4 className="tp-security-title-sm">{item.title}</h4>
                                         </div>
                                     </div>
-                                    <div className="tp-security-link">
+                                    {/* <div className="tp-security-link">
                                         <Link href="#">
                                             <RightArrowTwo />
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                          )} 
