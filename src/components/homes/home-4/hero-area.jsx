@@ -17,10 +17,9 @@ const hero_content = {
     <span><span className='child'>Software</span></span>{" "}
     <span><span className='child'>Solutions</span></span>
     </>,
-   description: <>Revolutionize your business with AI-driven software solutions that 
-   enhance efficiency, automate processes, and deliver result-driven insights effortlessly</>,
+   //  title: "A1-Driven Cyber Security Solutions",
 }
-const { sub_title, title, description}  = hero_content
+const { sub_title, title}  = hero_content
 
 
 const HeroArea = () => {
@@ -40,12 +39,11 @@ const HeroArea = () => {
                      <div className="col-xl-7 col-lg-7">
                         <div className="tp-hero-4-section-box pt-10 z-index-3">
                            <h3 className="tp-section-subtitle-4 tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</h3>
-                           <h5 className="tp-hero-title-5 fw-bolder pb-10 tp-char-animation">{title}</h5>
-                           <p className='pb-35 tp-fun-fact-title fw-normal'>{description}</p>
+                           <h5 className="tp-hero-title-5 fw-bolder pb-35 tp-char-animation">{title}</h5>
                            <Link className="tp-btn-yellow-border wow tpfadeRight" 
                                  data-wow-duration=".9s" 
                                  data-wow-delay=".7s" href="/contact">
-                                 <span>Talk to Expert<i className="far fa-angle-right"></i></span>
+                                <span>Get in Touch<i className="far fa-angle-right"></i></span>
                             </Link>
                         </div>
                      </div>

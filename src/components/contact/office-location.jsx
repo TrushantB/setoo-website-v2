@@ -23,7 +23,7 @@ const office_data = [
         img: img_2,
         badge: "Main Office",
         location: "Pune",
-        address: <>Next to Siddhart Residency, <br /> Aundh, Pune, India</>,
+        address: <>Next to Siddhart Residency, <br /> Aundh, Pune 411007</>,
     },
     // {
     //     id: 3, 
