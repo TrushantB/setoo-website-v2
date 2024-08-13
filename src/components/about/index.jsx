@@ -19,8 +19,8 @@ const About = () => {
       <HeroBanner title="About" subtitle="Setoo" bg_img="/assets/img/setoo-team-discussion.webp" />
       <Brand />
       <CompanyArea />
-      <AboutArea />
-      {/* <JourneyArea /> */}
+      {/* <AboutArea /> */}
+      <JourneyArea />
       <TestimonialArea />
       <JobArea />
       <CtaArea />

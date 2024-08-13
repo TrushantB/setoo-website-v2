@@ -971,10 +971,10 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 20px;   
-    color: #FFFFFF; 
+    color: var(--tp-common-white); 
     opacity: 0.7;
     margin-bottom: 0;
-    padding-block: 1rem;
+    padding-block: 2rem;
     &.child-one{
         transform: rotate(90deg) translate(80px, 88px);
     }

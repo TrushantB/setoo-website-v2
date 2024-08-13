@@ -121,9 +121,9 @@ const TestimonialArea = () => {
                             className="tp-testimonial-2-slider-active">
                             {slider_data.map((item, i)  => 
                                  <div key={i} className="tp-testimonial-2-item p-relative wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                                    <div className="tp-testimonial-2-border-shape">
+                                    {/* <div className="tp-testimonial-2-border-shape">
                                     <Image src={shadow_img} alt="theme-pure" />
-                                    </div>
+                                    </div> */}
                                     <div className="d-flex flex-column h-100">
                                         {/* <div className="tp-testimonial-2-star">
                                         <span>

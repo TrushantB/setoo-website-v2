@@ -139,8 +139,8 @@ const SecurityArea = () => {
                      <div className="col-xl-8">
                         <div className="tp-security-section-box text-center pb-100">
                            <h5 className="tp-section-subtitle-4 both pb-10 wow tpfadeUp" data-wow-duration=".9s"
-                              data-wow-delay=".3s">Explore Our Level</h5>
-                           <h3 className="tp-section-title-4">Served by Industry</h3>
+                              data-wow-delay=".3s">Industries Expertise</h5>
+                            <h3 className="tp-section-title-4">Our Expertise Spans Across Industries</h3>
                         </div>
                      </div>
                   </div>

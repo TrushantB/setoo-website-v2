@@ -9,7 +9,7 @@ import brand_img_4 from "../../../public/assets/img/clients/minimoo-logo.webp";
 import brand_img_5 from "../../../public/assets/img/clients/cubyts-logo.webp";
 import brand_img_6 from "../../../public/assets/img/clients/fusionhq.webp";
 import brand_img_7 from "../../../public/assets/img/clients/modifAI-logo.webp";
-import brand_img_8 from "../../../public/assets/img/clients/Shoptimize-logo.webp";
+import brand_img_8 from "../../../public/assets/img/clients/shoptimize-logo.webp";
 import brand_img_9 from "../../../public/assets/img/clients/vedaearth-logo.webp";
 import shape_1 from "../../../public/assets/img/brand/image_01.png";
 import shape_2 from "../../../public/assets/img/hero/hero-slider-icon-1.jpg";
