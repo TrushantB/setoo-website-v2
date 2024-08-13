@@ -14,11 +14,11 @@ const { bg_img, sub_title, title } = testimonial_content
 // setting 
 const setting = {
    loop: true,
-   slidesPerView: 4,
+   slidesPerView: 3,
    spaceBetween: 30,
    breakpoints: {
       '1200': {
-         slidesPerView: 4,
+         slidesPerView: 3,
       },
       '992': {
          slidesPerView: 3,
@@ -91,13 +91,13 @@ const TestimonialArea = () => {
                            modules={[Navigation, Scrollbar]}
                            className={`swiper-container testimonial-five-slider-active ${isDragged ? "dragged" : ""
                               }`}>
-                           {testimonial_data.slice(12, 25).map((item, i) =>
+                           {testimonial_data.slice(0, 5).map((item, i) =>
                               <SwiperSlide key={i} className="tp-testimonial-five-item">
                                  <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                                     <div className="tp-testimonial-five-top-info d-flex align-items-center">
-                                       <div className="tp-testimonial-five-avata">
+                                       {/* <div className="tp-testimonial-five-avata">
                                           <Image src={item.author_img} alt="theme-pure" />
-                                       </div>
+                                       </div> */}
                                        <div className="tp-testimonial-five-author-info">
                                           <h4>{item.name}</h4>
                                           <span>{item.title}</span>

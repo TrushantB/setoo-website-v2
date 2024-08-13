@@ -1,10 +1,10 @@
 import React, {useRef} from 'react';
 import Slider from 'react-slick';
 
-import testimonial_img_1 from "../../../../public/assets/img/testimonial/testi-3-2.png"
-import testimonial_img_2 from "../../../../public/assets/img/testimonial/testi-3-3.png"
-import testimonial_img_3 from "../../../../public/assets/img/testimonial/testi-3-4.png"
-import testimonial_img_4 from "../../../../public/assets/img/testimonial/testi-3-5.png"
+import testimonial_img_1 from "../../../../public/assets/img/clients/cubyts-logo.webp"
+import testimonial_img_2 from "../../../../public/assets/img/clients/shoptimize-logo.webp"
+import testimonial_img_3 from "../../../../public/assets/img/clients/hp-logo.webp"
+import testimonial_img_4 from "../../../../public/assets/img/clients/vedaearth-logo.webp"
 import Image from 'next/image';
 
 
@@ -56,45 +56,35 @@ const testimonial_data = [
     {
         id: 1, 
         img: testimonial_img_1, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        name: "Cubyts",
+        job_title: "Director of Marketing",
+        description: <>They are fast, responsive, grounded, and spend some time understanding 
+        the requirements and scope.</>,
 
     },
     {
         id: 2, 
         img: testimonial_img_2, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        name: "Graas",
+        job_title: "Senior Project Manager",
+        description: <>All the deliveries are on time with minimum fallouts.</>,
 
     },
     {
         id: 3, 
         img: testimonial_img_3, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>“Setoo helps me keep a clean,
-        organized ledger that I can access
-        anywhere. The UI is so intuitive that
-        anyone can use it,</>,
+        name: "Hindustan Pencils Pvt Ltd",
+        job_title: "E-Commerce Manager",
+        description: <>The team is highly approachable.</>,
 
     },
     {
         id: 4, 
         img: testimonial_img_4, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        name: "Vedaearth",
+        job_title: "Business Head",
+        description: <>We were impressed with their timely updates and understanding of the
+        given tasks.</>,
 
     },
 ]
@@ -134,9 +124,9 @@ const TestimonialArea = () => {
                                 className="tp-testimonial-3-slider-active"
                                 >                                
                                 {testimonial_data.map((item, i)  => 
-                                    <div key={i} className="tp-testimonial-wrapper">
-                                    <div className="tp-testimonial-3-item d-flex justify-content-between align-items-center">
-                                       <div className="tp-testimonial-3-content-box">
+                                    <div key={i} className="tp-testimonial-wrapper h-100">
+                                    <div className="tp-testimonial-3-item d-flex justify-content-between align-items-end">
+                                       <div className="tp-testimonial-3-content-box h-100 d-flex flex-column">
                                           <div className="tp-testimonial-3-review">
                                              <span><i className="fas fa-star"></i></span>
                                              <span><i className="fas fa-star"></i></span>
@@ -145,7 +135,7 @@ const TestimonialArea = () => {
                                              <span><i className="fas fa-star"></i></span>
                                           </div>
                                           <p>{item.description}</p>
-                                          <div className="tp-testimonial-3-author-info d-flex align-items-center">
+                                          <div className="tp-testimonial-3-author-info d-flex align-items-center mt-auto">
                                              <div className="tp-testimonial-3-sm-thumb d-md-none">
                                                 <Image src={item.img} alt={item.name} />
                                              </div>

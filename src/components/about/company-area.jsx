@@ -36,13 +36,16 @@ const CompanyArea = () => {
                      </div>
                   </div>
                   <div className="row align-items-center">
-                     <div className="col-xl-4">
-                        <div className="ab-company-video">
+                     <div className="col-xl-4 align-self-start">
+                        {/* <div className="ab-company-video">
                            <a className="popup-video" 
                            onClick={() => setIsVideoOpen(true)} 
                            ><i className="fas fa-play"></i></a>
                            <span>Watch Demo</span>
-                        </div>
+                        </div> */}
+                        <h3 className='h3'>
+                         Setoo's Highlights
+                        </h3>
                      </div>
                      <div className="col-xl-8">
                         <div className="row">
@@ -50,9 +53,9 @@ const CompanyArea = () => {
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-start">
                                  <div className="ab-company-fun-fact">
-                                    <span>USED BY</span>
-                                    <h4>11,000<em>+</em></h4>
-                                    <p>Creators</p>
+                                    <span>RESPONSE TIME</span>
+                                    <h4>24<em>hr</em></h4>
+                                    <p>Issue Resolution</p>
                                  </div>
                               </div>
                            </div>
@@ -61,17 +64,17 @@ const CompanyArea = () => {
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
                                     <span>VALUE</span>
-                                    <h4>46<em>m</em></h4>
-                                    <p>Revenue per Year</p>
+                                    <h4>95<em>%</em></h4>
+                                    <p>Client Satisfaction</p>
                                  </div>
                               </div>
                            </div>
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
-                                    <span>IN</span>
-                                    <h4>150<em>+</em></h4>
-                                    <p>Countries using</p>
+                                    <span>TEAM OF</span>
+                                    <h4>80<em>+</em></h4>
+                                    <p>Expert Professionals</p>
                                  </div>
                               </div>
                            </div>

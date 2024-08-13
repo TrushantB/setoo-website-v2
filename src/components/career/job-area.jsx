@@ -7,8 +7,8 @@ const job_data = {
     sub_title: "Current Positions",
     title: <>Join our Growing Team <br /> of Doers.</>,
     carrer_title: "Open Positions",
-    carrer_info: <>Discover exciting career opportunities and find the perfect role for you.
-      <br /> Join our team and contribute to our innovative projects.</>,
+   carrer_info: <>Discover exciting career opportunities and find the perfect role for you.
+   <br /> Join our team and contribute to our innovative projects.</>,
     job_info: [
         {
             id:1, 
@@ -22,6 +22,24 @@ const job_data = {
             job_time: "Full-time",
             job_location: "Remote",
         },
+       {
+          id: 3,
+          category: "UI Developer",
+          job_time: "Full-time",
+          job_location: "Pune, IND",
+       },
+       {
+          id: 4,
+          category: "Business Development Executive",
+          job_time: "Full-time",
+          job_location: "Pune, IND",
+       },
+       {
+          id: 5,
+          category: "QA Intern",
+          job_time: "Full-time",
+          job_location: "Pune, IND",
+       },
     ]
 
 }
@@ -84,13 +102,6 @@ const JobArea = ({style_carrer}) => {
                   </div>                    
                     )
                   } 
-                <div className="row pt-40 pb-40">
-                   <div className="col-12">
-                      <div className="tp-feature-five-link text-center">
-                         <span>Check out all of our <Link href="/career">Open Positions</Link></span>
-                      </div>
-                   </div>
-                </div>
                </div>
             </div>
         </>

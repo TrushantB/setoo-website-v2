@@ -13,7 +13,7 @@ import img_2 from "../../../public/assets/img/hero/hero-img-3-1-3.png" ;
 import Link from 'next/link';
 
 const hero_content = { 
-   title_1: <>Remote Resourcing</>,
+   title_1: <>Remote Sourcing</>,
    title_2: "",
    info: <>Staff Augmentation helps you find the best talent <br /> to fulfill your company's needs and enhance your team expertise.</>,
    btn_1: "Hire Your Team",

@@ -1,4 +1,4 @@
-import FooterFive from "@/layout/footers/footer-5";
+import FooterFour from "@/layout/footers/footer-4";
 import Header from "@/layout/headers/header";
 import React from "react";
 import Breadcrumb from "../../common/breadcrumbs/breadcrumb";
@@ -22,7 +22,7 @@ const Contact = () => {
             <ContactInner />
             <CtaArea />
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <FooterFour />
         </div>
       </div>
     </>

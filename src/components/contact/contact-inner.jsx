@@ -16,20 +16,20 @@ const inner_content = {
     {
       id: 1,
       icon: icon_1,
-      title: "contact@Setoo.com",
-      link: "mailto:contact@Setoo.com",
+      title: "hello@Setoo.co",
+      link: "mailto:hello@Setoo.co",
     },
     {
       id: 2,
       icon: icon_2,
-      title: "+1-202-555-0144",
-      link: "tel:+1-202-555-0144",
+      title: "+91-2046-750-640",
+      link: "tel:+91-2046-750-640",
     },
     {
       id: 3,
       icon: icon_3,
-      title: "Aundh, Pune, IN",
-      link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
+      title: "Aundh, Pune, IND",
+      link: "https://maps.app.goo.gl/RmutV2GPSEyuowwt6",
     },
   ],
 };

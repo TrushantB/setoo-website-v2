@@ -440,11 +440,11 @@
     }
     & i{
         font-style: normal;
-        overflow: hidden;
+        // overflow: hidden;
         display: inline-block;
         & i.child-1{
             transform:translateY(150px);
-            overflow: hidden;
+            // overflow: hidden;
             opacity: 0;
         }
     }
