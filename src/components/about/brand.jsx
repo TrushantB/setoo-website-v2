@@ -3,17 +3,6 @@ import React from 'react';
 
 
 // brand img import here 
-<<<<<<< Updated upstream
-import brand_img_1 from "../../../public/assets/img/clients/sh-logo.webp"
-import brand_img_2 from "../../../public/assets/img/clients/automationai-logo.webp"
-import brand_img_3 from "../../../public/assets/img/clients/hp-logo.webp"
-import brand_img_4 from "../../../public/assets/img/clients/minimoo-logo.webp"
-import brand_img_5 from "../../../public/assets/img/clients/cubyts-logo.webp"
-import brand_img_6 from "../../../public/assets/img/clients/fusionhq.webp"
-import brand_img_7 from "../../../public/assets/img/clients/modifAI-logo.webp"
-import brand_img_8 from "../../../public/assets/img/clients/Shoptimize-logo.webp"
-import brand_img_9 from "../../../public/assets/img/clients/vedaearth-logo.webp"
-=======
 import brand_img_1 from "./../../../public/assets/img/clients/sh-logo.webp"
 import brand_img_2 from "./../../../public/assets/img/clients/automationai-logo.webp"
 import brand_img_3 from "./../../../public/assets/img/clients/hp-logo.webp"
@@ -23,7 +12,6 @@ import brand_img_6 from "./../../../public/assets/img/clients/fusionhq.webp"
 import brand_img_7 from "./../../../public/assets/img/clients/modifAI-logo.webp"
 import brand_img_8 from "./../../../public/assets/img/clients/shoptimize-logo.webp"
 import brand_img_9 from "./../../../public/assets/img/clients/vedaearth-logo.webp"
->>>>>>> Stashed changes
 
 const brand_content = {
     titel: "Trusted by Thousands Business",
