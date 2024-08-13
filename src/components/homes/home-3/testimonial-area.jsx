@@ -1,10 +1,10 @@
 import React, {useRef} from 'react';
 import Slider from 'react-slick';
 
-import testimonial_img_1 from "../../../../public/assets/img/clients/cubyts-logo.webp"
-import testimonial_img_2 from "../../../../public/assets/img/clients/shoptimize-logo.webp"
-import testimonial_img_3 from "../../../../public/assets/img/clients/hp-logo.webp"
-import testimonial_img_4 from "../../../../public/assets/img/clients/vedaearth-logo.webp"
+import testimonial_img_1 from "./../../../../public/assets/img/clients/cubyts-logo.webp"
+import testimonial_img_2 from "./../../../../public/assets/img/clients/shoptimize-logo.webp"
+import testimonial_img_3 from "./../../../../public/assets/img/clients/hp-logo.webp"
+import testimonial_img_4 from "./../../../../public/assets/img/clients/vedaearth-logo.webp"
 import Image from 'next/image';
 
 
