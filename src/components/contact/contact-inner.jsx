@@ -10,7 +10,7 @@ import icon_3 from "../../../public/assets/img/contact/contact-icon-sm-3.png";
 
 const inner_content = {
   title: "Book a Demo!",
-  description: <>We will contact again after receive your request in <span className="text-primary">24h</span></>,
+  description: <>We will contact again after we receive your request in <span className="text-primary">24h</span></>,
 
   contact_data: [
     {
@@ -28,7 +28,7 @@ const inner_content = {
     {
       id: 3,
       icon: icon_3,
-      title: "Aundh, Pune, IND",
+      title: "Aundh, Pune, MH, IND",
       link: "https://maps.app.goo.gl/RmutV2GPSEyuowwt6",
     },
   ],

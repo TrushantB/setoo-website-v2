@@ -7,6 +7,7 @@ import brand_img_1 from "../../../../public/assets/img/recognition/iso-logo.png"
 import brand_img_2 from "../../../../public/assets/img/recognition/startup-india.webp";
 import brand_img_3 from "../../../../public/assets/img/recognition/msme-india.webp";
 import brand_img_4 from "../../../../public/assets/img/recognition/design-rush.webp";
+import brand_img_5 from "../../../../public/assets/img/recognition/duns-logo.png";
 import Link from 'next/link';
 
 const recognition_content = {
@@ -16,7 +17,8 @@ const recognition_content = {
         {img: brand_img_1, delay: ".2s", href: ""},
         {img: brand_img_2, delay: ".4s", href: ""},
         {img: brand_img_3, delay: ".6s", href: ""},
-        {img: brand_img_4, delay: ".8s", href: "https://www.designrush.com/agency/profile/setoo"}
+        {img: brand_img_4, delay: ".8s", href: "https://www.designrush.com/agency/profile/setoo"},
+        { img: brand_img_5, delay: ".10s", href: "" }
 
     ]
 }
