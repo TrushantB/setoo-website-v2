@@ -18,7 +18,7 @@ const hero_content = {
     <span><span className='child'>Solutions</span></span>
     </>,
    description: <>Revolutionize your business with AI-driven software solutions that 
-   enhance efficiency, automate processes, and deliver result-driven insights effortlessly</>,
+   enhance efficiency, automate processes, and deliver result-driven insights effortlessly.</>,
 }
 const { sub_title, title, description}  = hero_content
 

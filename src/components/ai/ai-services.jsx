@@ -7,8 +7,8 @@ import React from 'react';
 const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
-    title: <>Services in AI </>,
-   description: <>Transform your business with conversational digital human, AI model development, and seamless AI integration for automated success and innovation.</>,
+    title: <>AI Lab Services</>,
+    description: <>Transform your business with conversational digital human, AI model development, and seamless AI integration for automated success and innovation.</>,
     btn_text: "View Details",
 }
 const {bg_img, sub_title, title, description, btn_text}  = service_content

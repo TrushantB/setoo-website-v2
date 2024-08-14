@@ -13,7 +13,7 @@ import img_2 from "../../../public/assets/img/hero/hero-img-3-1-3.png" ;
 import Link from 'next/link';
 
 const hero_content = { 
-   title_1: <>Ai <span>Labs</span></>,
+   title_1: <>AI <span>Lab</span></>,
    title_2: "",
    info: <>Setoo's AI Lab caters to AI services that can transform <br /> your business operations with the integration of AI.</>,
    btn_1: "Experience AI Excellence",
@@ -51,10 +51,10 @@ const HeroArea = () => {
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/experience">
+                        {/* <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/experience">
                            <span>{btn_1}</span>
                            <b></b>
-                        </Link>
+                        </Link> */}
                         <Link className="tp-btn-border tp-btn-hover alt-color-black" href="/contact">
                            <span>{btn_2}</span>
                            <b></b>

@@ -20,8 +20,8 @@ const plan_content = {
         {id:6, img: plan_img_6, cls: "6 d-none d-sm-block",},
     ],
 
-    sub_title: "INVOICES",
-    title: <>Simple <span>Tools</span>, Powerful Effects</>, 
+    sub_title: "Capabilities",
+    title: <><span>Catalysts</span> of AI </>, 
 
 }
 const {img_box, sub_title, title}  = plan_content

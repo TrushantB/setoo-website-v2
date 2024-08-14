@@ -17,8 +17,11 @@ const  service_data = [
         id: 1,
         icon: <ServiceIconOne />,
         img: <ServiceIconOne />,
-        title: "Website",
-        description: <>Quick & Easy Repeater Fields Option</>,
+        title: "Websites",
+        description: <>Websites built on Content Management System (CMS) that are highly
+        versatile and easy to use for users as it allows them to seamlessly create and manage 
+        content. These websites are ideal for simple blogs, bespoke and complex e-commerce 
+        websites.</>,
         delay: ".9s",
     },
     
@@ -36,7 +39,9 @@ const  service_data = [
         icon: <ServiceIconThree />,
         img: <ServiceIconThree />,
         title: "eCommerce",
-        description: <>Get real-time visibility into every expense.</>,
+        description: <>E-commerce solutions for Shopify, Magento, WordPress, and no-code 
+        platforms ensure scalability, customized stores with seamless integration, 
+        intuitive design, and enhanced user experience.</>,
         delay: ".9s",
     },
 ]
