@@ -9,7 +9,7 @@ import HeroArea from "./hero-area";
 import PlatformArea from "../../../common/platform-area";
 import SecurityArea from "./security-area";
 import ServiceArea from "./service-area";
-import TestimonialArea from "../home-3/testimonial-area";
+import TestimonialArea from "./testimonial-area";
 import Recognition from "./recognition";
 import WorkArea from "./work-area";
 import FaqArea from "./faq-area";

@@ -10,6 +10,7 @@ import FaqArea from "./faq-area";
 import JourneyArea from "./journey-area";
 import ProductService from "./service-area";
 import BenefitArea from "./benefit-area";
+import CtaArea from "./cta-area";
 
 const ProductDevelopment = () => {
   return (
@@ -27,6 +28,7 @@ const ProductDevelopment = () => {
             <JourneyArea />
             <BlogArea />
             <FaqArea style_service={true} />
+            <CtaArea />
           </main>
           <FooterFour />
         </div>

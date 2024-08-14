@@ -3,9 +3,9 @@ import React from 'react';
 
 const cta_content ={ 
      bg_img: "/assets/img/cta/cta-bg.jpg",
-     title: "Where Creativity Meets Code",
-     description: <>Creating web interfaces with high security, fast responsiveness, <br /> and SEO effectiveness</>,
-     btn_text: "Schedule a Meeting",
+     title: "Try our service now!",
+     description: <>Eyerything you need to accept cord payments and grow your business <br /> anywhere on the planet.</>,
+     btn_text: "Get Started Now",
 }
 const {bg_img, title, description, btn_text}  = cta_content
 
@@ -23,7 +23,7 @@ const CtaArea = () => {
                            <div className="tp-cta-content tp-inner-font text-center">
                               <h3 className="tp-section-title text-white">{title}</h3>
                               <p>{description}</p>
-                              <Link className="tp-btn-inner white-bg text-black" href="/contact">{btn_text}</Link>
+                                 <Link className="tp-btn-inner white-bg text-black" href="/service-details">{btn_text}</Link>
                            </div>
                         </div>
                      </div>

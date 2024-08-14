@@ -14,7 +14,7 @@ const BlogList = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title={"Read our blogs"} innertitle={"Blog Grid Classic"} />
+            <BreadcrumbTwo title={"Read our blogs"} innertitle={"Blog"} />
             <BlogGrid />
             <Portfolio />
             <PostboxArea />

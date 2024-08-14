@@ -12,7 +12,7 @@ const BlogDetailsTwo = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main> 
-            <BreadcrumbTwo title={"Read our blogs"} innertitle={"Blog Grid Classic"} />
+            <BreadcrumbTwo title={"Read our blogs"} innertitle={"Blog"} />
             <PostboxArea style_details_2={true} />
             <Portfolio />
           </main>
