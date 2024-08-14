@@ -121,7 +121,7 @@ const setting_two = {
 const TechStack = ({style_integraton}) => {
     return (
         <>
-            <div className="tp-integration-area pb-110 tp-integration-mlr">
+            <div className="tp-integration-area pt-110 pb-110 tp-integration-mlr">
                <div className="container">
                   <div className="row align-items-end tp-integration-section-space">
                      <div className="col-xl-6 col-lg-8 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">

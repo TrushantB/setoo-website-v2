@@ -71,7 +71,7 @@ const security_data = [
     {
         id: 4,
         img: security_img_4,
-        title: <>eCommerce</>,        
+        title: <>e-commerce</>,        
     },
     {
         id: 5,

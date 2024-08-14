@@ -29,8 +29,8 @@ const platform_data = [
         count: "02",
         title: "Development",
         sub_title: "Development",
-        des: <>Development involves converting an idea into a strategy built a 
-        product with efficient functionality.</>,
+        des: <>Development involves converting an idea into a strategy to build a product
+        with efficient functionality.</>,
     },
     {
         id: 3,

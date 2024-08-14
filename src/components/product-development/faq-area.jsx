@@ -1,4 +1,4 @@
-import AnswerQuestion from '@/common/answer-question';
+import AnswerQuestion from './answer-question';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -8,8 +8,8 @@ import img from "../../../public/assets/img/faq/faq-1.png"
 const faq_content = {
     sub_title: "Support",
     title: <>Frequently <br /> Asked Questions</>,
-    description: <>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</>,
-    btn_text: "Get in Touch",
+    description: <>Got Questions? Find Answers Fast with Our Product Development FAQs!</>,
+    btn_text: "Schedule a Meeting",
 }
 const {sub_title, title, description, btn_text }  = faq_content
 
