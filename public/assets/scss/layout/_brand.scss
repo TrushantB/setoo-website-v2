@@ -20,6 +20,7 @@
 }
 .tp-barnd-icon{
     margin-right: 20px;
+    max-width: 3rem;
 }
 .tp-brand-item {
 	text-align: center;
@@ -51,7 +52,7 @@
 .tp-barnd-slider-wrapper{
     padding: 0px 65px;
     @media #{$xl,$md,$xs}{
-        padding: 0px 80px;
+        padding: 0px 60px;
     }
 }
 .tp-barnd-left-item {
@@ -74,9 +75,9 @@
         position: relative;
         transition: .3s;
         @media #{$xs}{
-            height: 50px;
-            width: 50px;
-            line-height: 50px;
+            height: 2.5rem;
+            width: 2.5rem;
+            line-height: 1.3;
         }
         &::after{
             content: '';
@@ -101,6 +102,9 @@
                 z-index: 5;
                 margin-left: -3px;
             }
+            @media #{$xs}{
+                left: -55px;
+            }
         }
         &.slick-next {
             position: absolute;
@@ -110,6 +114,9 @@
                 position: relative;
                 z-index: 5;
                 margin-right: -3px;
+            }
+            @media #{$xs}{
+                right: -55px;
             }
         }
         &:hover{

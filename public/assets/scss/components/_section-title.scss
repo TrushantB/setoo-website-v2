@@ -162,12 +162,15 @@
 }
 .tp-section-subtitle-4{
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--tp-common-yellow-3);
     display: inline-block;
+    @media #{$md}{
+        font-size: 14px;
+    }
     &::before{
         content: "";
         height: 1.5px;
