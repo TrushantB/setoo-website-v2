@@ -31,11 +31,11 @@ const BlogArea = () => {
                     {blog_data.slice(3, 5).map((item, i) => 
                         <div key={i} className="col-xl-6 col-lg-6 col-md-6 mb-40 wow tpfadeUp" data-wow-duration=".9s"
                             data-wow-delay=".7s">
-                            <div className="tp-blog-four-item p-relative fix">
+                            <div className="tp-blog-four-item p-relative fix h-100 d-flex flex-column">
                             <div className="tp-blog-four-img fix">
                                 <Link href="#"><Image src={item.img} alt="theme-pure" /></Link>
                             </div>
-                            <div className="tp-blog-four-content-wrapper">
+                            <div className="tp-blog-four-content-wrapper d-flex flex-column flex-grow-1">
                                 <div className="tp-blog-four-meta">
                                     <span className="child-1">{item.category}</span>
                                     <span className="child-2">{item.date}</span>
@@ -44,7 +44,7 @@ const BlogArea = () => {
                                     <h4 className="tp-blog-four-title-sm"><Link href="/blog-details">{item.title}</Link></h4>
                                     <p>{item.description}</p>
                                 </div>
-                                <div className="tp-blog-four-btn">
+                                <div className="tp-blog-four-btn mt-auto">
                                     <Link className="tp-btn-service" href="/blog-details">Read More</Link>
                                 </div>
                             </div>

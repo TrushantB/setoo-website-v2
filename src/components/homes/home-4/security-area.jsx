@@ -133,7 +133,7 @@ const security_data = [
 const SecurityArea = () => {
     return (
         <>
-            <div className="tp-security-area blue-bg pt-60 pb-120 fix z-index">
+            <div className="tp-security-area blue-bg pt-60 pb-60 fix z-index">
                <div className="container-fluid g-0">
                   <div className="row justify-content-center">
                      <div className="col-xl-8">

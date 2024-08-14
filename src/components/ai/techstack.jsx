@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Slider from 'react-slick';
+import PyTorch from '@/svg/ai/pytorch';
 
 // slider img import here
 import slider_img_1_1 from "../../../public/assets/img/integration/integration-1.png";
@@ -12,6 +13,20 @@ import slider_img_2_1 from "../../../public/assets/img/integration/integration-5
 import slider_img_2_2 from "../../../public/assets/img/integration/integration-6.png";
 import slider_img_2_3 from "../../../public/assets/img/integration/integration-7.png";
 import slider_img_2_4 from "../../../public/assets/img/integration/integration-8.png";
+import MetaHuman from '@/svg/ai/meta-human';
+import LlamaIcon from '@/svg/ai/llama-icon';
+import RagIcon from '@/svg/ai/rag-icon';
+import KafkaIcon from '@/svg/ai/kafka-icon';
+import PythonIcon from '@/svg/ai/python-icon';
+import TensorFlowIcon from '@/svg/ai/tensorflow-icon';
+import UnrealEngineIcon from '@/svg/ai/unreal-engine-icon';
+import BlenderIcon from '@/svg/ai/blender-icon';
+import ThreeJsIcon from '@/svg/ai/three-js-icon';
+import ChatGptIcon from '@/svg/ai/chat-gpt-icon';
+import LangChainIcon from '@/svg/ai/langchain-icon';
+import AwsIcon from '@/svg/ai/aws-logo';
+import DialogFlowIcon from '@/svg/ai/dialogflow-icon';
+import ElevenLabsIcon from '@/svg/ai/eleven-labs-icon';
 
 const integration_content ={
     sub_title: "Technologies",
@@ -24,16 +39,23 @@ const {sub_title, title, int_title, btn_text, bg_img}  = integration_content
 
 
 const slider_one_data = [
-    slider_img_1_1,
-    slider_img_1_2,
-    slider_img_1_3,
-    slider_img_1_4,
+    <PyTorch />,
+    <MetaHuman />,
+    <LlamaIcon />,
+    <RagIcon />,
+    <KafkaIcon />,
+    <ChatGptIcon />,
+    <AwsIcon />
 ]
 const slider_two_data = [
-    slider_img_2_1,
-    slider_img_2_2,
-    slider_img_2_3,
-    slider_img_2_4,
+    <PythonIcon />,
+    <TensorFlowIcon />,
+    <UnrealEngineIcon />,
+    <BlenderIcon />,
+    <ThreeJsIcon />,
+    <LangChainIcon />,
+    <DialogFlowIcon />,
+    <ElevenLabsIcon />
 ]
 
 
@@ -156,7 +178,8 @@ const TechStack = ({style_integraton}) => {
                     {slider_one_data.map((item, i)  => 
                         <div key={i} className="tp-integration-slider-main slick-slide">
                         <div className="tp-integration-slider-item">
-                           <Image src={item} alt="theme-pure" />
+                           {/* <Image src={item} alt="theme-pure" /> */}
+                           {item}
                         </div>
                      </div>
                     )}                     
@@ -165,7 +188,8 @@ const TechStack = ({style_integraton}) => {
                     {slider_two_data.map((item, i)  => 
                         <div key={i} className="tp-integration-slider-main slick-slide">
                         <div className="tp-integration-slider-item">
-                           <Image src={item} alt="theme-pure" />
+                           {/* <Image src={item} alt="theme-pure" /> */}
+                           {item}
                         </div>
                      </div>
                         
