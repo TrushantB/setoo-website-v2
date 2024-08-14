@@ -39,7 +39,7 @@
 
         // FIXME: Update this to your desired email address.
 
-        $recipient = "basictheme400@gmail.com";
+        $recipient = "girish@setoo.co";
 
 
 
