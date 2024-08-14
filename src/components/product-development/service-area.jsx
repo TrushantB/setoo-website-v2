@@ -1,4 +1,4 @@
-import service_data from '@/data/ai-service-data';
+import service_data from '@/data/product-dev-services';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -14,7 +14,7 @@ const service_content = {
 const { bg_img, sub_title, title, description, btn_text } = service_content
 
 
-const DevOpsService = () => {
+const ProductService = () => {
     return (
         <>
             <div className="tp-service-area tp-services-five-item-bg-color p-relative fix">
@@ -36,7 +36,7 @@ const DevOpsService = () => {
                         </div>
                         <div className="col-lg-8">
                             <div className="row g-0">
-                                {service_data.slice(0, 6).map((item, i) =>
+                                {service_data.slice(0, 9).map((item, i) =>
                                     <div key={i} className="col-md-4">
                                         <div className="tp-service-five-item z-index">
                                             <div className="tp-services-five-item-bg">
@@ -69,4 +69,4 @@ const DevOpsService = () => {
     );
 };
 
-export default DevOpsService;
+export default ProductService;
