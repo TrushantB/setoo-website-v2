@@ -17,11 +17,11 @@ import Image from 'next/image';
 const footer_content  = {
     title: <>Get Our Latest's News <br /> & Updates</>,
     description: <>Our highly skilled development teams <br /> specialized in data analysis.</>,
-    phone: "+91 204 675 0640",
+    phone: "+91 2046 750 640",
     contact_mail: "hello@setoo.co",
-   location: "Swar Vishwa, Ekdant Dutta Mandir Rd, Aundh Pune 411007",
+   location: "Aundh, Pune, MH, India",
 
-    copy_right: <>Copyright <Link href="#">@Setoo Solutions</Link> – {new Date().getFullYear()} | All rights reserved.</>,
+    copy_right: <>Copyright <Link href="contact">@Setoo Solutions</Link> - {new Date().getFullYear()} | All rights reserved.</>,
 
     footer_lisks : [
         {
@@ -109,7 +109,7 @@ const Footer = () => {
                            <div className="col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                               <div className="tp-footer__input p-relative">
                                  <form onSubmit={(e) => e.preventDefault()}>
-                                    <input type="text" placeholder="Business email adress" />
+                                    <input type="text" placeholder="email address" />
                                     <span>
                                         <EmailIcon /> 
                                     </span>

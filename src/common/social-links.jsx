@@ -49,7 +49,7 @@ export default SocialLinks;
 
 
 const copy_right_text = {
-  copy_right: <>Copyright <Link href="#">@Setoo Solutions</Link> – {new Date().getFullYear()} | All rights reserved.</>,
+  copy_right: <>Copyright <Link href="contact">@Setoo Solutions</Link> – {new Date().getFullYear()} | All rights reserved.</>,
 }
 const {copy_right}  = copy_right_text
 

@@ -1,4 +1,4 @@
-import service_data from '@/data/service-data';
+import studios_data from '@/data/ai-studios-data';
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
@@ -37,7 +37,7 @@ const ServiceArea = () => {
                   </div>
                   <div className="tp-service-4-border-top  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                      <div className="row">
-                        {service_data.slice(9, 12).map((item , i) => 
+                        {studios_data.slice(0, 3).map((item , i) => 
                             <div key={i} className={`col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-${item.cls}`}>
                                 <div className="tp-service-4-item z-index">
                                     <div className="tp-service-4-icon">
@@ -45,9 +45,9 @@ const ServiceArea = () => {
                                     </div>
                                     <div className="tp-service-4-content">
                                         <span>{item.sub_title}</span>
-                                        <h4 className="tp-service-4-title"><Link href="/service-details">{item.title}</Link></h4>
+                                        <h4 className="tp-service-4-title"><Link href={item.link}>{item.title}</Link></h4>
                                         <p>{item.description}</p>
-                                        <Link className="tp-btn-service" href="/service-details">Explore {item.title}</Link>
+                                       <Link className="tp-btn-service" href={item.link}>Explore {item.title}</Link>
                                     </div>
                                 </div>
                             </div>

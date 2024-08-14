@@ -119,7 +119,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                               <h4 className="tp-footer__widget-title">Our Newsletter</h4>
                               <div className="tp-footer__input mb-35 p-relative">
                                  <form onSubmit={e => e.preventDefault()}>
-                                    <input type="text" placeholder="Business email adress" />
+                                    <input type="text" placeholder="email address" />
                                     <span>
                                         <EmailIcon /> 
                                     </span>
