@@ -60,13 +60,13 @@ const answer_question_data = [
     actice: "",
   },
   {
-    id: 5,
+    id: 6,
     question: "Can the client hire just one staff?",
     answer: <>Yes, you can hire as many or as few staff as you need for your project.</>,
-    accordion_id: "headingFive",
+    accordion_id: "headingSix",
     collapsed: "collapsed",
-    data_bs_target: "#collapseFive",
-    aria_controls: "collapseFive",
+    data_bs_target: "#collapseSix",
+    aria_controls: "collapseSix",
     actice: "",
   },
 ];

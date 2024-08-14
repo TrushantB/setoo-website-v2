@@ -8,8 +8,8 @@ const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
     title: <>Services in Web studio </>,
-    description: <>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</>,
-    btn_text: "View Details",
+    description: <>Experience lightning-fast websites and e-commerce platforms boosting your business ROI</>,
+    btn_text: "",
 }
 const {bg_img, sub_title, title, description, btn_text}  = service_content
 

@@ -53,8 +53,8 @@ const setting = {
         id: '04', 
         date: "step",
         title: <>Model Optimization & Lifecycle Management</>,
-        description: <>We envision sales teams having the tools <br />
-        and talent they need to make remote <br /> work.</>,
+        description: <>Enhancing model performance and managing its lifecycle for sustained
+      efficiency and accuracy.</>,
     },
     {
         id: "05", 
