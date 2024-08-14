@@ -8,6 +8,9 @@ import author_img_3 from "../../public/assets/img/blog/blog-avata-3.png";
 
 import img_4 from "../../public/assets/img/blog/blog-4-1.jpg"
 import img_5 from "../../public/assets/img/blog/blog-4-2.jpg"
+import img_6 from "../../public/assets/img/blog/blog-4-2.jpg"
+import img_7 from "../../public/assets/img/blog/blog-4-2.jpg"
+import img_8 from "../../public/assets/img/blog/blog-4-2.jpg"
 
 const blog_data = [
     // home 03 
