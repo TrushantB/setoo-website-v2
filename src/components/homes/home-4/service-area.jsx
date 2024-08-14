@@ -9,7 +9,7 @@ import img from "../../../../public/assets/img/service/service-shape-right.png";
 const service_content = {
     sub_title: "WHAT WE DO",
     title: "Our Studios",
-    description: <>Setoo provides wide range of services <br /> with the Studios.</>,
+    description: <>Setoo's Studio provides strategic solutions <br /> for solid problems</>,
 }
 const {sub_title, title, description}  = service_content
 

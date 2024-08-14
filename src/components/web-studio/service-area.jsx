@@ -77,7 +77,6 @@ const ServiceArea = ({style_service}) => {
                                     <Image src={item.img} alt="theme-pure" />
                                 </div>
                              )} 
-
                         </div>
                      </div>
                   </div>

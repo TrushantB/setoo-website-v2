@@ -49,7 +49,7 @@ const ProductService = () => {
                                                 </div>
                                                 <div className="tp-service-five-content">
                                                     <h3 className="tp-service-five-title-sm">
-                                                        <Link href="/service-details"> {item.title}</Link>
+                                                        {item.title}
                                                     </h3>
                                                     <p>{item.description} </p>
                                                 </div>

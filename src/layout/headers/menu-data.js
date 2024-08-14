@@ -33,10 +33,10 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Insights",
-    link: "/",
+    link: "/blog",
     active: "active",
     sub_menus: [
-      { link: "/blog-list", title: "Blogs" }
+      { link: "/blog", title: "Blogs" }
     ],
   },
   {
@@ -44,7 +44,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: false,
     title: "Careers",
-    link: "/career",
+    link: "/careers",
     active: "",
   }
   // {
@@ -107,7 +107,7 @@ const menu_data = [
   //   active: "",
   //   sub_menus: [
   //     { link: "/blog", title: "Blog" },
-  //     { link: "/blog-list", title: "Blog List" },
+  //     { link: "/blog", title: "Blog List" },
   //     { link: "/blog-details", title: "Blog Details" },
   //     { link: "/blog-details-2", title: "Blog Details 02" },
   //   ],

@@ -22,6 +22,9 @@
         }
     }
 
+    &-pin {
+        top: 7rem;
+    }
     &-title-box {
         & span {
             font-weight: 600;
@@ -149,7 +152,7 @@
             font-weight: 400;
             font-size: 15px;
             line-height: 14px;
-            color: #5F6168;
+            color: var(--tp-grey-2);
         }
     }
 }

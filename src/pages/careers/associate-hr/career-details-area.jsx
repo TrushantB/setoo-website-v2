@@ -6,70 +6,159 @@ import React,{useState} from 'react';
 
 
 const career_content ={
-    sub_title: "Developer",
-    title: "Senior Frontend Developer",
+    sub_title: "HR",
+    title: "Associate HR",
     job_post_details: [
         {
             id: 1, 
             cls: "mb-45",
             title: "Job Responsibilities",
-            description: <>There are many variations of passages of Lorem Ipsum available, but the majority have
-            suffered alteration in some form, by injected humour, or randomised words which don't
-            look even slightly believable. If you are going to use a passage
-            of Lorem Ipsum,anything embarrassing hidden.</>, 
+            description: <>Associate HR will play a pivotal role in shaping and executing the 
+          company's human resources strategies and policies. This role requires a proactive and 
+          strategic thinker who can manage all aspects of HR, including talent acquisition, 
+          employee relations, performance management, compliance, organizational development, 
+          and culture enhancement.</>, 
         },
         {
             id: 2, 
             cls: "mb-45",
-            title: "Job Requirements",
-            description: <>There are many variations of passages of Lorem Ipsum available, but the
-            majority have suffered alteration in some form, by injected humour, or randomised words
-            which don't look even slightly believable. If you are going to use a passage
-            of Lorem Ipsum,anything embarrassing hidden.</>,
+            title: "Key Responsibilities",
+            description: <></>,
             experiences: [
-                <>5+ years experience in backend engineering, <br />
-                ideally in Python or Node</>,
-                <>Experience building and operating backend <br />
-                distributed systems</>,
-                <>Experience designing serverless architectures <br />
-                on AWS infrastructure</>, 
+               <><strong>Strategic HR Management:</strong> 
+                  <ul><li>Develop and implement HR strategies
+                   and initiatives aligned with the overall business strategy.</li>
+                  <li>Partner with senior management to provide strategic HR guidance and support.</li>
+                  <li>Lead HR projects and initiatives to drive organizational effectiveness and
+                      efficiency.</li>
+                   </ul> </>,
+                  <><strong>Recruitment and Onboarding:</strong>
+                     <ul>
+                        <li>Lead the recruitment process, including drafting JD, job posting, screening, 
+                           interviewing, and hiring for various positions.</li>
+                        <li>Develop and implement effective onboarding programs to ensure a smooth integration of new hires.</li>
+                     </ul>
+                  </>,
+               <><strong>Employee Relations:</strong>
+                  <ul>
+                     <li>Act as a point of contact for employee queries and concerns.</li>
+                     <li>Manage employee relations issues, conducting investigations and resolving
+                        conflicts as necessary.</li>
+                     <li>Foster a positive work environment and promote company culture and values.</li>
+                  </ul>
+               </>,
+               <><strong>Performance Management:</strong>
+                  <ul>
+                     <li>Assist in the development and implementation of performance 
+                        management systems.</li>
+                     <li>Provide guidance and support to managers and employees on 
+                        performance-related issues.</li>
+                     <li>Conduct performance reviews and provide feedback to employees.</li>
+                  </ul>
+               </>,
+               <><strong>Compliance and Policies:</strong>
+                  <ul>
+                     <li>Ensure HR practices comply with all applicable employment laws and regulations.</li>
+                     <li>Maintain and update HR policies and procedures as needed.</li>
+                     <li>Conduct regular audits to ensure compliance with company policies 
+                        and legal requirements.</li>
+                  </ul>
+               </>,
+               <><strong>Organizational Development:</strong>
+                  <ul>
+                     <li>Support organizational change initiatives and promote a culture of continuous improvement.</li>
+                     <li>Develop and implement strategies for talent management, succession planning, and workforce planning.</li>
+                     <li>Lead initiatives to enhance organizational culture and employee experience.</li>
+                  </ul>
+               </>,
+               <><strong>HR Metrics and Reporting:</strong>
+                  <ul>
+                     <li>Develop and maintain HR metrics to track and analyze key performance indicators</li>
+                     <li>Prepare and present HR reports to senior management, highlighting trends
+                        and areas for improvement.</li>
+                     <li>Use data-driven insights to inform HR strategies and decisions.</li>
+                  </ul>
+               </>,
+               <><strong>Employee Engagement and Culture:</strong>
+                  <ul>
+                     <li>Develop and implement programs to enhance employee engagement and foster 
+                        a positive workplace culture.</li>
+                     <li>Plan and execute employee events and recognition programs to boost morale
+                        and team spirit.</li>
+                     <li>Promote diversity, equity, and inclusion within the organization.</li>
+                  </ul>
+               </>,
+               <><strong>Training and Development:</strong>
+                  <ul>
+                     <li>Oversee the development and implementation of training programs
+                        to enhance employee skills and knowledge.</li>
+                     <li>Identify leadership development opportunities and create programs
+                        to cultivate future leaders.</li>
+                     <li>Monitor and evaluate the effectiveness of training programs and make
+                        necessary adjustments.</li>
+                  </ul>
+               </>,
+               <><strong>HR Projects and Initiatives:</strong>
+                  <ul>
+                     <li>Lead or participate in HR projects and initiatives to improve processes
+                        and employee experience.</li>
+                     <li>Collaborate with cross-functional teams to implement HR strategies aligned with business objectives</li>
+                     <li>Monitor and evaluate the effectiveness of training programs and make
+                        necessary adjustments.</li>
+                  </ul>
+               </>,
+               <><strong>Attendance Calculation:</strong>
+                  <ul>
+                     <li>Oversee the attendance tracking system to ensure accurate recording
+                        and reporting of employee attendance.</li>
+                     <li>Develop and implement attendance policies and procedures to
+                        promote punctuality and minimize absenteeism.</li>
+                     <li>Address attendance issues promptly and take corrective actions
+                        when necessary.</li>
+                  </ul>
+               </>,
+               <><strong>Effective Use of HR Tools:</strong>
+                  <ul>
+                     <li>Utilize HR tools and software (e.g., HRIS, ATS) to streamline HR
+                        processes and improve efficiency.</li>
+                     <li>Train and support staff in the effective use of HR tools.</li>
+                     <li>Continuously evaluate and recommend improvements to HR technology and systems.</li>
+                  </ul>
+               </>,
             ],
         },
         {
             id: 3, 
             cls: "mb-45",
-            title: "Our Benefits",
-            description: <>Now, the paradigm has shifted. The question is not why you should include
-            a content marketing strategy.</>,
+            title: "Why Join Us",
+            description: <></>,
             experiences: [
-                <>Flexible hours</>,
-                <>Unlimited PTO</>,
-                <>Medical insurance</>,
-                <>Career growth</>,
+               <>Opportunity to work with a talented and dedicated team in a dynamic and innovative environment.</>,
+               <>Competitive salary and benefits package</>,
+               <>Career growth and development opportunities</>,
+               <>Flexible work hours</>,
+               <>Wellness programs and initiatives</>,
+               <>Inclusive and diverse workplace culture</>,
             ],
         },
         {
             id: 4, 
-            cls: "mb-20",
-            title: "Job Requirements",
-            description: <>There are many variations of passages of Lorem Ipsum available, but the
-            majority have suffered alteration in some form, by injected humour, or randomised words
-            which don't look even slightly believable. If you are going to use a passage
-            of Lorem Ipsum,anything embarrassing hidden.</>,
-            experiences: [
-                <>Experience building software and systems that balance <br /> simplicity,
-                flexibility, and security.</>,
-                <>Track record with a smart contract language <br /> such as Solidity</>,
-                <>A customer-focused and product-focused mindset.</>,
-                
-
-            ],
-        },
-        {
-            id: 5, 
             cls: "",
             title: "Education & Experience",
-            description: <>TBachelors Degree in Interaction, Graphic Design, Media Arts or similar.</>, 
+           description: <></>, 
+           experiences: [
+              <>Bachelor's degree in Human Resources, Business Administration,
+                 or a related field. Any certification is a plus.</>,
+              <>Minimum of 2 to 5  years of experience in HR, preferably in the IT industry.</>,
+              <>Strong knowledge of HR best practices, employment laws, and regulations.</>,
+              <>Excellent communication, interpersonal, and leadership skills.</>,
+              <>Proven ability to manage multiple priorities and meet deadlines in a fast-paced
+              environment.</>,
+              <>Experience with HR software and systems (e.g., HRIS, ATS , GreytHR).</>,
+              <>Demonstrated ability to think strategically and implement HR initiatives
+              that align with business goals.</>,
+              <>Strong problem-solving and decision-making skills.</>
+           ]
         },
 
     ]
@@ -88,7 +177,7 @@ const CareerDetailsArea = () => {
         <>
             <div className="career-details-area career-border-bottom pt-110 pb-110">
                <div className="container">
-                  <div className="row align-content-start">
+                  <div className="row align-items-start">
                      <div className="col-xl-7 col-lg-7">
                         <div className="career-details-wrapper">
                            <div className="career-details-title-box">
@@ -98,13 +187,13 @@ const CareerDetailsArea = () => {
                            <div className="career-details-location-box">
                               <span> 
                                  <LocationIconThree />
-                                 London, UK
+                                 Pune, IND
                               </span>
                               <span> 
                                  <ClockIcon />
                                  Full-time
                               </span>
-                              <span>Senior</span>
+                              <span>Experience: 2 to 5 years</span>
                            </div>
                            {job_post_details.map((item, i)  => 
                               <div key={i} className={`career-details-job-responsiblity ${item.cls}`}>
@@ -127,7 +216,7 @@ const CareerDetailsArea = () => {
                            } 
                         </div>
                      </div>
-                     <div className="col-xl-5 col-lg-5 career-details-pin">
+                     <div className="col-xl-5 col-lg-5 career-details-pin sticky-top">
                         <div className="col-xxl-12">
                            <div className="postbox__apply-btn-border">
                               <div id="my-btn" className="postbox__apply-btn-box">
@@ -143,7 +232,7 @@ const CareerDetailsArea = () => {
                         
                            <div className="career-details-apply-info-box pb-10">
                               <div className="career-details-profile-box pb-20">
-                                 <h4 className="career-details-title-xs text-white">Profile</h4>
+                                 <h4 className="career-details-title-sm text-white">Profile</h4>
                                  <p>Basic information about you</p>
                               </div>
                               <div className="postbox__comment-form">
@@ -180,7 +269,7 @@ const CareerDetailsArea = () => {
 
                            <div className="career-details-apply-info-box">
                               <div className="career-details-profile-box pb-20">
-                                 <h4 className="career-details-title-xs">Application Details</h4>
+                                 <h4 className="career-details-title-sm text-white">Application Details</h4>
                                  <p>Summarize your relevant experience</p>
                               </div>
                               <div className="postbox__comment-form">
@@ -198,7 +287,7 @@ const CareerDetailsArea = () => {
                                              <span className="floating-label">Personal website</span>
                                           </div>
                                        </div>
-                                       <div className="col-12">
+                                       {/* <div className="col-12">
                                           <div className="postbox__select mb-30"> 
                                              <NiceSelect
                                              options={[
@@ -213,7 +302,7 @@ const CareerDetailsArea = () => {
                                              onChange={selectHandler}
                                              />
                                           </div>
-                                       </div>
+                                       </div> */}
                                        <div className="col-12">
                                           <div className="postbox__comment-input mb-35">
                                              <input type="text" className="inputText" required />
@@ -223,9 +312,9 @@ const CareerDetailsArea = () => {
                                     </div>
                                  </form>
                               </div>
-                              <div className="col-xxl-12">
+                              {/* <div className="col-xxl-12">
                                  <div className="postbox__authorization-title-box">
-                                    <h5 className="career-details-title-xs pb-15">US work authorization<span>*</span></h5>
+                                    <h5 className="career-details-title-sm pb-15 text-white">US work authorization<span>*</span></h5>
                                  </div>
                                  <div className="postbox__authorization p-relative">
                                     <div className="switcher mb-15">
@@ -247,7 +336,7 @@ const CareerDetailsArea = () => {
                                        </label>
                                     </div>
                                  </div>
-                              </div>
+                              </div> */}
                               <div className="col-xxl-12">
                                  <div className="postbox__comment-input mb-30">
                                     <textarea className="textareaText" required ></textarea>
@@ -278,17 +367,17 @@ const CareerDetailsArea = () => {
                         }
                         <div className="col-xxl-12">
                            <div className="career-details-social-box mb-20">
-                              <Link className="facebook" href="#"><i className="fab fa-facebook-f"></i></Link>
-                              <Link className="twitter" href="#"><i className="fab fa-twitter"></i></Link>
-                              <Link className="instagram p-relative" href="#">
+                            <Link className="instagram p-relative" href="https://www.instagram.com/setooists/">
                                  <div className="insta-bg"></div>
                                  <i className="fab fa-instagram"></i>
                               </Link>
-                              <Link className="linkedin" href="#"><i className="fab fa-linkedin-in"></i></Link>
+                              <Link className="linkedin" href="https://www.linkedin.com/company/setoos">
+                                 <i className="fab fa-linkedin-in"></i>
+                              </Link>
                            </div>
-                           <div className="career-details-bottom-text text-center">
+                           {/* <div className="career-details-bottom-text text-center">
                               <Link href="#">Employee at Setoo?</Link>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                   </div>

@@ -14,8 +14,8 @@ import brand_img_8 from "./../../../public/assets/img/clients/shoptimize-logo.we
 import brand_img_9 from "./../../../public/assets/img/clients/vedaearth-logo.webp"
 
 const brand_content = {
-    titel: "Trusted by Thousands Business",
-    description: <>More than 100,000+ teams are using Setoo</>,
+    titel: "Meet Our Happy Clients",
+    description: <>Bridging the innovation with exceptional quality!</>,
     
     brand_img: [
         {img: brand_img_1, delay: ".2s"},
