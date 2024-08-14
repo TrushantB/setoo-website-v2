@@ -20,7 +20,7 @@ const Ai = () => {
         <div id="smooth-content">
           <main>
             <HeroArea />
-            <ServiceArea style_service={true} />
+            {/* <ServiceArea style_service={true} /> */}
             <Aiservice/>
             <Capabilities/>
             <TechStack />
