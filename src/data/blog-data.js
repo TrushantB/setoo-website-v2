@@ -14,63 +14,97 @@ const blog_data = [
     {
         id: 1, 
         img: img_1,
-        category: "Crm Software",
+        category: "Design",
         color: "1",
-        date: "28 April, 2023",
-        title: <>How Chatbots Can Help You <br /> Drive More Sales</>,
+        date: "3 August, 2023",
+        title: <>6 UI/UX Design Principles: <br/>Everyone Should Know</>,
         author_img: author_img_1,
-        author_name: "Hilary Ouse",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Kumudini K",
+        job_title: "Content Writer"
     },
     {
         id: 2, 
         img: img_2,
-        category: "Sales Tools",
+        category: "Design",
         color: "2",
-        date: "28 April, 2023",
-        title: <>6 Tips for Personal Selling that Guarantee Success in 2023</>,
+        date: "5 September, 2023",
+        title: <>Why should you invest in website redesign?</>,
         author_img: author_img_2,
-        author_name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Kumudini K",
+        job_title: "Content Writer"
     },
     {
         id: 3, 
         img: img_3,
-        category: "Sales Management",
+        category: "Development",
         color: "3",
-        date: "28 April, 2023",
-        title: <>How Chatbots Can Help You <br /> Drive More Sales</>,
+        date: "26 September, 2023",
+        title: <>7 Most effective React libraries <br />for effortless data visualisation</>,
         author_img: author_img_3,
-        author_name: "Penny Tool",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Kumudini K",
+        job_title: "Content Writer"
     },
 
     // home 04
     {
         id: 4, 
         img: img_4,
-        category: "Blog",
+        category: "Product Development",
         color: "",
-        date: "10 min",
-        title: <>Building for the real world</>,
-        description: <>How friends from college went on to build one powerful
-        platform (hint: it was ours).</>,
+        date: "1 November, 2023",
+        title: <>What is MVP App and How It Drives Business Growth!</>,
+        description: <>MVP stands for Minimum viable product in the context of application development.</>,
         author_img: author_img_3,
-        author_name: "Penny Tool",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Kumudini K",
+        job_title: "Content Writer"
     },
     {
         id: 5, 
         img: img_5,
-        category: "Blog",
+        category: "AI",
         color: "",
         date: "24 min",
-        title: <>High Returns on Investment</>,
-        description: <>How friends from college went on to build one powerful
-        platform (hint: it was ours).</>,
+        title: <>Unlock the Power of Conversational AI for your Business!</>,
+        description: <>Conversational AI is generating quite a buzz in the tech world lately.</>,
         author_img: author_img_3,
-        author_name: "Penny Tool",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Aditi Jain",
+        job_title: "Content Writer"
+    },
+    {
+        id: 6, 
+        img: img_6,
+        category: "AI",
+        color: "",
+        date: "24 min",
+        title: <>Revolutionizing HR Management with Conversational AI in Modern Businesses and Industries</>,
+        description: <>Over the years AI has been part of our lives be it professionally and personally.</>,
+        author_img: author_img_3,
+        author_name: "Aditi Jain",
+        job_title: "Content Writer"
+    },
+    {
+        id: 7, 
+        img: img_7,
+        category: "AI",
+        color: "",
+        date: "24 min",
+        title: <>Exploring How Conversational AI is Changing The Healthcare Industry</>,
+        description: <>ConversationalAI is the trending technology in the digital world which enables machines to understand</>,
+        author_img: author_img_3,
+        author_name: "Aditi Jain",
+        job_title: "Content Writer"
+    },
+    {
+        id: 8, 
+        img: img_8,
+        category: "AI",
+        color: "",
+        date: "24 min",
+        title: <>6 Top Industries Revolutionized by Conversational AI</>,
+        description: <>Conversational AI is changing our way of communication. With the invention of new technologies</>,
+        author_img: author_img_3,
+        author_name: "Aditi Jain",
+        job_title: "Content Writer"
     },
 
     // anything here
