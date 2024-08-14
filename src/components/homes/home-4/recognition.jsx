@@ -11,7 +11,7 @@ import brand_img_5 from "../../../../public/assets/img/recognition/duns-logo.png
 import Link from 'next/link';
 
 const recognition_content = {
-    titel: "We are proud of the recognition by",
+    title: "We are proudly recognised by",
     
     recognition_img: [
         {img: brand_img_1, delay: ".2s", href: ""},
@@ -22,7 +22,7 @@ const recognition_content = {
 
     ]
 }
-const {titel, recognition_img}  = recognition_content 
+const {title, recognition_img}  = recognition_content 
 
 
 const Recognition = () => {
@@ -34,13 +34,13 @@ const Recognition = () => {
               <div className="row">
                 <div className="col-12">
                   <div className="ab-brand-section-box text-center mb-50">
-                    <h4 className="ab-brand-title">{titel}</h4>
+                    <h4 className="ab-brand-title">{title}</h4>
                   </div>
                 </div>
               </div>
               <div className="row justify-content-center">
                 <div className="col-xl-10">
-                  <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 justify-content-center">
+                  <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 justify-content-center row-gap-3">
                     {recognition_img.map((item, i) => (
                       <div
                         key={i}

@@ -15,9 +15,9 @@ import footer_logo from "../../../public/assets/img/logo/logo-white.svg";
 const footer_content = {
    sub_title: "SUBSCRIBE TO OUR NEWSLETTER",
    policy_text: <>By subscribing, you accepted the our Policy</>,
-   phone: "+91 204 675 0640",
+   phone: "+91 2046 750 640",
    contact_mail: "hello@setoo.co",
-   location: "Swar Vishwa, Ekdant Dutta Mandir Rd, Aundh Pune 411007",
+   location: "Aundh, Pune, MH, India",
 
    footer_lisks: [
       { name: "AI", link: "/ai" },
@@ -57,7 +57,7 @@ const FooterFour = () => {
                               <h3 className="footer-subtitle-3">{sub_title}</h3>
                               <div className="tp-footer__input mb-15 p-relative">
                                  <form onSubmit={(e) => e.preventDefault()}>
-                                    <input type="text" placeholder="Business email adress" required />
+                                    <input type="text" placeholder="email address" required />
                                     <span>
                                        <EmailIcon />
                                     </span>

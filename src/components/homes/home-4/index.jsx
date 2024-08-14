@@ -12,6 +12,7 @@ import ServiceArea from "./service-area";
 import TestimonialArea from "../home-3/testimonial-area";
 import Recognition from "./recognition";
 import WorkArea from "./work-area";
+import FaqArea from "./faq-area";
 
 const HomeFour = () => {
   return (
@@ -29,6 +30,7 @@ const HomeFour = () => {
             <TestimonialArea />
             <SecurityArea />
             <BlogArea />
+            <FaqArea />
             <Recognition />
             <ContactArea />
           </main>

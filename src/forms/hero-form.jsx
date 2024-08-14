@@ -6,7 +6,7 @@ const HeroForm = () => {
     <>
       <form onSubmit={(e) => e.preventDefault()}>
         <div className="p-relative">
-          <input type="text" placeholder="Business email adress" />
+          <input type="text" placeholder="email address" />
          {/* email icon */}
          <EmailIcon />
         </div>
