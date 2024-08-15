@@ -410,6 +410,10 @@
 }
 .pd-details-overview{
     padding-bottom: 50px;
+    & span{
+        display: inline-block;
+        margin-block-end: 1rem;
+    }
     & ul{
         padding-bottom: 40px;
         & li{

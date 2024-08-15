@@ -24,7 +24,7 @@ const WebStudio = () => {
             <WebStudioServices />
             <CaseStudies/>
             <TechStack />
-            <BlogArea />
+            {/* <BlogArea /> */}
             <FaqArea style_service={true} />
             <CtaArea />
           </main>

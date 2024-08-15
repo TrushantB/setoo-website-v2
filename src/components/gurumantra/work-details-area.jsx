@@ -30,8 +30,8 @@ const project_details_data = [
         cls: "overview", 
         title: "Solutions",
        description: <>
-         <p>After discussion, team worked from scratch - design to MVP app development.
-            The solution we provided include - </p>
+         After discussion, team worked from scratch - design to MVP app development.
+         The solution we provided include -
          </>,
         feture_list: [
            <>Interactive quiz app with engaging learning resources.</>,
@@ -47,9 +47,9 @@ const project_details_data = [
 
 const work_details_content = { 
     solution_title: "Result",
-   des_1: <><p>Our commitment to creating a cutting-edge learning platform has yielded significant
+   des_1: <>Our commitment to creating a cutting-edge learning platform has yielded significant
       improvements. We invite you to witness the astounding results for yourself.
-      Experience the power of the Gurumantra Quiz Application by visiting our website.</p></>,
+      Experience the power of the Gurumantra Quiz Application by visiting our website.</>,
    des_2: <>Your journey to an enhanced learning experience begins here.</>,
 }
 const {solution_title, des_1, des_2 }  = work_details_content;

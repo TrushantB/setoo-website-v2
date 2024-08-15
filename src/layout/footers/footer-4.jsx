@@ -25,7 +25,7 @@ const footer_content = {
       { name: "Product Development", link: "/product-development" },
       { name: "Careers", link: "/careers" },
       { name: "Web Studio", link: "/web-studio" },
-      { name: "Blogs", link: "/blog" },
+      // { name: "Blogs", link: "/blog" },
       { name: "DevOps", link: "/devops" },
       { name: "Contact", link: "/contact" },
       { name: "Remote Sourcing", link: "/remote-sourcing" },
@@ -54,7 +54,8 @@ const FooterFour = () => {
                                     <Image src={footer_logo} alt="theme-pure" />
                                  </Link>
                               </div>
-                              <h3 className="footer-subtitle-3">{sub_title}</h3>
+                              <p className='h5'>Bridging the gap between ideas and products.</p>
+                              {/* <h3 className="footer-subtitle-3">{sub_title}</h3>
                               <div className="tp-footer__input mb-15 p-relative">
                                  <form onSubmit={(e) => e.preventDefault()}>
                                     <input type="text" placeholder="email address" required />
@@ -66,7 +67,7 @@ const FooterFour = () => {
                                     </button>
                                  </form>
                               </div>
-                              <p>{policy_text}</p>
+                              <p>{policy_text}</p> */}
                               <div className="tp-team-social">
                                  <SocialLinksTwo />
                               </div>
@@ -89,10 +90,10 @@ const FooterFour = () => {
                               <h4 className="tp-footer__widget-title">Contact Info</h4>
                               <div className="tp-contact-info-box">
                                  <ul>
-                                    <li>
+                                    {/* <li>
                                        <PhoneThree />
                                        <Link href={`tel:${phone}`}>{phone}</Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                        <EmailThree />
                                        <Link href={`mailto:${email}`}>{email}</Link>
