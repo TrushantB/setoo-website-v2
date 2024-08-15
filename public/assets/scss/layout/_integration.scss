@@ -57,6 +57,12 @@
             height: 4rem;
             fill: var(--tp-common-white);
         }
+        @media #{$xs}{
+            svg{
+                width: 2.75rem;
+                height: 2.75rem;
+            }
+        }
     }
     &-slider-main{ 
         &.slick-slide{

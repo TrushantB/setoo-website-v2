@@ -91,7 +91,7 @@ const ProcessArea = () => {
                 <div className="journey-section-box">
                   <h5 className="inner-section-subtitle pb-10">Process</h5>
                   <h3 className="ab-brand-title pb-0 mb-0">
-                    Staff Augmentation Process
+                    Steps to Hire Remote Professionals
                   </h3>
                 </div>
               </div>

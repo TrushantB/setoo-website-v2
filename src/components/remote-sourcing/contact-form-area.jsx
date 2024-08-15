@@ -1,4 +1,4 @@
-import ContactUsForm from '@/forms/contact-us-form';
+import ContactUsForm from './contact-us-form';
 import SendIcon from '@/svg/send-icon';
 import Link from 'next/link';
 import React from 'react';

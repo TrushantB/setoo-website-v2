@@ -1,6 +1,5 @@
 import { useIsomorphicLayoutEffect } from '@/hooks/useIsomorphicEffect';
 import useTitleAnimation from '@/hooks/useTitleAnimation';
-import Brwoser from '@/common/brwoser';
 import BounceLine from '@/svg/bounce-line';
 import gsap from 'gsap';
 import Image from 'next/image';
@@ -60,9 +59,9 @@ const HeroArea = () => {
                            <b></b>
                         </Link> */}
                      </div>
-                     <div className="tp-hero-browser-wrapper d-flex align-items-center justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                     {/* <div className="tp-hero-browser-wrapper d-flex align-items-center justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                         <Brwoser />
-                     </div>
+                     </div> */}
                      {/* <div className="tp-hero-3-wrapper p-relative">
                         <div className="tp-hero-3-border-wrap d-none d-md-block">
                            <span className="redius-shape-1"></span>

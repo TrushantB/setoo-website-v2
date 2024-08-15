@@ -9,6 +9,7 @@ import BlogArea from "./blog-area";
 import FaqArea from "./faq-area";
 import BrandArea from "./brand-area";
 import CtaArea from "./cta-area";
+import TechStack from "./techstack";
 
 const WebStudio = () => {
   return (
@@ -22,6 +23,7 @@ const WebStudio = () => {
             {/* <ServiceArea /> */}
             <WebStudioServices />
             <CaseStudies/>
+            <TechStack />
             <BlogArea />
             <FaqArea style_service={true} />
             <CtaArea />

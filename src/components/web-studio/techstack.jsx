@@ -1,15 +1,15 @@
-import AwsIcon from '@/svg/ai/aws-logo';
-import CiCdIcon from '@/svg/tech-stack/ci-cd-icon';
-import DockerIcon from '@/svg/tech-stack/docker-icon';
-import ElkIcon from '@/svg/tech-stack/elk-icon';
-import TerraFormIcon from '@/svg/tech-stack/terraform-icon';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Slider from 'react-slick';
+import PyTorch from '@/svg/ai/pytorch';
 
 // slider img import here
-
+import WordpressIcon from '@/svg/tech-stack/wordpress-icon';
+import ShopifyIcon from '@/svg/tech-stack/shopify-icon';
+import JamstackIcon from '@/svg/tech-stack/jamstack-icon';
+import TailwindIcon from '@/svg/tech-stack/tailwind-icon';
+import SassIcon from '@/svg/tech-stack/sass-icon';
 
 const integration_content ={
     sub_title: "Technologies",
@@ -22,11 +22,11 @@ const {sub_title, title, int_title, btn_text, bg_img}  = integration_content
 
 
 const slider_one_data = [
-    <AwsIcon />,
-    <ElkIcon />,
-    <CiCdIcon />,
-    <DockerIcon />,
-    <TerraFormIcon />
+    <WordpressIcon />,
+    <ShopifyIcon />,
+    <JamstackIcon />,
+    <TailwindIcon />,
+    <SassIcon />
     
 ]
 const slider_two_data = [
@@ -118,7 +118,7 @@ const setting_two = {
 const TechStack = ({style_integraton}) => {
     return (
         <>
-            <div className="tp-integration-area pb-90 pt-90 tp-integration-mlr">
+            <div className="tp-integration-area pt-60 pb-60 tp-integration-mlr">
                <div className="container">
                   <div className="row align-items-end tp-integration-section-space">
                      <div className="col-xl-6 col-lg-8 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
