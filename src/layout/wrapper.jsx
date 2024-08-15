@@ -5,9 +5,11 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 // internal
 import ScrollToTop from "@/hooks/scroll-to-top";
-import { animationCreate } from "../../utils/utils"; 
+import { animationCreate } from "../../utils/utils";
+import SEO from "@/common/seo";
 
-const Wrapper = ({ children }) => {
+
+const Wrapper = ({ children, seo = {} }) => {
   useEffect(() => {
     // animation
     setTimeout(() => {
@@ -17,6 +19,7 @@ const Wrapper = ({ children }) => {
 
   return (
     <>
+      <SEO seo={seo} />
       {children}
       <ScrollToTop />
     </>

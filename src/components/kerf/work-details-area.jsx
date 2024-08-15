@@ -13,12 +13,12 @@ const project_details_data = [
         id: 1,
         cls: "overview", 
         title: "Customer Challenge",        
-      description: <><p>KERF is a furniture firm, it was previously an offline business.
+      description: <><span>KERF is a furniture firm, it was previously an offline business.
          Because of the tremendous buzz around online shopping in the decade that followed,
-         businesses have had to find ways to adapt to the changing conditions of the business.</p>
-         <p>With this rise in business, Kerf required a brand-new website that would speak for 
-            itself to buyers throughout the world.</p>
-         <p>The challenges faced was - </p>
+         businesses have had to find ways to adapt to the changing conditions of the business.</span>
+         <span>With this rise in business, Kerf required a brand-new website that would speak for 
+            itself to buyers throughout the world.</span>
+         <span> The challenges faced was - </span>
          </>,
          feture_list: [
             <>Expansion of business online</>,
@@ -33,39 +33,39 @@ const project_details_data = [
         id: 2,
         cls: "overview", 
         title: "Solutions",
-       description: <><p>Based on the business requirement from KERF, we knew the sure shot
-         solution and that was establishing an e-commerce platform for them.</p>
-            <p>We Provided:</p>
+       description: <><span>Based on the business requirement from KERF, we knew the sure shot
+         solution and that was establishing an e-commerce platform for them.</span>
+            <span>We Provided:</span>
          </>,
         feture_list: [
             <>
               <strong>Strategy solution:</strong>
-              <p>
+              <span>
                  As the client was unaware of online store and it's process, we helped them
                  understand the concept with working and its impact on business.
-              </p>
+              </span>
             </>,
             <>
                <strong>From scratch design:</strong>
-               <p>Our team then worked on UX research around e-commerce website design. 
+               <span>Our team then worked on UX research around e-commerce website design. 
                   We designed a modern and responsive website with a clean and intuitive interface,
-                  mobile optimization, and a streamlined checkout process.</p>
-               <p>A focus on high-quality product images and clear product descriptions improved
+                  mobile optimization, and a streamlined checkout process.</span>
+               <span>A focus on high-quality product images and clear product descriptions improved
                   the user experience.
-               </p>
+               </span>
             </>,
             <>
                <strong>SEO and marketing:</strong>
-               <p>KERF website is all well equipped with SEO best practices, ensuring optimized
+               <span>KERF website is all well equipped with SEO best practices, ensuring optimized
                   product descriptions, metadata, and an XML sitemap for search engines.
                   We integrated social media sharing options and email marketing tools.
-               </p>
+               </span>
             </>,
             <>
                <strong>Payment integrations:</strong>
-               <p>For online purchasing, the payment gateways were integrated and ensured
+               <span>For online purchasing, the payment gateways were integrated and ensured
                   the secure online transactions.
-               </p>
+               </span>
             </>,
         ],
     },
@@ -73,9 +73,8 @@ const project_details_data = [
 
 const work_details_content = { 
     solution_title: "Result",
-   des_1: <><p>The KERF website project met the client's expectations of building online
+   des_1: <>The KERF website project met the client's expectations of building online
       presence and fostering brand recognition to potential customers.
-      </p>
       </>,
     des_2: <></>,
 }

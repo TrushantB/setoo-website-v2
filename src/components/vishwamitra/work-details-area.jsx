@@ -18,33 +18,33 @@ const project_details_data = [
          feture_list: [
             <>
                <strong>Fragmented Volunteer Opportunities:</strong>
-               <p>The fragmentation of volunteer opportunities was one of the issues that 
+               <span>The fragmentation of volunteer opportunities was one of the issues that 
                   VishwaMitra set out to solve. Before the app, those who were interested in 
                   volunteering frequently had to go through different sources to identify chances
                   that matched their interests and capabilities. This took a lot of time, which can
-                  put off potential volunteers.</p>
+                  put off potential volunteers.</span>
             </>,
             <>
                <strong>Fragmented Volunteer Opportunities:</strong>
-               <p>Connecting enthusiastic volunteers with nonprofit organizations was often a 
+               <span>Connecting enthusiastic volunteers with nonprofit organizations was often a 
                   cumbersome and inefficient process. The team likely encountered difficulties
                   in creating meaningful connections due to the absence of a centralized platform
-               </p>
+               </span>
             </>,
             <>
                <strong>Limited Visibility:</strong>
-               <p>Many potential volunteers were unaware of the diverse range of opportunities
+               <span>Many potential volunteers were unaware of the diverse range of opportunities
                   available. VishwaMitra likely recognized that raising awareness about different
                   volunteer roles and their potential impact was crucial to attracting a broader
                   volunteer base.
-               </p>
+               </span>
             </>,
             <>
                <strong>Tracking and Engagement:</strong>
-               <p>Without a dedicated system, tracking volunteer hours, contributions, and impact
+               <span>Without a dedicated system, tracking volunteer hours, contributions, and impact
                   was challenging. Engaging with organizations and fellow volunteers for inquiries
                   and discussions likely required multiple channels and was not streamlined.
-               </p>
+               </span>
             </>,            
          ],
     },
@@ -52,65 +52,65 @@ const project_details_data = [
         id: 2,
         cls: "overview", 
         title: "Solutions",
-        description: <><p>We build Vishwamitra - app that is gateway to uniting volunteers and charitable organizations.</p>
-         <h5>Benefits of this platform:</h5> </>,
+        description: <><span>We build Vishwamitra - app that is gateway to uniting volunteers and charitable organizations.</span>
+         <span className='h5 mb-0 fw-medium'>Benefits of this platform:</span> </>,
         feture_list: [
             <>
               <strong>User-Friendly Mobile App:</strong>
-              <p>A user-friendly mobile app that streamlines the registration process, allowing 
+              <span>A user-friendly mobile app that streamlines the registration process, allowing 
                users to set up profiles quickly and easily. This would reduce barriers to entry
                for potential volunteers.
-               </p>
+              </span>
             </>,
            <>
               <strong>Seamless Registration:</strong>
-              <p>Joining the VishwaMitra community is quick and easy! Set up your profile in 
+              <span>Joining the VishwaMitra community is quick and easy! Set up your profile in 
                minutes, highlighting your interests, skills, and availability.
-              </p>
+              </span>
            </>,
            <>
               <strong>Explore Opportunities:</strong>
-              <p>Dive into a diverse array of volunteer roles posted by social organizations.
+              <span>Dive into a diverse array of volunteer roles posted by social organizations.
                Whether it's teaching, mentoring, environmental work, or something unique, you'll
                find the perfect match.
-              </p>
+              </span>
            </>,
            <>
               <strong>Direct Interaction:</strong>
-              <p>Engage directly with organizations using our in-app messaging system. Clarify queries,
+              <span>Engage directly with organizations using our in-app messaging system. Clarify queries,
                gather information, and make informed decisions.
-              </p>
+              </span>
            </>,
            <>
               <strong>Tailored Recommendations:</strong>
-              <p>Our intelligent algorithm suggests opportunities that align with your profile,
+              <span>Our intelligent algorithm suggests opportunities that align with your profile,
                ensuring that your volunteer experience is both fulfilling and aligned with your
                interests and strengths.
-              </p>
+              </span>
            </>,
            <>
               <strong>Track your impact:</strong>
-              <p>Monitor your volunteer hours and the positive change you've contributed.
+              <span>Monitor your volunteer hours and the positive change you've contributed.
                Share your accomplishments with friends and family, inspiring others to follow suit.
-              </p>
+              </span>
            </>,
            <>
               <strong>Community Network</strong>
-              <p>Join a vibrant community of volunteers who share insights, stories, and guidance.
+              <span>Join a vibrant community of volunteers who share insights, stories, and guidance.
                Learn, connect, and grow together.
-              </p>
+              </span>
            </>,
         ],
     },
 ]
 
 const work_details_content = { 
-    solution_title: "Result",
-   des_1: <><p>The outcome was certainly desired. 
+   solution_title: "Result",
+   des_1: <><span>The outcome was certainly desired. 
       In order to grab more information about the tailored solution please find the link 
       below for your reference: 
          <Link href="https://vishwamitra.app/">https://vishwamitra.app/</Link>
-      </p>
+      </span>
       </>,
     des_2: <></>,
 }
@@ -181,7 +181,6 @@ const WorkDetailsArea = () => {
                                     <Image src={solution_3} alt="theme-pure" />
                                  </div>
                               </div>
-                              
                            </div>
                         </div>
                      </div>
