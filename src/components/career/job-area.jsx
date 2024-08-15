@@ -15,31 +15,33 @@ const job_data = {
             category: "Associate HR",
             job_time: "Full-time",
             job_location: "Pune, IND",
+            link: "careers/associate-hr"
         },
         {
             id:2, 
             category: "Machine Learning Developer",
             job_time: "Full-time",
             job_location: "Remote",
+            link: "careers/ml-developer"
         },
-       {
-          id: 3,
-          category: "UI Developer",
-          job_time: "Full-time",
-          job_location: "Pune, IND",
-       },
-       {
-          id: 4,
-          category: "Business Development Executive",
-          job_time: "Full-time",
-          job_location: "Pune, IND",
-       },
-       {
-          id: 5,
-          category: "QA Intern",
-          job_time: "Full-time",
-          job_location: "Pune, IND",
-       },
+      //  {
+      //     id: 3,
+      //     category: "UI Developer",
+      //     job_time: "Full-time",
+      //     job_location: "Pune, IND",
+      //  },
+      //  {
+      //     id: 4,
+      //     category: "Business Development Executive",
+      //     job_time: "Full-time",
+      //     job_location: "Pune, IND",
+      //  },
+      //  {
+      //     id: 5,
+      //     category: "QA Intern",
+      //     job_time: "Full-time",
+      //     job_location: "Pune, IND",
+      //  },
     ]
 
 }
@@ -64,7 +66,6 @@ const JobArea = ({style_carrer}) => {
                               <h4 className="inner-section-subtitle">{sub_title}</h4>
                               <h3 className="tp-section-title">{title}</h3>
                               </>
-
                            }
                         </div>
                      </div>
@@ -94,7 +95,7 @@ const JobArea = ({style_carrer}) => {
                         <div className=" col-lg-3 col-md-3">
                            <div className="job-post-apply-btn text-start text-md-end">
                               <Link className="tp-btn-inner tp-btn-hover alt-color-orange" 
-                              href="/career-details"><span>Apply</span> <b></b>
+                              href={item.link}><span>Apply</span> <b></b>
                               </Link>
                            </div>
                         </div>

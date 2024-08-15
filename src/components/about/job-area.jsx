@@ -15,12 +15,14 @@ const job_data = {
             category: "Associate HR",
             job_time: "Full-time",
             job_location: "Pune, IND",
+            link: "careers/associate-hr"
         },
         {
             id:2, 
             category: "Machine Learning Developer",
             job_time: "Full-time",
             job_location: "Remote",
+            link: "careers/ml-developer"
         },
     ]
 
@@ -76,7 +78,7 @@ const JobArea = ({style_carrer}) => {
                         <div className=" col-lg-3 col-md-3">
                            <div className="job-post-apply-btn text-start text-md-end">
                               <Link className="tp-btn-inner tp-btn-hover alt-color-orange" 
-                              href="/career-details"><span>Apply</span> <b></b>
+                              href={item.link}><span>Apply</span> <b></b>
                               </Link>
                            </div>
                         </div>

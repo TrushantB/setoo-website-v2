@@ -12,10 +12,10 @@ const job_data = {
     job_info: [
         {
             id:1, 
-            category: "Machine Learning Developer",
+            category: "Associate HR",
             job_time: "Full-time",
-            job_location: "Remote",
-            link: "./ml-developer"
+            job_location: "Pune, IND",
+            link: "/careers/associate-hr"
         },
     ]
 
@@ -41,7 +41,6 @@ const JobArea = ({style_carrer}) => {
                               <h4 className="inner-section-subtitle">{sub_title}</h4>
                               <h3 className="tp-section-title">{title}</h3>
                               </>
-
                            }
                         </div>
                      </div>
