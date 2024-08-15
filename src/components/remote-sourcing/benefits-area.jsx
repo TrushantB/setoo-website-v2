@@ -51,7 +51,7 @@ const BenefitsArea = () => {
                                     <p>{item.description}</p>
                                 </div>
                                 {/* <div className="tp-service__link">
-                                    <Link href="/service-details">
+                                    <Link href="/contact">
                                         <RightArrow /> 
                                     </Link>
                                 </div> */}

@@ -6,7 +6,7 @@ import WhatIsMvpApp from "@/components/what-is-mvp-app";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Setoo - Data analytics"} />
+      <SEO pageTitle={"Setoo - What is MVP?"} />
       <WhatIsMvpApp />
     </Wrapper>
   );

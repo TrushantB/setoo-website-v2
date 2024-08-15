@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 
-import sales_img_1 from "../../../public/assets/img/card/sale-1.png"
+import sales_img_1 from "../../../public/assets/img/service/product-development-benefits.png"
 import sales_img_2 from "../../../public/assets/img/card/sale-2.png"
 import sales_img_3 from "../../../public/assets/img/card/sale-3.png"
 
@@ -45,16 +45,16 @@ const benefit_content = {
             cls: "main-thumb",
             img: sales_img_1,
         },
-        {
-            id: 2,
-            cls: "sub-img-1",
-            img: sales_img_2,
-        },
-        {
-            id: 3,
-            cls: "sub-img-2 d-none d-sm-block",
-            img: sales_img_3,
-        },
+        // {
+        //     id: 2,
+        //     cls: "sub-img-1",
+        //     img: sales_img_2,
+        // },
+        // {
+        //     id: 3,
+        //     cls: "sub-img-2 d-none d-sm-block",
+        //     img: sales_img_3,
+        // },
     ],
 
 

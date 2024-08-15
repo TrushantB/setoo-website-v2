@@ -9,7 +9,7 @@ import HomeFour from "@/components/homes/home-4";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Setoo - Data analytics"} />
+      <SEO pageTitle={"Setoo - AI-Driven Software Solutions"} />
       <HomeFour />
     </Wrapper>
   );

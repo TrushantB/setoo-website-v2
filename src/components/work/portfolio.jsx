@@ -53,15 +53,15 @@ const Portfolio = () => {
                             <div className="inner-project-item mb-30 d-flex flex-column h-100">
                             <div className="inner-project-img fix p-relative">
                                 <Image className="w-100" src={item.thumb_img} alt="theme-pure" />
-                                <div className="inner-project-brand">
+                                {/* <div className="inner-project-brand">
                                     <Image src={item.brand_logo} alt="theme-pure" />
-                                </div>
+                                </div> */}
                             </div>
                             <div className="inner-project-content d-flex flex-column flex-grow-1">
                                 <span className="inner-project-category-title">{item.job_title}</span>
-                                <h4 className="inner-project-title"><Link href="/work-details">{item.title}</Link></h4>
+                                <h4 className="inner-project-title"><Link href={item.link}>{item.title}</Link></h4>
                                 <p>{item.des}</p>
-                                <p className="pb-0 mt-auto"><Link href="/work-details" className="tp-btn-service">Read Case Study</Link></p>
+                                <p className="pb-0 mt-auto"><Link href={item.link} className="tp-btn-service">Read Case Study</Link></p>
                             </div>
                             </div>
                         </div>

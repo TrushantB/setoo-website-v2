@@ -1,25 +1,17 @@
 
 
 // thumb img import here 
-import thumb_img_1 from "../../public/assets/img/project/project-inner-1.jpg";
-import thumb_img_2 from "../../public/assets/img/project/project-inner-2.jpg";
-import thumb_img_3 from "../../public/assets/img/project/project-inner-3.jpg";
-import thumb_img_4 from "../../public/assets/img/project/project-inner-5.jpg";
-import thumb_img_5 from "../../public/assets/img/project/project-inner-4.jpg";
-import thumb_img_6 from "../../public/assets/img/project/project-inner-6.jpg";
-import thumb_img_7 from "../../public/assets/img/project/project-inner-7.jpg";
-import thumb_img_8 from "../../public/assets/img/project/project-inner-8.jpg";
-import thumb_img_9 from "../../public/assets/img/project/project-inner-9.jpg";
+import thumb_img_1 from "../../public/assets/img/project/cubyts-hero-image.webp";
+import thumb_img_2 from "../../public/assets/img/project/vishwamitra-banner.webp";
+import thumb_img_3 from "../../public/assets/img/project/gurumantra-banner.webp";
+import thumb_img_4 from "../../public/assets/img/project/kerf-banner.webp";
+
 // brand logo import here
-import brand_logo_1 from "../../public/assets/img/project/project-inner-brand-1.png";
-import brand_logo_2 from "../../public/assets/img/project/project-inner-brand-2.png";
-import brand_logo_3 from "../../public/assets/img/project/project-inner-brand-3.png";
-import brand_logo_4 from "../../public/assets/img/project/project-inner-brand-5.png";
-import brand_logo_5 from "../../public/assets/img/project/project-inner-brand-4.png";
-import brand_logo_6 from "../../public/assets/img/project/project-inner-brand-6.png";
-import brand_logo_7 from "../../public/assets/img/project/project-inner-brand-5.png";
-import brand_logo_8 from "../../public/assets/img/project/project-inner-brand-4.png";
-import brand_logo_9 from "../../public/assets/img/project/project-inner-brand-6.png";
+import brand_logo_1 from "../../public/assets/img/clients/cubyts-logo.webp";
+import brand_logo_2 from "../../public/assets/img/clients/vishwamitra-logo.svg";
+import brand_logo_3 from "../../public/assets/img/clients/gurumantra-logo.png";
+import brand_logo_4 from "../../public/assets/img/clients/kerf-logo.png";
+
 
 
 const portfolio_data = [    
@@ -34,6 +26,7 @@ const portfolio_data = [
         delay: ".5s",
         category: "Web Studio",
         filter_id: ["all", "AI", "Web Studio", "Custom Product Development" ],
+        link: '/cubyts'
     }, 
     {
         id: 2,
@@ -46,6 +39,7 @@ const portfolio_data = [
         delay: ".5s",
         category: "Custom Product Development",
         filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
+        link: '/vishwamitra'
     }, 
     {
         id: 3,
@@ -58,6 +52,7 @@ const portfolio_data = [
         delay: ".5s",
         category: "Custom Product Development",
         filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
+        link: '/gurumantra'
     }, 
     {
         id: 4,
@@ -71,6 +66,7 @@ const portfolio_data = [
         delay: ".5s",
         category: "Web Studio",
         filter_id: ["all", "AI", "Web Studio", "Custom Product Development"],
+        link: '/kerf'
     }, 
 
     
