@@ -9,7 +9,7 @@ import icon_3 from "../../../public/assets/img/contact/contact-icon-sm-3.png";
 
 
 const inner_content = {
-  title: "Book a Demo!",
+  title: "Get in Touch!",
   description: <>We will contact again after we receive your request in <span className="text-primary">24h</span></>,
 
   contact_data: [
@@ -43,7 +43,7 @@ const ContactInner = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="contact-inner-title-sm-wrap text-center mb-50">
-                <h4 className="contact-inner-title-sm">{title}</h4>
+                <h4 className="contact-inner-title-sm text-white">{title}</h4>
                 <p>{description}</p>
               </div>
             </div>
