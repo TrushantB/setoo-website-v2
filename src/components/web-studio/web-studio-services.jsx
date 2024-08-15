@@ -55,7 +55,7 @@ const WebStudioServices = () => {
                                        </div>
                                     </div>
                                     {/* <div className="tp-service-five-btn text-end">
-                                       <Link href="/service-details"><i className="far fa-arrow-right"></i></Link>
+                                       <Link href="/contact"><i className="far fa-arrow-right"></i></Link>
                                     </div> */}
                                  </div>
                               </div>                                

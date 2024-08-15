@@ -7,7 +7,7 @@ const cta_content = {
     title: "",
     info: <>Eyerything you need to accept cord payments and grow your business <br />
     anywhere on the planet.</>,
-    btn_text: "Get Started Now",
+    btn_text: "Schedule a Meeting",
 }
 const {bg_img, title, info, btn_text}  = cta_content
 
@@ -24,7 +24,7 @@ const CtaArea = () => {
                            <div className="tp-cta-content text-center">
                               <h3 className="tp-section-title-lg text-white">{title}</h3>
                               <p>{info}</p>
-                              <Link className="tp-btn-green" href="/service-details">{btn_text}</Link>
+                              <Link className="tp-btn-green" href="/contact">{btn_text}</Link>
                            </div>
                         </div>
                      </div>

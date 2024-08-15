@@ -5,7 +5,7 @@ const cta_content ={
      bg_img: "/assets/img/cta/cta-bg.jpg",
      title: "Connect with DevOps Experts",
      description: <>Tell us about your idea or project and we will find the solution</>,
-     btn_text: "Get Started Now",
+     btn_text: "Schedule a Meeting",
 }
 const {bg_img, title, description, btn_text}  = cta_content
 
