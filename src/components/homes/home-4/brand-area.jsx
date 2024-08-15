@@ -2,6 +2,8 @@ import React, {useRef} from 'react';
 import Image from 'next/image';
 import Slider from 'react-slick';
 
+import crep_protect from "./../../../../public/assets/img/clients/crep-protect-logo.svg";
+import quick_heal from "./../../../../public/assets/img/clients/quickheal-logo.svg";
 import brand_img_1 from "./../../../../public/assets/img/clients/sh-logo.webp";
 import brand_img_2 from "./../../../../public/assets/img/clients/automationai-logo.webp";
 import brand_img_3 from "./../../../../public/assets/img/clients/hp-logo.webp";
@@ -12,7 +14,7 @@ import brand_img_7 from "./../../../../public/assets/img/clients/modifAI-logo.we
 import brand_img_8 from "./../../../../public/assets/img/clients/shoptimize-logo.webp";
 import brand_img_9 from "./../../../../public/assets/img/clients/vedaearth-logo.webp";
 import shape_1 from "./../../../../public/assets/img/brand/image_01.png";
-import shape_2 from "./../../../../public/assets/img/hero/hero-slider-icon-1.jpg";
+import shape_2 from "./../../../../public/assets/img/hero/hero-slider-icon-1.svg";
 
 
 const settings = {
@@ -57,6 +59,8 @@ const settings = {
 
 
 const brand_data = [
+   crep_protect,
+   quick_heal,
    brand_img_1,
    brand_img_2,
    brand_img_3,

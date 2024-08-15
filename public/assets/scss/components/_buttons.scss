@@ -477,11 +477,14 @@
 		transition: .3s;
 	}
 	&:hover{
-		color: var(--tp-common-black);
-		border: 2px solid #F8FF35;
+		color: var(--tp-common-white);
+		border: 2px solid var(--tp-theme-1);
+		i{
+			color: var(--tp-common-white);
+		}
 		&::before{
 			width: 100%;
-			background: #F8FF35;
+			background: var(--tp-theme-1);
 		}
 	}
 }

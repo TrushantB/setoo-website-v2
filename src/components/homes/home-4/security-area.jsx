@@ -4,11 +4,25 @@ import Image from 'next/image';
 import React from 'react';
 import Slider from 'react-slick';
 
-import security_img_1 from "../../../../public/assets/img/security/security-1.png";
-import security_img_2 from "../../../../public/assets/img/security/security-2.png";
-import security_img_3 from "../../../../public/assets/img/security/security-3.png";
-import security_img_4 from "../../../../public/assets/img/security/security-4.png";
-// import security_img_5 from "../../../../public/assets/img/security/security-5.png";
+import cyber_security_icon from "../../../../public/assets/img/security/cyber-security-icon.svg";
+import consultancy_icon from "../../../../public/assets/img/security/consultancy-icon.svg";
+import marketing_icon from "../../../../public/assets/img/security/marketing-icon.svg";
+import it_icon from "../../../../public/assets/img/security/it-icon.svg";
+import legal_services_icon from "../../../../public/assets/img/security/it-icon.svg";
+import real_estate_icon from "../../../../public/assets/img/security/real-estate-icon.svg";
+import healthcare_icon from "../../../../public/assets/img/security/healthcare-icon.svg";
+import education_icon from "../../../../public/assets/img/security/education-icon.svg";
+import ecommerce_icon from "../../../../public/assets/img/security/ecommerce-icon.svg";
+import fashion_icon from "../../../../public/assets/img/security/fashion-icon.svg";
+import art_icon from "../../../../public/assets/img/security/art-icon.svg";
+import ngo_icon from "../../../../public/assets/img/security/ngo-icon.svg";
+import telecomm_icon from "../../../../public/assets/img/security/telecomm-icon.svg";
+import industry_4o_icon from "../../../../public/assets/img/security/industry-40-icon.svg";
+import personal_branding_icon from "../../../../public/assets/img/security/personal-branding-icon.svg";
+
+
+
+
 import security_img_6 from "../../../../public/assets/img/security/security-3.png";
 
 const setting = {
@@ -55,77 +69,77 @@ const setting = {
 const security_data = [
     {
         id: 1,
-        img: security_img_1,
+        img: healthcare_icon,
         title: <>Healthcare </>,        
     },
     {
         id: 2,
-        img: security_img_2,
+        img: cyber_security_icon,
         title: <>Cyber <br /> Security</>,        
     },
     {
         id: 3,
-        img: security_img_3,
+        img: fashion_icon,
         title: <>Fashion & <br /> Apparel</>,        
     },
     {
         id: 4,
-        img: security_img_4,
+        img: ecommerce_icon,
         title: <>e-commerce</>,        
     },
     {
         id: 5,
-        img: security_img_1,
+        img: real_estate_icon,
         title: <>Real Estate</>,        
     },
     {
         id: 6,
-        img: security_img_6,
+        img: legal_services_icon,
         title: <> Legal Services</>,
     },
     {
         id: 7,
-        img: security_img_6,
+        img: ngo_icon,
         title: <> NGO </>,
     },
     {
         id: 8,
-        img: security_img_6,
+        img: art_icon,
         title: <> Art & Design </>,
     },
     {
         id: 9,
-        img: security_img_6,
+        img: education_icon,
         title: <> Education </>,
     },
     {
         id: 10,
-        img: security_img_6,
+        img: personal_branding_icon,
         title: <> Personal <br /> Branding</>,
     },
     {
         id: 11,
-        img: security_img_6,
+        img: telecomm_icon,
         title: <> Telecomm </>,
     },
     {
         id: 12,
-        img: security_img_6,
+        img: industry_4o_icon,
         title: <> Industry 4.0 </>,
     },
     {
         id: 13,
-        img: security_img_6,
+        img: consultancy_icon,
         title: <> Consultancy </>,
     },
     {
         id: 14,
-        img: security_img_6,
+        img: marketing_icon,
         title: <> Marketing </>,
     },
     {
         id: 15,
-        img: security_img_6,
+        img: it_icon,
         title: <> Information <br /> Technology </>,
     }
 ]
