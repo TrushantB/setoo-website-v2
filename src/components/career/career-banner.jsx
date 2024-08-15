@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-import img_1 from "../../../public/assets/img/career/image-1.png";
-import img_2 from "../../../public/assets/img/career/image-2.png";
-import img_3 from "../../../public/assets/img/career/image-3.png";
-import img_4 from "../../../public/assets/img/career/image-4.png";
+import img_1 from "../../../public/assets/img/career/setoo-girl-cricket-team.webp";
+import img_2 from "../../../public/assets/img/career/health-campaign-setoo.webp";
+import img_3 from "../../../public/assets/img/career/setoo-team-cricket.webp";
+import img_4 from "../../../public/assets/img/career/setoo-team-activity-diwali.webp";
 import Image from "next/image";
 
  

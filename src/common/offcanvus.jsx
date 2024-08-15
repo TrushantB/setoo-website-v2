@@ -26,28 +26,25 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <div className="mobile-menu mean-container">
                         <MobileMenus />
                     </div>
-                    <div className="tpoffcanvas__instagram text-center">
-                    <div className="tpoffcanvas__instagram-title">
-                        <h4>instagram</h4>
-                    </div>  
-                    <Link href="#"><Image src={canvus_img_1}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_2}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_3}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_4}  alt="theme-pure" /></Link>
-                    </div>
+                    {/* <div className="tpoffcanvas__instagram text-center">
+                        <div className="tpoffcanvas__instagram-title">
+                            <h4>instagram</h4>
+                        </div>  
+                        <Link href="#"><Image src={canvus_img_1}  alt="theme-pure" /></Link>
+                        <Link href="#"><Image src={canvus_img_2}  alt="theme-pure" /></Link>
+                        <Link href="#"><Image src={canvus_img_3}  alt="theme-pure" /></Link>
+                        <Link href="#"><Image src={canvus_img_4}  alt="theme-pure" /></Link>
+                    </div> */}
                     <div className="tpoffcanvas__info text-center">
-                    <h4 className="offcanva-title">we are here</h4>
+                    <h4 className="offcanva-title">We are here</h4>
                     <Link href="https://www.google.com/maps/@23.506657,90.3443647,7z" target="_blank">
-                        Setoo, Ekdant Dutta Mandir Rd <br />
-                        Aundh, Pune 411007
+                        Aundh, Pune, MH, India
                     </Link>
                     </div>
                     <div className="tpoffcanvas__social">
                     <div className="social-icon text-center">
-                        <Link href="#"><i className="fab fa-twitter"></i></Link>
-                        <Link href="#"><i className="fab fa-instagram"></i></Link>
-                        <Link href="#"><i className="fab fa-facebook-square"></i></Link>
-                        <Link href="#"><i className="fab fa-dribbble"></i></Link>
+                        <Link href="https://www.linkedin.com/company/setoos"><i className="fab fa-linkedin"></i></Link>
+                        <Link href="https://www.instagram.com/setooists/"><i className="fab fa-instagram"></i></Link>
                     </div>
                     </div>
                 </div>

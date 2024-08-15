@@ -20,7 +20,7 @@ const About = () => {
       <Brand />
       <CompanyArea />
       {/* <AboutArea /> */}
-      <JourneyArea />
+      {/* <JourneyArea /> */}
       <TestimonialArea />
       <JobArea />
       <CtaArea />

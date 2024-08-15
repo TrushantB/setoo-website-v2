@@ -72,6 +72,14 @@
 	width: 100%;
 	list-style-type: none;
 	display: block !important;
+	li{
+		letter-spacing: 0.5px;
+		li{
+			a{
+				width: 100%;
+			}
+		}
+	}
 }
 .mean-container a.meanmenu-reveal {
 	display: none !important;
@@ -79,13 +87,13 @@
 .mean-container .mean-nav ul li a {
 	width: 100%;
 	padding: 15px 0;
-	color: #fff;
+	color: var(--tp-common-white);
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
     &:hover{
-        color: var(--tp-theme-3);
+        color: var(--tp-theme-1);
     }
 }
 
@@ -102,6 +110,7 @@
 	line-height: 30px;
 	top: 0;
 	font-weight: 400;
+	border-radius: 0.5rem;
     &:hover{
         color: var(--tp-theme-2);
         border-color: #888888;

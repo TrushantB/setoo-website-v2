@@ -2,11 +2,14 @@ import VideoPopup from '@/modals/video-popup';
 import React,{useState} from 'react';
 
 const company_content ={
-    sub_title:  "ABOUT THE COMPANY",
-    title: <>Setoo is Made <br />For the Businesses.</>,
-    info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum arcu sollicitudin viverra sit elit leo in. Vitae eu tellus mattis quis. Eu, tempus donec nam mauris egestas. Id aliquet ultricies ligula tellus arcu dolor. Massa arcu pulvinar in mattis</>,
-    info_2: <>Feugiat purus congue risus, blandit a sed. In aenean quam aenean purus dictum pellentesque consequat.!</>,
-    info_3: <>Our clean and simple APIs and transparent SaaS model will give you complete peace of mind.</>,
+   sub_title:  "ABOUT THE COMPANY",
+   title: <>Setoo is Made <br />For the Businesses.</>,
+   info_1: <>Setoo has been in business for half a decade. The company is operating worldwide 
+      in the IT industry with its focus to revolutionise business with AI, Web, and Product 
+      Development solutions. The additional offerings include DevOps and Remote Soucing.</>,
+   info_2: <><strong>Vision:</strong> Bridging innovation to weave expertise with excellence</>,
+   info_3: <><strong>Mission:</strong> Always on the path to transform our ways to provide an 
+   exceptional experience </>,
 }
 const {sub_title, title, info_1, info_2, info_3}  = company_content
 
@@ -30,7 +33,7 @@ const CompanyArea = () => {
                            <div className="ab-company-section-text">
                               <p className="pb-10">{info_1}</p>
                               <p className="pb-10">{info_2}</p>
-                              <p><span>{info_3}</span></p>
+                              <p>{info_3}</p>
                            </div>
                         </div>
                      </div>
