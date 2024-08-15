@@ -52,7 +52,10 @@
         margin-bottom: 30px;
         & img{
             width: 100px;
-            height: 28px;
+            height: 40px;
+            //background: var(--tp-common-white);
+            // object-fit: contain;
+            filter: contrast(0) brightness(2);
         }
     }
     &__title-sm{
