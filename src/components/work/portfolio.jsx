@@ -30,7 +30,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <div className="portfolio-area pt-100 pb-90">
+            <div className="portfolio-area pt-60 pb-90">
                <div className="container">
                   <div className="row">
                      <div className="col-xl-12">
@@ -47,21 +47,21 @@ const Portfolio = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="row grid">
+                  <div className="row grid row-gap-4">
                     {items.map((item, i)  => 
                         <div key={i} className="col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5">
-                            <div className="inner-project-item mb-30">
+                            <div className="inner-project-item mb-30 d-flex flex-column h-100">
                             <div className="inner-project-img fix p-relative">
                                 <Image className="w-100" src={item.thumb_img} alt="theme-pure" />
                                 <div className="inner-project-brand">
                                     <Image src={item.brand_logo} alt="theme-pure" />
                                 </div>
                             </div>
-                            <div className="inner-project-content">
+                            <div className="inner-project-content d-flex flex-column flex-grow-1">
                                 <span className="inner-project-category-title">{item.job_title}</span>
                                 <h4 className="inner-project-title"><Link href="/work-details">{item.title}</Link></h4>
                                 <p>{item.des}</p>
-                                <p className="pb-0"><Link href="/work-details" className="tp-btn-service">Read More</Link></p>
+                                <p className="pb-0 mt-auto"><Link href="/work-details" className="tp-btn-service">Read Case Study</Link></p>
                             </div>
                             </div>
                         </div>

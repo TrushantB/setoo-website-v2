@@ -27,9 +27,9 @@ const BreadcrumbSeven = () => {
                   <div className="row justify-content-center">
                      <div className="col-xl-10">
                         <div className="breadcrumb__content z-index-3 text-center">
-                           <h3 ref={animeRef} className="breadcrumb__title tp-char-animation anime_text">Our Work</h3>
+                           <h3 ref={animeRef} className="breadcrumb__title tp-char-animation anime_text">Our Success Stories</h3>
                            <div className="breadcrumb__text wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".6s">
-                              <p>We have an experienced team of production and inspection personnel <br /> to ensure quality.</p>
+                            <p>Where a talented and creative team comes together to <br /> create incredible projects.</p>
                            </div>
                         </div>
                      </div>

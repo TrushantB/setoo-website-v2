@@ -21,10 +21,10 @@ const RemoteResourcing = () => {
             <BenefitsArea />
             {/* <BrandArea /> */}
             <FunFactArea />            
-            <TechStack />
+            {/* <TechStack /> */}
             <ContactFormArea />
             <ProcessArea />
-            <BlogArea />
+            {/* <BlogArea /> */}
             <FaqArea style_service={true} />
           </main>
           <FooterFour />
