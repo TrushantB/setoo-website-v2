@@ -8,9 +8,9 @@ import Image from 'next/image';
 
 
 const contact_content  = {
-    sub_title: "CONTACT US",
-    tilte: <>We'd love to <br /> hear From  {" "}<span> <SendIcon /> </span> {" "}you.</>,
-    info: <>While we're good with smoke signals, there <br /> are easier ways to get in touch.</> ,
+   sub_title: "CONTACT US",
+   tilte: <>Setoo Team is Here for You</>,
+   info: <>Expert professionals right by your side to guide you to success</> ,
      
 }
 const {sub_title, tilte, info}  =  contact_content
@@ -31,9 +31,8 @@ const ContactFormArea = () => {
                            </div>
                            <div className="contact-form-social-box p-relative">
                               <div className="contact-form-social-item">
-                                 <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
-                                 <Link href="#"><i className="fab fa-instagram"></i></Link>
-                                 <Link href="#"><i className="fab fa-facebook-f"></i></Link>
+                                 <Link href="https://www.linkedin.com/company/setoos" target='_blank'><i className="fab fa-linkedin-in"></i></Link>
+                                 <Link href="https://www.instagram.com/setooists/" target='_blank'><i className="fab fa-instagram"></i></Link>
                               </div>
                               {/* <div className="contact-form-section-img">
                                  <Image src={img} alt="theme-pure" />

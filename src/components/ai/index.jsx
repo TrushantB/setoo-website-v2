@@ -26,7 +26,7 @@ const Ai = () => {
             <TechStack />
             {/* <CaseStudies /> */}
             <ProcessArea />
-            <BlogArea />
+            {/* <BlogArea /> */}
             <FaqArea style_service={true} />
             <CtaArea />
           </main>

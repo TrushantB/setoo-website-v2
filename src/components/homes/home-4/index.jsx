@@ -29,7 +29,7 @@ const HomeFour = () => {
             <PlatformArea />
             <TestimonialArea />
             <SecurityArea />
-            <BlogArea />
+            {/* <BlogArea /> */}
             <FaqArea />
             <Recognition />
             <ContactArea />
