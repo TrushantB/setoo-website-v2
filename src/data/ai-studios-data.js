@@ -8,9 +8,9 @@ import img_2 from "../../public/assets/img/service/sv-icon-2.png";
 import img_3 from "../../public/assets/img/service/sv-icon-3.png";
 
 // Studios Icon
-import icon_1 from "../../public/assets/img/service/sv-icon-4-1.png"
-import icon_2 from "../../public/assets/img/service/sv-icon-4-2.png"
-import icon_3 from "../../public/assets/img/service/sv-icon-4-3.png"
+import icon_1 from "../../public/assets/img/service/ai-lab.svg"
+import icon_2 from "../../public/assets/img/service/web-studio.svg"
+import icon_3 from "../../public/assets/img/service/product-development-studio.svg"
 
 const  studios_data = [
     // for Studios
