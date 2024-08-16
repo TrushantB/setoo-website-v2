@@ -84,17 +84,5 @@ const answer_question_data = [
     aria_controls: "collapseSeven",
     actice: "",
   },
-  {
-    id: 8,
-    question: "How can AI benefit my business?",
-    answer: <>AI can automate repetitive tasks, provide insights through data analysis, 
-    enhance business operations and customer experiences with chatbots, virtual assistants,
-    digital humans, etc, and result in business growth.</>,
-    accordion_id: "headingEight",
-    collapsed: "collapsed",
-    data_bs_target: "#collapseEight",
-    aria_controls: "collapseEight",
-    actice: "",
-  },
 ];
 export default answer_question_data;

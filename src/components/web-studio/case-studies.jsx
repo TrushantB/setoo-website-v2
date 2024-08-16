@@ -78,7 +78,9 @@ const CaseStudies = () => {
                                  <div className="tp-project__slider-wrapper">
                                     <div className="tp-project__item d-flex align-items-center">
                                        <div className="tp-project__thumb">
-                                          <Image src={item.img_1} alt="theme-pure" />
+                                          <Link href={item.link}>
+                                             <Image src={item.img_1} alt="theme-pure" />
+                                          </Link>
                                        </div>
                                        <div className="tp-project__content">
                                           <div className="tp-project__brand-icon">

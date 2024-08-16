@@ -4,11 +4,10 @@ import Link from 'next/link';
 import React from 'react';
 
 const job_data = {
-    sub_title: "Current Positions",
-    title: <>Join our Growing Team <br /> of Doers.</>,
-    carrer_title: "Open Positions",
-   carrer_info: <>Discover exciting career opportunities and find the perfect role for you.
-   <br /> Join our team and contribute to our innovative projects.</>,
+   sub_title: "Current Positions",
+   title: <>Join our Growing Team <br /> of Doers.</>,
+   carrer_title: "Join our Growing Team of Doers",
+   carrer_info: <>Join the Dream Team, where your Career can Soar </>,
     job_info: [
         {
             id:1, 
