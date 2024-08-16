@@ -1,5 +1,5 @@
 import React from "react";
-import Ai from "../components/ai";
+import AiLab from "../components/ai-lab";
 import Wrapper from "../layout/wrapper";
 
 const index = () => {
@@ -42,11 +42,10 @@ const index = () => {
         "https://www.linkedin.com/company/setoos/"
       ]
     }
-
   }
   return (
     <Wrapper seo={seo}>
-      <Ai />
+      <AiLab />
     </Wrapper>
   );
 };

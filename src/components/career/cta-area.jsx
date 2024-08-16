@@ -2,10 +2,10 @@ import Link from 'next/link';
 import React from 'react';
 
 const cta_content ={ 
-     bg_img: "/assets/img/cta/cta-bg.jpg",
-      title: "Where Creativity Meets Code",
-     description: <>Creating web interfaces with high security, fast responsiveness, and <br />   SEO effectiveness</>,
-     btn_text: "Schedule a Meeting",
+   bg_img: "/assets/img/cta/cta-bg.jpg",
+   title: "Elevate Your Career with Us",
+   description: <>Ready to make your mark? <br /> Explore our open positions and start your journey with Setoo today!</>,
+   btn_text: "CTA Why become Setooist?",
 }
 const {bg_img, title, description, btn_text}  = cta_content
 
@@ -23,7 +23,7 @@ const CtaArea = () => {
                            <div className="tp-cta-content tp-inner-font text-center">
                               <h3 className="tp-section-title text-white">{title}</h3>
                               <p>{description}</p>
-                                 <Link className="tp-btn-inner white-bg text-black" href="/contact">{btn_text}</Link>
+                                 <Link className="tp-btn-inner white-bg text-black" href="/about">{btn_text}</Link>
                            </div>
                         </div>
                      </div>

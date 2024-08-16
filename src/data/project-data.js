@@ -1,14 +1,14 @@
 
-import project_img_1 from "../../public/assets/img/project/project-img-2.jpg";
+import project_img_1 from "../../public/assets/img/project/cubyts-thumbnail.webp";
 import cubyts_logo from "../../public/assets/img/clients/cubyts-logo.webp"
 
-import project_img_2 from "../../public/assets/img/project/project-img-1.jpg";
+import project_img_2 from "../../public/assets/img/project/vishwamitra-thumbnail.webp";
 import vishwamitra_logo from "../../public/assets/img/clients/vishwamitra-logo.svg"
 
-import project_img_3 from "../../public/assets/img/project/project-img-3.jpg";
+import project_img_3 from "../../public/assets/img/project/gurumantra-thumbnail.webp";
 import gurumantra_logo from "../../public/assets/img/clients/gurumantra-logo.png"
 
-import project_img_4 from "../../public/assets/img/project/project-img-4.jpg";
+import project_img_4 from "../../public/assets/img/project/kerf-thumbnail.webp";
 import kerf_logo from "../../public/assets/img/clients/kerf-logo.png"
 
 

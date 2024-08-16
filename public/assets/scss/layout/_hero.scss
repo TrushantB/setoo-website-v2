@@ -622,6 +622,35 @@
 .tp-hero-4-main-img {
 	animation: tpupdown 0.8s infinite alternate;
 }
+.tp-hero-4-img-wrapper{
+    .custom-pill{       
+        position: relative;
+        margin-bottom: 2rem; 
+        .pill-text {
+            position: relative;
+            padding: 0.35rem 3rem 0.25rem 1rem;
+            display: inline-block;
+            &::after{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: "";
+            background: linear-gradient(90.27deg, #65CB7B 2.18%, rgba(101, 203, 123, 0) 99.77%);
+            opacity: 0.2;
+            border-radius: 30px;
+            }
+        }
+        svg{
+            max-width: 7rem;
+            fill: var(--tp-common-white);
+            position: absolute;
+            left: 2rem;
+            top: 2rem;
+        }
+    }
+}
 .tp-hero-4{
     &-sub-img{
         position: absolute;

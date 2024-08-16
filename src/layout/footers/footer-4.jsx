@@ -20,7 +20,7 @@ const footer_content = {
    location: "Aundh, Pune, MH, India",
 
    footer_lisks: [
-      { name: "AI", link: "/ai" },
+      { name: "AI", link: "/ai-lab" },
       { name: "Who We Are", link: "/about" },
       { name: "Product Development", link: "/product-development" },
       { name: "Careers", link: "/careers" },

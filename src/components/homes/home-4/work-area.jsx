@@ -78,15 +78,17 @@ const WorkArea = () => {
                                  <div className="tp-project__slider-wrapper">
                                     <div className="tp-project__item d-flex align-items-center">
                                        <div className="tp-project__thumb">
-                                          <Image src={item.img_1} alt="theme-pure" />
+                                          <Link href={item.link}>
+                                             <Image src={item.img_1} alt="theme-pure" />
+                                          </Link>
                                        </div>
                                        <div className="tp-project__content">
-                                          <div className="tp-project__brand-icon">
+                                          <div className="tp-project__brand-icon d-none d-md-block">
                                              <Image src={item.logo} alt="theme-pure" />
                                           </div>
                                           <div className="tp-project__title-box">
                                              <h4 className="tp-project__title-sm">
-                                                <Link href="/project-details">{item.title}</Link>
+                                                <Link href={item.link}>{item.title}</Link>
                                              </h4>
                                              <p>{item.description}</p>
                                           </div>
