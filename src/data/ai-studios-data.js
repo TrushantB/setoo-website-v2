@@ -18,12 +18,13 @@ const  studios_data = [
         id: 1,
         icon: icon_1,
         img: icon_1,
-        title: "AI Labs",
+        title: "AI Lab",
         sub_title: "AI",
         cls: "1",
-        description: <>Transforming ideas into intelligent solutions through advanced AI technologies</>,
+        description: <>Transforming ideas into intelligent solutions through advanced AI 
+        technologies</>,
         delay: ".9s",
-        link: '/ai'
+        link: '/ai-lab'
     },
     {
         id: 2,

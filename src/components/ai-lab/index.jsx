@@ -12,7 +12,7 @@ import TechStack from "./techstack";
 import ProcessArea from "./process-area";
 import BlogArea from "./blog-area";
 
-const Ai = () => {
+const AiLab = () => {
   return (
     <>
       <Header />
@@ -37,4 +37,4 @@ const Ai = () => {
   );
 };
 
-export default Ai;
+export default AiLab;

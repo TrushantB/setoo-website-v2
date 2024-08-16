@@ -7,7 +7,7 @@ const menu_data = [
     link: "/",
     active: "active",
     sub_menus: [
-      { link: "/ai", title: "AI Lab" },
+      { link: "/ai-lab", title: "AI Lab" },
       { link: "/web-studio", title: "Web Studio" },
       { link: "/product-development", title: "Product Development Studio" }
     ],

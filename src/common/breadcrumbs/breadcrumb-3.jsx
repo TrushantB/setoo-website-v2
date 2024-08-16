@@ -21,7 +21,8 @@ const BreadcrumbThree = () => {
                            <div className="breadcrumb__content text-center z-index-3 mb-60">
                             <h3 className="breadcrumb__title">Build Your Career With <br /> <span className='text-primary'>Setooists</span> </h3>
                               <div className="breadcrumb__text">
-                                 <p>Work without distraction on your own or with your team.</p>
+                               <p>Shape your career with us! <br /> Join a dynamic team driving impactful projects and
+                                 providing growth opportunities</p>
                               </div>
                            </div>
                         </div>
