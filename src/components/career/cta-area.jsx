@@ -5,7 +5,7 @@ const cta_content ={
    bg_img: "/assets/img/cta/cta-bg.jpg",
    title: "Elevate Your Career with Us",
    description: <>Ready to make your mark? <br /> Explore our open positions and start your journey with Setoo today!</>,
-   btn_text: "CTA Why become Setooist?",
+   btn_text: "Why become Setooist?",
 }
 const {bg_img, title, description, btn_text}  = cta_content
 

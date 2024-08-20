@@ -35,7 +35,7 @@ const  service_data = [
         icon: img_3,
         img: img_3,
         title: "Increased Efficiency",
-        description: <>Manual tasks are reduced with automated processes</>,
+        description: <>Manual tasks are reduced with automated processes.</>,
         delay: ".7s",
     },
     {

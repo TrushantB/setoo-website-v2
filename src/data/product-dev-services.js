@@ -1,3 +1,4 @@
+import MvpIcon from "@/svg/service/mvp-icon"
 import ServiceIconOne from "../svg/service/service-icon-1"
 import ServiceIconTwo from "../svg/service/service-icon-2"
 import ServiceIconThree from "../svg/service/service-icon-3"
@@ -5,6 +6,14 @@ import ServiceIconFour from "../svg/service/service-icon-4"
 import ServiceIconFive from "../svg/service/service-icon-5"
 import ServiceIconSix from "../svg/service/service-icon-6"
 import ServiceIconSeven from "../svg/service/service-icon-7"
+import WebAppDevelopment from "@/svg/service/web-app-development"
+import MobileAppDevelopment from "@/svg/service/mobile-app-development"
+import ExistingAppSupport from "@/svg/service/exisiting-app-support"
+import CustomDevelopmentIcon from "@/svg/service/custom-development-icon"
+import ApiDevelopmentIcon from "@/svg/service/api-development"
+import EProdDevelopmentIcon from "@/svg/service/epd-icon"
+import DesignSprintIcon from "@/svg/service/design-sprint-icon"
+import NewFeatureIcon from "@/svg/service/new-feature-icon"
 
 // images import  
 // import img_1 from "./../public/assets/img/service/sv-icon-1.png";
@@ -17,7 +26,7 @@ const  service_data = [
     // Product Development Services
     {
         id: 1,
-        icon: <ServiceIconOne />,
+        icon: <MvpIcon />,
         img: <ServiceIconOne />,
         title: <>MVP Development</>,
         description: <>MVP (Minimum Viable Product) is the most basic version of a product, 
@@ -27,7 +36,7 @@ const  service_data = [
     },
     {
         id: 2,
-        icon: <ServiceIconTwo />,
+        icon: <WebAppDevelopment />,
         img: <ServiceIconTwo />,
         title: <>Web Application Development</>,
         description: <>Web Application Development service transforms your ideas into powerful,
@@ -39,7 +48,7 @@ const  service_data = [
     },
     {
         id: 3,
-        icon: <ServiceIconThree />,
+        icon: <MobileAppDevelopment />,
         img: <ServiceIconThree />,
         title: <>Mobile Application Development <br /> <small>(Native/Cross-Platform)</small></>,
         description: <>We create scalable, cross-platform applications to give your business or
@@ -50,7 +59,7 @@ const  service_data = [
     },
     {
         id: 4,
-        icon: <ServiceIconFour />,
+        icon: <DesignSprintIcon />,
         img: <ServiceIconFour />,
         title: <>Design Sprints</>,
         description: <>Design Sprints rapidly solve complex problems through ideation, 
@@ -60,7 +69,7 @@ const  service_data = [
     },
     {
         id: 5,
-        icon: <ServiceIconFive />,
+        icon: <NewFeatureIcon />,
         img: <ServiceIconFive />,
         title: <>Launch New Features</>,
         description: <>Launch new features for your existing products to enhance functionality
@@ -69,7 +78,7 @@ const  service_data = [
     },
     {
         id: 6,
-        icon: <ServiceIconSix />,
+        icon: <ExistingAppSupport />,
         img: <ServiceIconSix />,
         title: <>Support Existing Applications</>,
         description: <>We provide continuous support services for the existing applications
@@ -78,7 +87,7 @@ const  service_data = [
     },
     {
         id: 7,
-        icon: <ServiceIconSix />,
+        icon: <CustomDevelopmentIcon />,
         img: <ServiceIconSix />,
         title: <>Custom Development</>,
         description: <>Setoo's expert team understands your custom requirements to strategise
@@ -87,7 +96,7 @@ const  service_data = [
     },
     {
         id: 8,
-        icon: <ServiceIconSix />,
+        icon: <EProdDevelopmentIcon />,
         img: <ServiceIconSix />,
         title: <>Enterprise Product Development</>,
         description: <>Enterprise Product Development involves crafting innovative designs and
@@ -97,7 +106,7 @@ const  service_data = [
     },
     {
         id: 9,
-        icon: <ServiceIconSix />,
+        icon: <ApiDevelopmentIcon />,
         img: <ServiceIconSix />,
         title: <>API Development</>,
         description: <>API Development service streamlines your software interactions, providing
