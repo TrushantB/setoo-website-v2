@@ -8,16 +8,13 @@ import React, { useRef } from 'react';
 import img from "../../../public/assets/img/service/sv-dashbord.png" 
 
 const benefit_content = {
-    title: "Why choose Staff Augmentation?",
+    title: "Why choose Remote Sourcing?",
     sub_title: <>Pull the Talent from Setoo to Upscale your Expertise </>,
 
     bg_img: "/assets/img/service/sv-bg.jpg",
-    title_2: <>Looking for Staff Augmentation Services?</>,
+    title_2: <>Looking for Remote Sourcing Services?</>,
     des: <></>,
     btn_text: "Connect with our expert",
-
-    
-
 }
 const {title, sub_title,bg_img, title_2, des, btn_text}  = benefit_content
 

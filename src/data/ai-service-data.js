@@ -1,10 +1,15 @@
-import ServiceIconOne from "./../svg/service/service-icon-1"
+import AiModelDevelopment from "@/svg/service/ai-model-development"
+import AiAppDevelopment from "../svg/service/ai-app-development"
+import ServiceIconOne from "../svg/service/ai-app-development"
 import ServiceIconTwo from "./../svg/service/service-icon-2"
 import ServiceIconThree from "./../svg/service/service-icon-3"
 import ServiceIconFour from "./../svg/service/service-icon-4"
 import ServiceIconFive from "./../svg/service/service-icon-5"
 import ServiceIconSix from "./../svg/service/service-icon-6"
-import ServiceIconSeven from "./../svg/service/service-icon-7"
+import MLOps from "@/svg/service/ml-ops"
+import AiStrategy from "@/svg/service/ai-strategy"
+import DigitalHumanIcon from "@/svg/service/digital-human-icon"
+import AiAutomationIcon from "@/svg/service/ai-automation"
 
 // images import  
 // import img_1 from "./../public/assets/img/service/sv-icon-1.png";
@@ -17,7 +22,7 @@ const  service_data = [
     // AI page (Setvices in AI)
     {
         id: 1,
-        icon: <ServiceIconOne />,
+        icon: <AiModelDevelopment />,
         img: <ServiceIconOne />,
         title: <>AI <br /> model development</>,
         description: <>AI Model Development creates an intelligent system to build custom models as per specific business requirements. <br /> Our process involves data preparation, algorithm selection, model training, and deployment to deliver data-driven solutions for enhancing efficiency and decision-making.</>,
@@ -25,7 +30,7 @@ const  service_data = [
     },
     {
         id: 2,
-        icon: <ServiceIconTwo />,
+        icon: <DigitalHumanIcon />,
         img: <ServiceIconTwo />,
         title: <>Real-time <br />Conversational Digital Humans</>,
         description: <>Real-time conversational digital humans provide lifelike interactions. <br /> AI-powered virtual beings have the ability to understand and respond to natural language, to engage with customers to ensure effective customer service, personalized assistance, or virtual companionship.</>,
@@ -33,7 +38,7 @@ const  service_data = [
     },
     {
         id: 3,
-        icon: <ServiceIconThree />,
+        icon: <AiAppDevelopment />,
         img: <ServiceIconThree />,
         title: <>AI <br /> Application Development</>,
         description: <>AI Application Development crafts software solutions that leverage artificial intelligence to solve real-world problems. Complex data is transformed into actionable insights with custom AI applications. With our expertise, we deliver exceptional business value from ideation to deployment.</>,
@@ -41,7 +46,7 @@ const  service_data = [
     },
     {
         id: 4,
-        icon: <ServiceIconFour />,
+        icon: <AiStrategy />,
         img: <ServiceIconFour />,
         title: <>AI <br /> Strategy and Consultancy</>,
         description: <>AI consultancy ensures the crafting of customised strategies with business goals by identifying opportunities. <br /> We provide ethical and effective AI adoption from roadmap to implementation guidance. <br /> Our data-driven approach maximizes ROI and delivers sustainable results.</>,
@@ -49,7 +54,7 @@ const  service_data = [
     },
     {
         id: 5,
-        icon: <ServiceIconFive />,
+        icon: <AiAutomationIcon />,
         img: <ServiceIconFive />,
         title: <>AI-Powered <br /> Automation</>,
         description: <>AI-Powered Automation uses artificial intelligence to streamline and optimize business processes. Human efforts are reduced by automating repetitive tasks and making human resources available for other strategic initiatives. <br /> Our solutions leverage machine learning and robotic process automation (RPA) to create intelligent systems that deliver measurable results.</>,
@@ -57,7 +62,7 @@ const  service_data = [
     },
     {
         id: 6,
-        icon: <ServiceIconSix />,
+        icon: <MLOps />,
         img: <ServiceIconSix />,
         title: "AI Ops and MLOps",
         description: <>AI Ops and MLOps are crucial for managing and scaling AI initiatives. MLOps increases efficiency and reliability by focusing on the lifecycle of machine learning. <br /> AI Ops uses AI and ML to automate tasks and enhance incident response to optimize IT operations. <br /> AI Ops and MLOps ensure to create a robust framework for building and maintaining intelligent systems.</>,

@@ -867,8 +867,13 @@
     }
     &-icon{
         margin-bottom: 30px;
-        width: 60px;
-        height: 60px;
+        width: 4rem;
+        height: 4rem;
+        color: var(--tp-common-white);
+        svg{
+            width: 4rem;
+            height: 4rem;
+        }
     }
     &-content{
         & p{

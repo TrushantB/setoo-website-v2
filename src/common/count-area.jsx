@@ -14,7 +14,7 @@ const fun_fact_data = [
         cls: "2",
         count: 200,
         simble: "%",
-        description: <>Year on <br /> year Growth</>
+        description: <>Year on <br /> Growth</>
     },
     {
         id: 3, 
