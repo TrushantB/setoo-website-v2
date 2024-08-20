@@ -14,7 +14,7 @@ import brand_img_8 from "./../../../public/assets/img/clients/shoptimize-logo.we
 import brand_img_9 from "./../../../public/assets/img/clients/vedaearth-logo.webp"
 
 const brand_content = {
-    titel: "Trusted by Thousands Business",
+  titel: "Trusted by Thousands of Businesses",
     description: <>More than 100,000+ teams are using Setoo</>,
     
     brand_img: [

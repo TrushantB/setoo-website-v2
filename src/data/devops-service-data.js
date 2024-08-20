@@ -1,10 +1,12 @@
+import CloudMigrationIcon from "@/svg/service/cloud-migration-icon"
 import ServiceIconOne from "./../svg/service/service-icon-1"
 import ServiceIconTwo from "./../svg/service/service-icon-2"
-import ServiceIconThree from "./../svg/service/service-icon-3"
-import ServiceIconFour from "./../svg/service/service-icon-4"
-import ServiceIconFive from "./../svg/service/service-icon-5"
-import ServiceIconSix from "./../svg/service/service-icon-6"
-import ServiceIconSeven from "./../svg/service/service-icon-7"
+import MigrateOnPremisesIcon from "@/svg/service/migrate-on-premises"
+import CloudCostOptimisationIcon from "@/svg/service/cloud-cost-optimisation"
+import InfraAsCodeIcon from "@/svg/service/infra-as-code"
+import TerraFormIcon from "@/svg/tech-stack/terraform-icon"
+import CiCdIcon from "@/svg/tech-stack/ci-cd-icon"
+import SecureCloudIcon from "@/svg/service/secure-cloud-infra-icon"
 
 // images import  
 // import img_1 from "./../public/assets/img/service/sv-icon-1.png";
@@ -17,7 +19,7 @@ const  service_data = [
     // DevOps page (Setvices in AI)
     {
         id: 1,
-        icon: <ServiceIconOne />,
+        icon: <CloudMigrationIcon />,
         img: <ServiceIconOne />,
         title: <>Cloud Migration <br /> <small>(Migration from One Cloud to Another)</small></>,
         description: <>DevOps cloud migration service seamlessly transfers applications and data between clouds, ensuring minimal downtime and optimal performance.</>,
@@ -25,7 +27,7 @@ const  service_data = [
     },
     {
         id: 2,
-        icon: <ServiceIconTwo />,
+        icon: <MigrateOnPremisesIcon />,
         img: <ServiceIconTwo />,
         title: <>Migrate On-Premises Infra to AWS</>,
         description: <>Migrate on-premises infrastructure to AWS with seamless integration, enhanced security, scalability, and cost-efficiency using our expert DevOps services.</>,
@@ -33,7 +35,7 @@ const  service_data = [
     },
     {
         id: 3,
-        icon: <ServiceIconThree />,
+        icon: <CloudCostOptimisationIcon />,
         img: <ServiceIconOne />,
         title: <>Cloud Cost Optimisation</>,
         description: <>Cloud Cost Optimisation involves monitoring and providing security to enhance performance to detect issues in real-time, ensure protection from threats, and establish regulatory compliance for cloud infrastructure.</>,
@@ -41,7 +43,7 @@ const  service_data = [
     },
     {
         id: 4,
-        icon: <ServiceIconFour />,
+        icon: <InfraAsCodeIcon />,
         img: <ServiceIconOne />,
         title: <>Infrastructure as a Code</>,
         description: <>Infrastructure as Code (IaC) service manages IT infrastructure through code, establishes automation and a consistent environment. <br /> Industry tools are used to define, deploy, and update infrastructure programmatically.</>,
@@ -49,7 +51,7 @@ const  service_data = [
     },
     {
         id: 5,
-        icon: <ServiceIconFive />,
+        icon: <TerraFormIcon />,
         img: <ServiceIconOne />,
         title: <>Terraform</>,
         description: <>Terraform is an open-source infrastructure as a code tool enabling safe and efficient management and provisioning of cloud resources across providers.</>,
@@ -57,7 +59,7 @@ const  service_data = [
     },
     {
         id: 6,
-        icon: <ServiceIconSix />,
+        icon: <CiCdIcon />,
         img: <ServiceIconOne />,
         title: "CI/CD",
         description: <>CI/CD as a service automates code integration and delivery, boosting development speed, reliability, and quality for tech companies.</>,
@@ -65,7 +67,7 @@ const  service_data = [
     },
     {
         id: 7,
-        icon: <ServiceIconSeven />,
+        icon: <SecureCloudIcon />,
         img: <ServiceIconOne />,
         title: "Secure Cloud Infrastructure",
         description: <>Secure Cloud Infrastructure ensures robust data protection with encryption, multi-layer security, continuous monitoring, and compliance as required.</>,
@@ -73,7 +75,7 @@ const  service_data = [
     },
     {
         id: 8,
-        icon: <ServiceIconOne />,
+        icon: <CiCdIcon />,
         img: <ServiceIconOne />,
         title: "MLOps",
         description: <>MLOps streamlines the machine learning lifecycle, enhancing deployment, monitoring, and scalability for technological companies, ensuring efficient operations.</>,

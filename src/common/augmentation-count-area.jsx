@@ -20,7 +20,7 @@ const fun_fact_data = [
         id: 3, 
         cls: "3",
         count: 99,
-        simble: "+",
+        simble: "%",
         description: <>Quality <br /> Assurance</>
     },
 

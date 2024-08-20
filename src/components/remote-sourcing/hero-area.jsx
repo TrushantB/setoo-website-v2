@@ -14,7 +14,7 @@ import Link from 'next/link';
 const hero_content = { 
    title_1: <>Remote Sourcing</>,
    title_2: "",
-   info: <>Staff Augmentation helps you find the best talent <br /> to fulfill your company's needs and enhance your team expertise.</>,
+   info: <>Remote Sourcing helps you find the best talent <br /> to fulfill your company's needs and enhance your team expertise.</>,
    btn_1: "Hire Your Team",
    btn_2: "",
    
