@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-
+import PopupButton from '@/common/calendly-popup';
 
 const cta_content = {
     bg_img: "/assets/img/cta/cta-bg.jpg",
@@ -24,7 +24,12 @@ const CtaArea = () => {
                            <div className="tp-cta-content text-center">
                               <h3 className="tp-section-title-lg text-white">{title}</h3>
                               <p>{info}</p>
-                              <Link className="tp-btn-green" href="/contact">{btn_text}</Link>
+                              {/* <Link className="tp-btn-green" href="/contact">{btn_text}</Link> */}
+                              <PopupButton
+                                 buttonTitle="Schedule a Meeting"
+                                 className="tp-btn-inner white-bg text-black"
+                                 showIcon={false}
+                              />
                            </div>
                         </div>
                      </div>
