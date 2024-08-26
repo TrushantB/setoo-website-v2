@@ -152,9 +152,9 @@ const SecurityArea = () => {
                   <div className="row justify-content-center">
                      <div className="col-xl-8">
                         <div className="tp-security-section-box text-center pb-100">
-                           <h5 className="tp-section-subtitle-4 both pb-10 wow tpfadeUp" data-wow-duration=".9s"
-                              data-wow-delay=".3s">Industries Expertise</h5>
-                            <h3 className="tp-section-title-4">Our Expertise Spans Across Industries</h3>
+                           <span className="tp-section-subtitle-4 both pb-10 wow tpfadeUp" data-wow-duration=".9s"
+                              data-wow-delay=".3s">Industries Expertise</span>
+                            <h2 className="tp-section-title-4">Our Expertise Spans Across Industries</h2>
                         </div>
                      </div>
                   </div>

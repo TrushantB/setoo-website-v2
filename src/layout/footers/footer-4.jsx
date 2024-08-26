@@ -47,14 +47,14 @@ const FooterFour = () => {
                   </div>
                   <div className="container">
                      <div className="row">
-                        <div className="col-xl-4 col-lg-4 col-md-6 pb-45 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                        <div className="col-xl-4 col-lg-12 col-md-12 pb-45 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                            <div className="tp-footer__widget footer-widget-4 footer-col-4-1">
                               <div className="tp-footer__logo mb-25">
                                  <Link href="/">
                                     <Image src={footer_logo} alt="theme-pure" />
                                  </Link>
                               </div>
-                              <p className='h5'>Bridging the gap between ideas and products.</p>
+                              <p className='h5'>AI-Driven Software Solutions</p>
                               {/* <h3 className="footer-subtitle-3">{sub_title}</h3>
                               <div className="tp-footer__input mb-15 p-relative">
                                  <form onSubmit={(e) => e.preventDefault()}>
@@ -73,7 +73,7 @@ const FooterFour = () => {
                               </div>
                            </div>
                         </div>
-                        <div className="col-xl-5 col-lg-5 col-md-6 pb-45 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <div className="col-xl-5 col-lg-8 col-md-6 pb-45 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                            <div className="tp-footer__widget footer-widget-4 footer-col-4-2">
                               <h4 className="tp-footer__widget-title">Useful Links</h4>
                               <div className="tp-footer__content">
@@ -85,7 +85,7 @@ const FooterFour = () => {
                               </div>
                            </div>
                         </div>
-                        <div className="col-xl-3 col-lg-3 col-md-6 pb-45 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+                        <div className="col-xl-3 col-lg-4 col-md-6 pb-45 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                            <div className="tp-footer__widget footer-widget-4 footer-col-4-3">
                               <h4 className="tp-footer__widget-title">Contact Info</h4>
                               <div className="tp-contact-info-box">

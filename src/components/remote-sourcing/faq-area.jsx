@@ -8,7 +8,7 @@ import img from "../../../public/assets/img/faq/faq-1.png"
 const faq_content = {
     sub_title: "Support",
     title: <>Frequently <br /> Asked Questions</>,
-    description: <>Get the Answers You Need <br /> Explore Our Remote Resourcing FAQ</>,
+    description: <>Get the Answers You Need <br /> Explore Our Remote Resourcing FAQs</>,
     btn_text: "Schedule a Meeting",
 }
 const {sub_title, title, description, btn_text }  = faq_content

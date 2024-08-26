@@ -97,7 +97,7 @@ const ContactArea = () => {
                            </div>
                         </div> */}
                      <div className="d-flex flex-column align-items-center">
-                        <h2 className="h4 fw-normal">Have a Great Idea in Mind?</h2>
+                        <h4 className="h4 fw-normal">Have a Great Idea in Mind?</h4>
                         <Link href="/contact" className="display-1">Let's Talk
                            <svg width="4rem" height="4rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <g id="Frame 33">

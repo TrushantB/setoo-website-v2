@@ -25,8 +25,8 @@ const ServiceArea = () => {
                   <div className="row align-items-end mb-60">
                      <div className="col-xl-6 col-lg-6">
                         <div className="tp-service-section-four">
-                           <h5 className="tp-section-subtitle-4 pb-10">{sub_title}</h5>
-                           <h3 className="tp-section-title-4">{title}</h3>
+                           <span className="tp-section-subtitle-4 d-inline-block pb-10">{sub_title}</span>
+                           <h2 className="tp-section-title-4">{title}</h2>
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-6  wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">

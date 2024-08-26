@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import useCharAnimation from '@/hooks/useCharAnimation';
+import CalendlyPopupModal from '@/common/calendly-popup';
 
 
 import hero_shape from "../../../../public/assets/img/hero/hero-shape-4-1.png";
@@ -39,8 +40,8 @@ const HeroArea = () => {
                   <div className="row">
                      <div className="col-xl-7 col-lg-7">
                         <div className="tp-hero-4-section-box pt-10 z-index-3">
-                           <h3 className="tp-section-subtitle-4 tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</h3>
-                           <h5 className="tp-hero-title-5 fw-bolder pb-10 tp-char-animation">{title}</h5>
+                           <span className="tp-section-subtitle-4 d-inline-block tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</span>
+                           <h1 className="tp-hero-title-5 fw-bolder pb-10 tp-char-animation">{title}</h1>
                            <p className='pb-35 tp-fun-fact-title fw-normal'>{description}</p>
                            <Link className="tp-btn-yellow-border wow tpfadeRight" 
                                  data-wow-duration=".9s" 

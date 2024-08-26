@@ -10,14 +10,15 @@ import icon_3 from "../../../public/assets/img/contact/contact-icon-sm-3.png";
 
 const inner_content = {
   title: "Get in Touch!",
-  description: <>We will contact again after we receive your request in <span className="text-primary">24h</span></>,
+  description: <>We will contact again after we receive your request in
+  <span className="text-primary">24h</span></>,
 
   contact_data: [
     {
       id: 1,
       icon: icon_1,
-      title: "hello@Setoo.co",
-      link: "mailto:hello@Setoo.co",
+      title: "hello@setoo.co",
+      link: "mailto:hello@setoo.co",
     },
     {
       id: 2,
