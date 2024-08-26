@@ -24,7 +24,7 @@ const  service_data = [
         id: 1,
         icon: <AiModelDevelopment />,
         img: <ServiceIconOne />,
-        title: <>AI <br /> model development</>,
+        title: <>AI <br /> Model Development</>,
         description: <>AI Model Development creates an intelligent system to build custom models as per specific business requirements. <br /> Our process involves data preparation, algorithm selection, model training, and deployment to deliver data-driven solutions for enhancing efficiency and decision-making.</>,
         delay: ".9s",
     },

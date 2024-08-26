@@ -21,7 +21,7 @@ const office_data = [
         id: 2, 
         cls:"p-relative",
         img: img_2,
-        badge: "Main Office",
+        badge: "Office",
         location: "Pune",
         address: <>Next to Siddhart Residency, <br /> Aundh, Pune, India</>,
     },
@@ -45,7 +45,7 @@ const OfficeLocation = () => {
                   <div className={`contact-info-item ${item.cls}`}>
                     {item.badge && (
                       <div className="contact-info-badge">
-                        <span>Main Office</span>
+                        <span>Office</span>
                       </div>
                     )}
                     <div className="contact-info-img">

@@ -102,7 +102,7 @@ const TestimonialArea = () => {
                      <div className="row">
                         <div className="col-12">
                            <div className="tp-testimonial-3-section-box d-flex justify-content-between align-items-end mb-60">
-                              <h3 className="tp-section-title-3 text-white">{title}</h3>
+                              <h2 className="tp-section-title-3 text-white">{title}</h2>
                               <div className="tp-test-arrow d-flex pb-10">
                                 <button
                                   onClick={() => sliderRef.current?.slickPrev()}

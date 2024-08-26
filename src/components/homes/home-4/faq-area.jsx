@@ -24,8 +24,8 @@ const FaqArea = ({style_service}) => {
                         data-wow-delay={style_service && ".4s"}>
                         <div className="tp-faq-left-wrapper p-relative">
                            <div className={`tp-faq-section-box ${style_service && "tp-inner-font tp-inner-faq-box"} pb-20`}>
-                              <h4 className={`${style_service ? "inner-section-subtitle" : "tp-section-subtitle-2 text-white"}`}>{sub_title}</h4>
-                              <h3 className={`${style_service ? "tp-section-title" : "tp-section-title-lg"}`}>{title}</h3>
+                              <span className={`${style_service ? "inner-section-subtitle" : "tp-section-subtitle-2 text-white"}`}>{sub_title}</span>
+                              <h2 className={`${style_service ? "tp-section-title" : "tp-section-title-lg"}`}>{title}</h2>
                               <p>{description}</p>
                            </div>
                            <div className="tp-faq-btn">

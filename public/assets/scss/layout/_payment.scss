@@ -890,7 +890,7 @@
     @media #{$md}{
         padding: 0;
     }
-    @media #{$xs}{
+    @media #{$xs, $md}{
         flex-direction: column;
         width: 100%;
         padding-left: 0px;
@@ -917,7 +917,7 @@
     @media #{$md}{
         padding:40px 25px;
     }
-    @media #{$xs}{
+    @media #{$xs, $md}{
         width: 100%;
         padding: 40px 30px;
     }

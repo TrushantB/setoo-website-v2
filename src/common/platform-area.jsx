@@ -71,7 +71,7 @@ const PlatformArea = ({style_carrer}) => {
 
     function mediaSize() { 
 		/* Set the matchMedia */
-		if (window.matchMedia('(max-width: 768px)').matches) {
+		if (window.matchMedia('(max-width: 991px)').matches) {
             setActive("all") 
 		} else {
 		 setActive(1)
@@ -101,8 +101,8 @@ const PlatformArea = ({style_carrer}) => {
                             data-wow-duration={style_carrer && ".9s"} 
                             data-wow-delay={style_carrer && ".3s"} >
                         <div className="tp-platform-section-box"> 
-                           <h5 className={`${style_carrer ? "inner-section-subtitle" : "tp-section-subtitle-4"} pb-10`}>{sub_title}</h5>
-                           <h3 className={`${style_carrer ? "tp-section-title" : "tp-section-title-4"}`}>{title}</h3>
+                           <span className={`${style_carrer ? "inner-section-subtitle" : "tp-section-subtitle-4"} pb-10`}>{sub_title}</span>
+                           <h2 className={`${style_carrer ? "tp-section-title" : "tp-section-title-4"}`}>{title}</h2>
                         </div>
                      </div>
                      <div className="col-xl-5 col-lg-6  wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">

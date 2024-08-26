@@ -76,6 +76,7 @@ const seo = ({ seo }) => {
         })
       }
       <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.gif" />
       {structuredData && <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

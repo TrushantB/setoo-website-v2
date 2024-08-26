@@ -34,7 +34,7 @@ const Recognition = () => {
               <div className="row">
                 <div className="col-12">
                   <div className="ab-brand-section-box text-center mb-50">
-                    <h4 className="ab-brand-title">{title}</h4>
+                    <h3 className="ab-brand-title">{title}</h3>
                   </div>
                 </div>
               </div>
