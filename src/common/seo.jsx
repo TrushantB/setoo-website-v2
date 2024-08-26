@@ -75,8 +75,8 @@ const seo = ({ seo }) => {
           return null; // Ensure to return null for items that do not match conditions
         })
       }
-      <link rel="icon" href="/favicon.ico" />
       <link rel="icon" href="/favicon.gif" />
+      <link rel="icon" href="/favicon.ico" />
       {structuredData && <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

@@ -59,7 +59,7 @@ const Brand = () => {
                       >
                         <div className="ab-brand-item mb-25">
                           <div className="ab-brand-image-wrapper">
-                            <Image src={item.img} alt="theme-pure" />
+                            <Image src={item.img} alt="brand image" />
                           </div>
                         </div>
                       </div>
