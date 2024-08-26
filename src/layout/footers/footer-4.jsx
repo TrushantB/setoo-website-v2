@@ -1,6 +1,5 @@
 import { CopyRight, SocialLinksTwo } from '@/common/social-links';
-import EmailIcon from '@/svg/email';
-import EmailThree from '@/svg/email-3';
+import ContactIcon from '@/svg/contact-icon';
 import LocationTwo from '@/svg/location-2';
 import PhoneThree from '@/svg/phone-3';
 import RightArrow from '@/svg/right-arrow';
@@ -95,7 +94,7 @@ const FooterFour = () => {
                                        <Link href={`tel:${phone}`}>{phone}</Link>
                                     </li> */}
                                     <li>
-                                       <EmailThree />
+                                       <ContactIcon />
                                        <Link href={`mailto:${email}`}>{email}</Link>
                                     </li>
                                     <li>

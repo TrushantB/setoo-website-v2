@@ -1,11 +1,11 @@
+import SkypeLink from "@/common/skype-link";
+import ContactIcon from "@/svg/contact-icon";
+import LocationIcon from "@/svg/location-icon";
+import SkypeIcon from "@/svg/skype-icon";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
-import icon_1 from "../../../public/assets/img/contact/contact-icon-sm-1.png";
-import icon_2 from "../../../public/assets/img/contact/contact-icon-sm-2.png";
-import icon_3 from "../../../public/assets/img/contact/contact-icon-sm-3.png";
 
 
 const inner_content = {
@@ -16,19 +16,19 @@ const inner_content = {
   contact_data: [
     {
       id: 1,
-      icon: icon_1,
+      icon: <ContactIcon />,
       title: "hello@setoo.co",
       link: "mailto:hello@setoo.co",
     },
     {
       id: 2,
-      icon: icon_2,
-      title: "+91-2046-750-640",
-      link: "tel:+91-2046-750-640",
+      icon: <SkypeIcon />,
+      title: "Set up a Skype meeting",
+      link: "skype:live:.cid.5afb42d5e6f83a1c?chat",
     },
     {
       id: 3,
-      icon: icon_3,
+      icon: <LocationIcon />,
       title: "Aundh, Pune, MH, IND",
       link: "https://maps.app.goo.gl/RmutV2GPSEyuowwt6",
     },
@@ -55,7 +55,7 @@ const ContactInner = () => {
                 <div key={i} className="col-xl-4 col-lg-4">
                   <div className="contact-inner-item d-flex align-items-center justify-content-center">
                     <div className="contact-inner-img contact-img-1">
-                      <Image src={item.icon} alt="theme-pure" />
+                      {item.icon}
                     </div>
                     <div className="contact-inner-link">
                       <Link href={`${item.link}`}>{item.title}</Link>
