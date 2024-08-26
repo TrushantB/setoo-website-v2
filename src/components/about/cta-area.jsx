@@ -7,7 +7,7 @@ const cta_content ={
      description: <>Your goals are our mission. <br /> Whether it's a simple query or a complex project, 
       we're here to provide the solutions you need. <br /> Let's collaborate and create something 
    extraordinary.</>,
-     btn_text: "Let's Get Started",
+      btn_text: "Schedule a Meeting",
 }
 const {bg_img, title, description, btn_text}  = cta_content
 

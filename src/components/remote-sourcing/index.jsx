@@ -9,6 +9,7 @@ import BlogArea from "./blog-area";
 import ContactFormArea from "./contact-form-area";
 import FunFactArea from "./fun-fact-area";
 import ProcessArea from "./process-area";
+import ResourceArea from "./resource-area";
 
 const RemoteResourcing = () => {
   return (
@@ -20,7 +21,8 @@ const RemoteResourcing = () => {
             <HeroArea />
             <BenefitsArea />
             {/* <BrandArea /> */}
-            <FunFactArea />            
+            <FunFactArea />
+            <ResourceArea />
             {/* <TechStack /> */}
             <ContactFormArea />
             <ProcessArea />

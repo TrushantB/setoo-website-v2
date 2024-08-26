@@ -8,8 +8,8 @@ import img from "../../../public/assets/img/faq/faq-1.png"
 const faq_content = {
     sub_title: "Support",
     title: <>Frequently <br /> Asked Questions</>,
-    description: <>Get the Answers You Need – Explore Our Web Studio FAQs for Expert Insights and Quick Solutions!</>,
-    btn_text: "Get in Touch",
+    description: <>Get the Answers You Need - Explore Our Web Studio FAQs for Expert Insights and Quick Solutions!</>,
+    btn_text: "Schedule a Meeting",
 }
 const {sub_title, title, description, btn_text }  = faq_content
 

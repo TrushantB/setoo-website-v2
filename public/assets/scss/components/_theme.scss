@@ -205,7 +205,10 @@ button:hover {
 button:focus {
     outline: 0;
 }
-
+a:focus-visible,
+button:focus-visible {
+    outline: 1px solid var(--tp-common-white);
+}
 .uppercase {
     text-transform: uppercase;
 }

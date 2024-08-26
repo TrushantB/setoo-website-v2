@@ -4,12 +4,12 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "What we do",
-    link: "/",
+    link: "",
     active: "active",
     sub_menus: [
       { link: "/ai-lab", title: "AI Lab" },
       { link: "/web-studio", title: "Web Studio" },
-      { link: "/product-development", title: "Product Development Studio" }
+      { link: "/product-development", title: "Product Development" }
     ],
   },
   {

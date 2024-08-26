@@ -52,7 +52,7 @@ const WorkArea = () => {
                <div className="row">
                   <div className="col-xl-6">
                      <div className="tp-project__section-box wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
-                        <h3 className="tp-section-title">Check Some Of Our Recent Work.</h3>
+                        <h2 className="tp-section-title">Check Some Of Our Recent Work.</h2>
                      </div>
                   </div>
                </div>
