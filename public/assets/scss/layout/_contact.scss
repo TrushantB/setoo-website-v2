@@ -183,6 +183,10 @@
         padding: 2rem 2.5rem;
         border-right: 2px solid var(--tp-grey-1);
         height: 100%;
+        svg{
+            width: 2rem;
+            height: 2rem;
+        }
         @media #{$xs}{
             flex-wrap: wrap;
             padding: 1rem 2rem;

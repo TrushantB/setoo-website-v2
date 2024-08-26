@@ -4,6 +4,7 @@ import RightArrow from '@/svg/right-arrow';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useRef } from 'react';
+import PopupButton from '@/common/calendly-popup';
 
 import img from "../../../public/assets/img/service/sv-dashbord.png" 
 
@@ -62,10 +63,15 @@ const BenefitsArea = () => {
                            <div className="tp-service__top-content">
                               <h3 className="tp-service__title-white">{title_2}</h3>
                               <p>{des}</p>
-                              <Link className="tp-btn-orange tp-btn-hover alt-color-white" href="/project-details">
+                              {/* <Link className="tp-btn-orange tp-btn-hover alt-color-white" href="/contact">
                                  <span>{btn_text}</span>
                                  <b></b>
-                              </Link>
+                              </Link> */}
+                                <PopupButton
+                                    buttonTitle="Schedule a Meeting"
+                                    className="tp-btn-orange tp-btn-hover alt-color-white"
+                                    showIcon={false}
+                                />
                            </div>
                            <div className="tp-service__dashdboard-sm-img">
                               <Image className="wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s" 
