@@ -1,29 +1,45 @@
-// components/CalendlyPopupModal.js
-import React, { useEffect, useState } from 'react';
+// components/PopupButton.js
+import React, { useState, useEffect, useRef } from 'react';
 import { PopupModal } from 'react-calendly';
 
-const CalendlyPopupModal = ({ url, text, className }) => {
-    const [rootElement, setRootElement] = useState(null);
+// Default pageSettings
+const defaultPageSettings = {
+    backgroundColor: '#292a2c',
+    hideEventTypeDetails: false,
+    hideLandingPageDetails: false,
+    primaryColor: '#ff5733',
+    textColor: '#ffffff',
+    hideGdprBanner: true,
+};
+const PopupButton = ({ pageSettings = defaultPageSettings, utm, buttonTitle, className, showIcon = false }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const rootElementRef = useRef(null);
 
     useEffect(() => {
-        if (typeof window !== 'undefined') {
-            setRootElement(document.getElementById('root'));
-        }
+        // Set the root element reference for the popup modal
+        rootElementRef.current = document.getElementById('root');
     }, []);
 
-    if (!rootElement) {
-        return null;
-    }
-
     return (
-        <PopupModal
-            url={url}
-            rootElement={rootElement}
-            text={text}
-            className={className}
-            color="#00a2ff"
-        />
+        <div>
+            <button
+                // style={{ display: 'block', margin: '0 auto' }}
+                onClick={() => setIsOpen(true)}
+                className={className}
+            >
+                {buttonTitle}
+                {showIcon && <i className="far fa-angle-right"></i>}
+            </button>
+            <PopupModal
+                url="https://calendly.com/harish-setoo/schedule-a-discovery-session"
+                pageSettings={pageSettings}
+                utm={utm}
+                onModalClose={() => setIsOpen(false)}
+                open={isOpen}
+                rootElement={rootElementRef.current}
+            />
+        </div>
     );
 };
 
-export default CalendlyPopupModal;
+export default PopupButton;

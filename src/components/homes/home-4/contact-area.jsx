@@ -4,6 +4,7 @@ import PhoneThree from '@/svg/phone-3';
 import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
+import PopupButton from '@/common/calendly-popup';
 
 import contact_img from "../../../../public/assets/img/hero/hero-4-3.png"
 import shape_1 from "../../../../public/assets/img/contact/shape-4-1.png"
@@ -16,7 +17,15 @@ const contact_content = {
    email: "hello@setoo.co",
    location: <>Ekdant Dutta Mandir Rd, Aundh, Pune 411007</>,
 }
-const { sub_title, title, phone, email, location } = contact_content
+const pageSettings = {
+   backgroundColor: '#292a2c',
+   hideEventTypeDetails: false,
+   hideLandingPageDetails: false,
+   primaryColor: '#ff5733',
+   textColor: '#ffffff',
+   hideGdprBanner: true
+}
+const { sub_title, title, phone, email, location } = contact_content;
 
 const ContactArea = () => {
    const selectHandler = (e) => { };
@@ -98,7 +107,7 @@ const ContactArea = () => {
                         </div> */}
                      <div className="d-flex flex-column align-items-center">
                         <h4 className="h4 fw-normal">Have a Great Idea in Mind?</h4>
-                        <Link href="/contact" className="display-1">Let's Talk
+                        {/* <Link href="/contact" className="display-1">Let's Talk
                            <svg width="4rem" height="4rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <g id="Frame 33">
                                  <g id="Vector">
@@ -108,7 +117,13 @@ const ContactArea = () => {
                                  </g>
                               </g>
                            </svg>
-                        </Link>
+                        </Link> */}
+                        <PopupButton
+                           pageSettings={pageSettings}
+                           buttonTitle="Let's Talk"
+                           className="display-1 border-bottom"
+                           showIcon={false}
+                        />
                      </div>
                   </div>
                </div>

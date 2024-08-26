@@ -2,8 +2,7 @@ import React,{useEffect} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import useCharAnimation from '@/hooks/useCharAnimation';
-import CalendlyPopupModal from '@/common/calendly-popup';
-
+import PopupButton from '@/common/calendly-popup';
 
 import hero_shape from "../../../../public/assets/img/hero/hero-shape-4-1.png";
 import hero_img  from "../../../../public/assets/img/hero/hero-4-3.png";
@@ -21,12 +20,18 @@ const hero_content = {
    description: <>Revolutionize your business with AI-driven software solutions that 
    enhance efficiency, automate processes, and deliver result-driven insights effortlessly.</>,
 }
+const pageSettings = {
+   backgroundColor: '#292a2c',
+   hideEventTypeDetails: false,
+   hideLandingPageDetails: false,
+   primaryColor: '#ff5733',
+   textColor: '#ffffff',
+   hideGdprBanner: true
+};
 const { sub_title, title, description}  = hero_content
-
-
 const HeroArea = () => {
-   useCharAnimation('.tp-hero-title-4 span.child');
-
+   //useCharAnimation('.tp-hero-title-4 span.child');
+   
     return (
         <>
             <div className="tp-hero-area tp-hero-overlay blue-bg pt-200 pb-115 p-relative">
@@ -43,11 +48,19 @@ const HeroArea = () => {
                            <span className="tp-section-subtitle-4 d-inline-block tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</span>
                            <h1 className="tp-hero-title-5 fw-bolder pb-10 tp-char-animation">{title}</h1>
                            <p className='pb-35 tp-fun-fact-title fw-normal'>{description}</p>
-                           <Link className="tp-btn-yellow-border wow tpfadeRight" 
+                           {/* <Link className="tp-btn-yellow-border wow tpfadeRight" 
                                  data-wow-duration=".9s" 
                                  data-wow-delay=".7s" href="/contact">
                                  <span>Talk to Expert<i className="far fa-angle-right"></i></span>
-                            </Link>
+                            </Link> */}
+                         <PopupButton
+                            pageSettings={pageSettings}
+                            buttonTitle="Talk to Expert"
+                            className="tp-btn-yellow-border wow tpfadeRight"
+                            showIcon={true}
+                            data-wow-duration=".9s"
+                            data-wow-delay=".7s"
+                         />
                         </div>
                      </div>
                      <div className="col-xl-5 col-lg-5">

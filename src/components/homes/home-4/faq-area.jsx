@@ -2,6 +2,7 @@ import AnswerQuestion from './answer-question';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import PopupButton from '@/common/calendly-popup';
 
 import img from "../../../../public/assets/img/faq/faq-1.png" 
 
@@ -10,6 +11,14 @@ const faq_content = {
     title: <>Frequently <br /> Asked Questions</>,
     description: <>Want to know more about us? Explore our FAQs</>,
     btn_text: "Schedule a Meeting",
+}
+const pageSettings = {
+   backgroundColor: '#292a2c',
+   hideEventTypeDetails: false,
+   hideLandingPageDetails: false,
+   primaryColor: '#ff5733',
+   textColor: '#ffffff',
+   hideGdprBanner: true
 }
 const {sub_title, title, description, btn_text }  = faq_content
 
@@ -29,10 +38,16 @@ const FaqArea = ({style_service}) => {
                               <p>{description}</p>
                            </div>
                            <div className="tp-faq-btn">
-                              <Link className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn"} `} 
+                              {/* <Link className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn"} `} 
                                   href="/contact">
                                     {btn_text}
-                              </Link>
+                              </Link> */}
+                              <PopupButton
+                                 pageSettings={pageSettings}
+                                 buttonTitle="Schedule a Meeting"
+                                 className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn"} `}
+                                 showIcon={false}
+                              />
                            </div>
                            {/* <div className="tp-faq-img" data-parallax='{"x": -50, "smoothness": 30}'>
                               <Image src={img} alt="" />
