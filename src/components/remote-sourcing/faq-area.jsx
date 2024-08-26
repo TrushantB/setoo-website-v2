@@ -2,6 +2,7 @@ import AnswerQuestion from './answer-question';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import PopupButton from '@/common/calendly-popup';
 
 import img from "../../../public/assets/img/faq/faq-1.png" 
 
@@ -29,10 +30,15 @@ const FaqArea = ({style_service}) => {
                               <p>{description}</p>
                            </div>
                            <div className="tp-faq-btn">
-                              <Link className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn-green"} `} 
+                              {/* <Link className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn-green"} `} 
                                   href="/contact">
                                     {btn_text}
-                              </Link>
+                              </Link> */}
+                              <PopupButton
+                                 buttonTitle="Schedule a Meeting"
+                                 className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn-green"} `}
+                                 showIcon={false}
+                              />
                            </div>
                            {/* <div className="tp-faq-img" data-parallax='{"x": -50, "smoothness": 30}'>
                               <Image src={img} alt="" />

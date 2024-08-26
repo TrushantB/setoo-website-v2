@@ -5,6 +5,7 @@ import BounceLine from '@/svg/bounce-line';
 import gsap from 'gsap';
 import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
+import PopupButton from '@/common/calendly-popup';
 
 import left_shape from "../../../public/assets/img/hero/hero-left-shape-3-1.png" ;
 import gradient_bg from "../../../public/assets/img/hero/hero-gradient-3.jpg" ;
@@ -51,10 +52,15 @@ const HeroArea = () => {
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/contact">
+                        {/* <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/contact">
                            <span>{btn_1}</span>
                            <b></b>
-                        </Link>
+                        </Link> */}
+                        <PopupButton
+                           buttonTitle="Consult Our DevOps Experts"
+                           className="tp-btn-blue-lg tp-btn-hover alt-color-black mb-10"
+                           showIcon={false}
+                        />
                         {/* <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
                            <span>{btn_2}</span>
                            <b></b>

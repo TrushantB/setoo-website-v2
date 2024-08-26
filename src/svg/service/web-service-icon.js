@@ -11,7 +11,7 @@ const WebsServiceIcon = () => {
             <rect width="98" height="98" />
           </clipPath>
         </defs>
-        <g id="_1" dataName="1" clipPath="url(#clip-_1)">
+        <g id="_1" dataname="1" clipPath="url(#clip-_1)">
           <g transform="translate(-1.528 -1.208)">
             <g id="WebServiceIconGroup" data-name="WebServiceIconGroup">
               <circle id="Ellipse_1" data-name="Ellipse 1" cx="1.293" cy="1.293" r="1.293" transform="translate(20.927 7.563)" />
