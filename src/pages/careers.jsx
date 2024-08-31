@@ -5,7 +5,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   const seo = {
     metaTitle: "Careers at Setoo",
-    metaImage: "/assets/images/setoo-og.png",
+    metaImage: "/assets/img/setoo-og.png",
     metaDescription: "Be a part of co-founder menatlity team at Setoo",
     metaSocial: [
       {
@@ -13,30 +13,30 @@ const index = () => {
         title: "Careers at Setoo",
         description: "Be a part of co-founder menatlity team at Setoo",
         image: {
-          url: "/assets/images/setoo-og.png",
-          alt: 'setoo-website'
+          url: "/assets/img/setoo-og.png",
+          alt: Setoo Opengraph'
         },
         card: "summary_large_image",
-        url: "https://www.setoo.co/work"
+        url: "https://www.setoo.co/careers"
       },
       {
         socialNetwork: "Facebook",
         title: "Careers at Setoo",
         description: "Be a part of co-founder menatlity team at Setoo",
         image: {
-          url: "/assets/images/setoo-og.png",
-          alt: 'setoo-website'
+          url: "/assets/img/setoo-og.png",
+          alt: Setoo Opengraph'
         },
-        url: "https://www.setoo.co/work"
+        url: "https://www.setoo.co/careers"
       }
     ],
-    canonicalURL: "https://www.setoo.co/work",
+    canonicalURL: "https://www.setoo.co/careers",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "SETOO",
+      "name": "Setoo",
       "url": "https://www.setoo.co",
-      "logo": "/assets/images/setoo-og.png",
+      "logo": "/assets/img/setoo-og.png",
       "sameAs": [
         "https://www.facebook.com/setoo/",
         "https://www.linkedin.com/company/setoos/"

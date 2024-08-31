@@ -5,7 +5,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   const seo = {
     metaTitle: "Contact | Setoo",
-    metaImage: "/assets/images/setoo-og.png",
+    metaImage: "/assets/img/setoo-og.png",
     metaDescription: "Reach out to the team to collaborate, share the vision, and build your ideas",
     metaSocial: [
       {
@@ -13,7 +13,7 @@ const index = () => {
         title: "Contact | Setoo",
         description: "Reach out to the team to collaborate, share the vision, and build your ideas",
         image: {
-          url: "/assets/images/setoo-og.png",
+          url: "/assets/img/setoo-og.png",
           alt: 'Connect with Setoo'
         },
         card: "summary_large_image",
@@ -24,7 +24,7 @@ const index = () => {
         title: "Contact | Setoo",
         description: "Reach out to the team to collaborate, share the vision, and build your ideas",
         image: {
-          url: "/assets/images/setoo-og.png",
+          url: "/assets/img/setoo-og.png",
           alt: 'Connect with Setoo'
         },
         url: "https://www.setoo.co/contact"
@@ -34,9 +34,9 @@ const index = () => {
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "SETOO",
+      "name": "Setoo",
       "url": "https://www.setoo.co",
-      "logo": "/assets/images/setoo-og.png",
+      "logo": "/assets/img/setoo-og.png",
       "sameAs": [
         "https://www.facebook.com/setoo/",
         "https://www.linkedin.com/company/setoos/",

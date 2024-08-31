@@ -5,7 +5,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   const seo = {
     metaTitle: "About us | Setoo",
-    metaImage: "/assets/images/setoo-og.png",
+    metaImage: "/assets/img/setoo-og.png",
     metaDescription: "At Setoo, We are a team of professionals who use cutting-edge technology, insightful designs, strategies, and web problem solutions to bring ideas to life.",
     metaSocial: [
       {
@@ -13,7 +13,7 @@ const index = () => {
         title: "About us | Setoo",
         description: "At Setoo, We are a team of professionals who use cutting-edge technology, insightful designs, strategies, and web problem solutions to bring ideas to life.",
         image: {
-          url: "/assets/images/setoo-og.png",
+          url: "/assets/img/setoo-og.png",
           alt: 'About Setoo'
         },
         card: "summary_large_image",
@@ -24,7 +24,7 @@ const index = () => {
         title: "About us | Setoo",
         description: "At Setoo, We are a team of professionals who use cutting-edge technology, insightful designs, strategies, and web problem solutions to bring ideas to life.",
         image: {
-          url: "/assets/images/setoo-og.png",
+          url: "/assets/img/setoo-og.png",
           alt: 'About Setoo'
         },
         url: "https://www.setoo.co/about"
@@ -34,9 +34,9 @@ const index = () => {
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "SETOO",
+      "name": "Setoo",
       "url": "https://www.setoo.co",
-      "logo": "/assets/images/setoo-og.png",
+      "logo": "/assets/img/setoo-og.png",
       "sameAs": [
         "https://www.facebook.com/setoo/",
         "https://www.linkedin.com/company/setoos/",
