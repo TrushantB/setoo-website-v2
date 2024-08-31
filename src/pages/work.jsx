@@ -5,7 +5,7 @@ import Wrapper from "../layout/wrapper";
 const indx = () => {
   const seo = {
     metaTitle: "Our Success Stories | Setoo",
-    metaImage: "/assets/images/setoo-og.png",
+    metaImage: "/assets/img/setoo-og.png",
     metaDescription: "Here is our featured work that we are pleased to share. Check out the project case studies in more detail.",
     metaSocial: [
       {
@@ -13,8 +13,8 @@ const indx = () => {
         title: "Our Success Stories | Setoo",
         description: "Here is our featured work that we are pleased to share. Check out the project case studies in more detail.",
         image: {
-          url: "/assets/images/setoo-og.png",
-          alt: 'setoo-website'
+          url: "/assets/img/setoo-og.png",
+          alt: Setoo Opengraph'
         },
         card: "summary_large_image",
         url: "https://www.setoo.co/work"
@@ -24,8 +24,8 @@ const indx = () => {
         title: "Our Success Stories | Setoo",
         description: "Here is our featured work that we are pleased to share. Check out the project case studies in more detail.",
         image: {
-          url: "/assets/images/setoo-og.png",
-          alt: 'setoo-website'
+          url: "/assets/img/setoo-og.png",
+          alt: Setoo Opengraph'
         },
         url: "https://www.setoo.co/work"
       }
@@ -34,9 +34,9 @@ const indx = () => {
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "SETOO",
+      "name": "Setoo",
       "url": "https://www.setoo.co",
-      "logo": "/assets/images/setoo-og.png",
+      "logo": "/assets/img/setoo-og.png",
       "sameAs": [
         "https://www.facebook.com/setoo/",
         "https://www.linkedin.com/company/setoos/"

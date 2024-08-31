@@ -5,7 +5,7 @@ import RemoteSourcing from "@/components/remote-sourcing/index";
 const index = () => {
   const seo = {
     metaTitle: "Remote sourcing | Setoo",
-    metaImage: "/assets/images/setoo-og.png",
+    metaImage: "/assets/img/setoo-og.png",
     metaDescription: "Hire your best-matching professional for your project. We can extend our arms to your ongoing projects or your partner from start to finish.",
     metaSocial: [
       {
@@ -13,7 +13,7 @@ const index = () => {
         title: "Remote resourcing | Setoo",
         description: "Hire your best-matching professional for your project. We can extend our arms to your ongoing projects or your partner from start to finish.",
         image: {
-          url: "/assets/images/setoo-og.png",
+          url: "/assets/img/setoo-og.png",
           alt: 'Remote sourcing - Setoo'
         },
         card: "summary_large_image",
@@ -24,7 +24,7 @@ const index = () => {
         title: "Remote sourcing | Setoo",
         description: "Hire your best-matching professional for your project. We can extend our arms to your ongoing projects or your partner from start to finish.",
         image: {
-          url: "/assets/images/setoo-og.png",
+          url: "/assets/img/setoo-og.png",
           alt: 'Remote Resourcing - Setoo'
         },
         url: "https://www.setoo.co/remote-resourcing"
@@ -34,9 +34,9 @@ const index = () => {
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "SETOO",
+      "name": "Setoo",
       "url": "https://www.setoo.co",
-      "logo": "/assets/images/setoo-og.png",
+      "logo": "/assets/img/setoo-og.png",
       "sameAs": [
         "https://www.facebook.com/setoo/",
         "https://www.linkedin.com/company/setoos/",

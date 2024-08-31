@@ -8,7 +8,7 @@ const Home = () => {
   const seo = {
     metaTitle:
       "Setoo - AI-Driven Software Solutions",
-    metaImage: "https://www.setoo.co/assets/images/setoo-og.png",
+    metaImage: "https://www.setoo.co/assets/img/setoo-og.png",
     metaDescription:
       "Setoo is an AI-Driven Software Solutions company with a global focus on offering top-notch strategy, designs, and technology solutions.",
     metaSocial: [
@@ -19,7 +19,7 @@ const Home = () => {
         description:
           "Setoo is an AI-Driven Software Solutions company with a global focus on offering top-notch strategy, designs, and technology solutions.",
         image: {
-          url: "https://www.setoo.co/assets/images/setoo-og.png",
+          url: "https://www.setoo.co/assets/img/setoo-og.png",
           alt: "Setoo",
         },
         card: "summary_large_image",
@@ -32,7 +32,7 @@ const Home = () => {
         description:
           "Setoo is an AI-Driven Software Solutions company with a global focus on offering top-notch strategy, designs, and technology solutions.",
         image: {
-          url: "https://www.setoo.co/assets/images/setoo-og.png",
+          url: "https://www.setoo.co/assets/img/setoo-og.png",
           alt: "Setoo",
         },
         url: "https://www.setoo.co",
@@ -42,9 +42,9 @@ const Home = () => {
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "SETOO",
+      name: "Setoo Solutions Pvt Ltd.",
       url: "https://www.setoo.co",
-      logo: "https://www.setoo.co/assets/images/setoo-og.png",
+      logo: "https://www.setoo.co/assets/img/setoo-og.png",
       sameAs: [
         "https://www.facebook.com/setoo/",
         "https://www.linkedin.com/company/setoos/",

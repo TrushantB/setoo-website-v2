@@ -77,7 +77,9 @@ body.monserat {
 // html,body{
 //     overflow-x: hidden;
 // }
-
+html{
+    scroll-padding-block-start: 6rem;
+}
 a {
     text-decoration: none;
     transition: .3s;

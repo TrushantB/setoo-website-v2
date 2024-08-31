@@ -1,43 +1,43 @@
+import { useEffect, useState } from 'react';
 import Link from "next/link";
 
-
-const social_links = [
+const socialLinks = [
   {
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f", 
+    link: (url) => `http://facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
+    icon: 'fab fa-facebook-f',
   },
   {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter", 
+    link: (url) => `http://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`,
+    icon: 'fab fa-twitter',
   },
   {
-    link: "https://www.linkedin.com",
-    target: "_blank",
-    icon: "fab fa-linkedin-in", 
-  }, 
-  {
-    link: "https://www.vimeo.com",
-    target: "_blank",
-    icon: "fab fa-vimeo-v", 
+    link: (url) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
+    icon: 'fab fa-linkedin-in',
   },
 ];
 
 const SocialLinks = () => {
+  const [url, setUrl] = useState('');
+
+  useEffect(() => {
+    // Set the URL when the component mounts
+    setUrl(window.location.href);
+  }, []);
+
   return (
-    <>
-      {social_links.map((l, i) => (
-        <Link
+    <div className="social-links blog-details-social-box">
+      {socialLinks.map((l, i) => (
+        <a
           key={i}
-          href={l.link}
-          className={l.color}
-          target={l.target ? l.target : ""}
+          href={l.link(url)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-link"
         >
           <i className={l.icon}></i>
-        </Link>
+        </a>
       ))}
-    </>
+    </div>
   );
 };
 

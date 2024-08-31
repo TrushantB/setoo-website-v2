@@ -5,7 +5,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
     const seo = {
         metaTitle: "KERF | Setoo Work",
-        metaImage: "/assets/images/setoo-og.png",
+        metaImage: "/assets/img/setoo-og.png",
         metaDescription: "Learn how we built a solution for kerf manufacture company for online presence and ecommerce store.",
         metaSocial: [
             {
@@ -13,7 +13,7 @@ const index = () => {
                 title: "KERF | Setoo Work",
                 description: "Learn how we built a solution for kerf manufacture company for online presence and ecommerce store.",
                 image: {
-                    url: "/assets/images/setoo-og.png",
+                    url: "/assets/img/setoo-og.png",
                     alt: 'KERF Case Study'
                 },
                 card: "summary_large_image",
@@ -24,7 +24,7 @@ const index = () => {
                 title: "KERF | Setoo Work",
                 description: "Learn how we built a solution for kerf manufacture company for online presence and ecommerce store.",
                 image: {
-                    url: "/assets/images/setoo-og.png",
+                    url: "/assets/img/setoo-og.png",
                     alt: 'KERF Case Study'
                 },
                 url: "https://www.setoo.co/kerf"
@@ -34,9 +34,9 @@ const index = () => {
         structuredData: {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "SETOO",
+            "name": "Setoo",
             "url": "https://www.setoo.co",
-            "logo": "/assets/images/setoo-og.png",
+            "logo": "/assets/img/setoo-og.png",
             "sameAs": [
                 "https://www.facebook.com/setoo/",
                 "https://www.linkedin.com/company/setoos/"
