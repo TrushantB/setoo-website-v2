@@ -15,7 +15,7 @@ const index = () => {
         description: "Team provides you with a website, mobile app, and software solutions that have been finely processed using agile methodology, and time-tested appropriate architecture.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         card: "summary_large_image",
         url: "https://www.setoo.co/product-development"
@@ -26,7 +26,7 @@ const index = () => {
         description: "Team provides you with a website, mobile app, and software solutions that have been finely processed using agile methodology, and time-tested appropriate architecture.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         url: "https://www.setoo.co/product-development"
       }

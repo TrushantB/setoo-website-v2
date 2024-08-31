@@ -14,7 +14,7 @@ const index = () => {
         description: "Setoo's AI Lab caters to AI services that can transform your business operations with the integration of AI.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         card: "summary_large_image",
         url: "https://www.setoo.co/work"
@@ -25,7 +25,7 @@ const index = () => {
         description: "Setoo's AI Lab caters to AI services that can transform your business operations with the integration of AI.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         url: "https://www.setoo.co/work"
       }
