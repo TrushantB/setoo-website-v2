@@ -5,7 +5,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
     const seo = {
         metaTitle: "Gurumantra | Setoo Work",
-        metaImage: "/assets/images/setoo-og.png",
+        metaImage: "/assets/img/setoo-og.png",
         metaDescription: "Gurumantra is a MVP app that provides the interactive way to test and enhance aspirants knowledge",
         metaSocial: [
             {
@@ -13,7 +13,7 @@ const index = () => {
                 title: "Gurumantra | Setoo Work",
                 description: "Gurumantra is a MVP app that provides the interactive way to test and enhance aspirants knowledge",
                 image: {
-                    url: "/assets/images/setoo-og.png",
+                    url: "/assets/img/setoo-og.png",
                     alt: 'Gurumantra Case Study'
                 },
                 card: "summary_large_image",
@@ -24,7 +24,7 @@ const index = () => {
                 title: "Gurumantra | Setoo Work",
                 description: "Gurumantra is a MVP app that provides the interactive way to test and enhance aspirants knowledge",
                 image: {
-                    url: "/assets/images/setoo-og.png",
+                    url: "/assets/img/setoo-og.png",
                     alt: 'Gurumantra Case Study'
                 },
                 url: "https://www.setoo.co/gurumantra"
@@ -36,7 +36,7 @@ const index = () => {
             "@type": "Organization",
             "name": "SETOO",
             "url": "https://www.setoo.co",
-            "logo": "/assets/images/setoo-og.png",
+            "logo": "/assets/img/setoo-og.png",
             "sameAs": [
                 "https://www.facebook.com/setoo/",
                 "https://www.linkedin.com/company/setoos/"

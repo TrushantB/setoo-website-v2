@@ -28,17 +28,17 @@ const menu_data = [
     link: "/about",
     active: "",
   },
-  // {
-  //   id: 4,
-  //   mega_menu: false,
-  //   has_dropdown: true,
-  //   title: "Insights",
-  //   link: "/blog",
-  //   active: "active",
-  //   sub_menus: [
-  //     { link: "/blog", title: "Blogs" }
-  //   ],
-  // },
+  {
+    id: 4,
+    mega_menu: false,
+    has_dropdown: true,
+    title: "Insights",
+    link: "/blog",
+    active: "active",
+    sub_menus: [
+      { link: "/blog", title: "Blogs" }
+    ],
+  },
   {
     id: 5,
     mega_menu: false,

@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
     const seo = {
         metaTitle: "Vishwamitra | Setoo Work",
-        metaImage: "/assets/images/setoo-og.png",
+        metaImage: "/assets/img/setoo-og.png",
         metaDescription: "Viswamitra is user-friendly mobJ app is built on Jamstack+ plaform that allows individuals to explore and engage in various volunteering initiatives effortlessly",
         metaSocial: [
             {
@@ -14,7 +14,7 @@ const index = () => {
                 title: "Vishwamitra | Setoo Work",
                 description: "Viswamitra is user-friendly mobJ app is built on Jamstack+ plaform that allows individuals to explore and engage in various volunteering initiatives effortlessly",
                 image: {
-                    url: "/assets/images/setoo-og.png",
+                    url: "/assets/img/setoo-og.png",
                     alt: 'Vishwamitra Case Study'
                 },
                 card: "summary_large_image",
@@ -25,7 +25,7 @@ const index = () => {
                 title: "Vishwamitra | Setoo Work",
                 description: "Viswamitra is user-friendly mobJ app is built on Jamstack+ plaform that allows individuals to explore and engage in various volunteering initiatives effortlessly",
                 image: {
-                    url: "/assets/images/setoo-og.png",
+                    url: "/assets/img/setoo-og.png",
                     alt: 'Vishwamitra Case Study'
                 },
                 url: "https://www.setoo.co/vishwamitra"
@@ -35,9 +35,9 @@ const index = () => {
         structuredData: {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "SETOO",
+            "name": "Setoo",
             "url": "https://www.setoo.co",
-            "logo": "/assets/images/setoo-og.png",
+            "logo": "/assets/img/setoo-og.png",
             "sameAs": [
                 "https://www.facebook.com/setoo/",
                 "https://www.linkedin.com/company/setoos/"
