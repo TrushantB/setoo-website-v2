@@ -14,7 +14,7 @@ const indx = () => {
         description: "Here is our featured work that we are pleased to share. Check out the project case studies in more detail.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         card: "summary_large_image",
         url: "https://www.setoo.co/work"
@@ -25,7 +25,7 @@ const indx = () => {
         description: "Here is our featured work that we are pleased to share. Check out the project case studies in more detail.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         url: "https://www.setoo.co/work"
       }

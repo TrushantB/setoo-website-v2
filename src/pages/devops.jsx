@@ -14,7 +14,7 @@ const index = () => {
         description: "DevOps acts as a roadmap to streamline software development, integration, and deployment for optimized efficiency.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         card: "summary_large_image",
         url: "https://www.setoo.co/devops"
@@ -25,7 +25,7 @@ const index = () => {
         description: "DevOps acts as a roadmap to streamline software development, integration, and deployment for optimized efficiency.",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         url: "https://www.setoo.co/devops"
       }
