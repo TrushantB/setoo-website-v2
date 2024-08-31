@@ -14,7 +14,7 @@ const index = () => {
         description: "Be a part of co-founder menatlity team at Setoo",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         card: "summary_large_image",
         url: "https://www.setoo.co/careers"
@@ -25,7 +25,7 @@ const index = () => {
         description: "Be a part of co-founder menatlity team at Setoo",
         image: {
           url: "/assets/img/setoo-og.png",
-          alt: Setoo Opengraph'
+          alt: 'Setoo Opengraph'
         },
         url: "https://www.setoo.co/careers"
       }
