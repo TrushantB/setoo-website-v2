@@ -1,6 +1,4 @@
-const VOICE_CALL_API = process.env.NEXT_PUBLIC_VOICE_CALL_API;
-
-console.log(VOICE_CALL_API);
+const VOICE_CALL_API = 'https://ai-voicecall-bot.onrender.com' || process.env.NEXT_PUBLIC_VOICE_CALL_API;
 
 export const postData = async (url, data) => {
 
