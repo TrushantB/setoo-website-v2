@@ -32,9 +32,9 @@ const ContactUsForm = () => {
       email: formData.email,
       phone: `${formData.phoneNumber}`,
     })
-      .then((res) => {
-        if (res.status == 200) {
-          toast.success("Form submitted successfully!");
+      .then((res) => {   
+        if (res.status == 201) {
+          toast.success(res.message);
           setIsLoading(false);
         }
       })
