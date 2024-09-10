@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
 import NiceSelect from "../ui/nice-select";
 import { postData } from "../../client";
 import toast from "react-hot-toast";
+import { PhoneInput } from "react-international-phone";
+import "react-international-phone/style.css";
 
 const ContactUsForm = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -14,8 +16,10 @@ const ContactUsForm = () => {
   });
   const {
     register,
+    control,
     handleSubmit,
     setValue,
+    reset,
     formState: { errors },
   } = useForm();
 
@@ -32,10 +36,11 @@ const ContactUsForm = () => {
       email: formData.email,
       phone: `${formData.phoneNumber}`,
     })
-      .then((res) => {   
+      .then((res) => {
         if (res.status == 201) {
           toast.success(res.message);
           setIsLoading(false);
+          reset();
         }
       })
       .catch((err) => {
@@ -86,24 +91,36 @@ const ContactUsForm = () => {
           </div>
           <div className="col-12">
             <div className="postbox__comment-input mt-30">
-              <input
-                type="text"
-                className="inputText"
-                {...register("phoneNumber", {
+              <Controller
+                name="phoneNumber"
+                control={control}
+                defaultValue=""
+                rules={{
                   required: "Phone Number is required",
                   pattern: {
                     value: /^\+?[1-9]{1,3}[0-9]{10}$/,
                     message: "Invalid phone number",
                   },
-                })}
+                }}
+                render={({ field, fieldState: { error } }) => (
+                  <>
+                    {/* PhoneInput component from react-international-phone */}
+                    <PhoneInput
+                      {...field}
+                      defaultCountry="in"
+                      className="inputText"
+                      onChange={(value) => field.onChange(value)}
+                    />
+                  </>
+                )}
               />
-              <span className="floating-label">Phone Number</span>
+              <span className=" phone-no">Phone Number</span>
             </div>
             {errors.phoneNumber && (
               <p className="error-message">{errors.phoneNumber.message}</p>
             )}
           </div>
-          <div className="col-12">
+          {/* <div className="col-12">
             <div className="postbox__select mt-30">
               <NiceSelect
                 options={[
@@ -141,7 +158,7 @@ const ContactUsForm = () => {
             {errors.message && (
               <p className="error-message">{errors.message.message}</p>
             )}
-          </div>
+          </div> */}
           <div className="col-xxl-12">
             <div className="postbox__btn-box mt-30">
               <button className="submit-btn w-100" type="submit">
