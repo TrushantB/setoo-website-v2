@@ -161,7 +161,7 @@ const ContactUsForm = () => {
           </div> */}
           <div className="col-xxl-12">
             <div className="postbox__btn-box mt-30">
-              <button className="submit-btn w-100" type="submit">
+              <button disabled={isLoading}  className={`submit-btn w-100 ${isLoading? "contact-btn":""} `} type="submit">
                 {isLoading && (
                   <svg
                     width={24}
