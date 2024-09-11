@@ -78,3 +78,7 @@ gap: 10px !important;
 .react-international-phone-country-selector-dropdown::-webkit-scrollbar-thumb {
   background: #888; 
 }
+
+.contact-btn:disabled{
+    cursor: not-allowed;
+}
