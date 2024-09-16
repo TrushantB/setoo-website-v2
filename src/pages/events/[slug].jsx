@@ -161,7 +161,7 @@ export default function Post({ postData }) {
                   </button>
 
                   <iframe
-                    src="https://call-rating-ai.vercel.app/dashboard"
+                    src="https://call-rating-ai.vercel.app"
                     className="w-full"
                     width={500}
                     height={500}
