@@ -130,7 +130,6 @@ export default function Post({ postData }) {
                   src={hero_image}
                   alt="Hero Image"
                   className="article-hero-image"
-                  layout="responsive"
                   width={1200}
                   height={675}
                 />
@@ -195,22 +194,28 @@ export default function Post({ postData }) {
                   </TabList>
 
                   <TabPanel>
-                    <h4 className="mt-4">At this Session you will</h4>
-
-                    <ul className="mx-4 d-flex flex-column gap-3 pt-10">
-                      <li>
-                        Discover AI strategies to build business credibility.
-                      </li>{" "}
-                      <li>Learn from industry expert and AI specialist.</li>{" "}
-                      <li>
-                        Discover AI strategies to build business credibility.
-                      </li>{" "}
-                      <li>
-                        Network with like-minded professionals and business
-                        leaders.
-                      </li>
-                    </ul>
-
+                    <h4 className="my-4 fw-medium h5">At this Session you will</h4>
+                    <div className="tp-plan-feature">
+                      <ul className="mx-0">
+                        <li>
+                          <i className="far fa-check"></i>
+                          Discover AI strategies to build business credibility.
+                        </li>{" "}
+                        <li>
+                          <i className="far fa-check"></i>
+                          Learn from industry expert and AI specialist.
+                        </li>{" "}
+                        <li>
+                          <i className="far fa-check"></i>
+                          Discover AI strategies to build business credibility.
+                        </li>{" "}
+                        <li>
+                          <i className="far fa-check"></i>
+                          Network with like-minded professionals and business
+                          leaders.
+                        </li>
+                      </ul>
+                    </div>
                     <div className="d-flex flex-column flex-lg-row gap-3 gap-lg-5 mt-50">
                       <div className="d-flex gap-2 align-items-center">
                         <img

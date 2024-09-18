@@ -75,7 +75,6 @@ export default function Post({ postData }) {
                                     src={hero_image}
                                     alt="Hero Image"
                                     className="article-hero-image"
-                                    layout="responsive"
                                     width={1200}
                                     height={675}
                                 />

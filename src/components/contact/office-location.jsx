@@ -63,8 +63,8 @@ const OfficeLocation = () => {
                       <g
                         fill="none"
                         stroke="#40474e"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
+                        strokeMiterlimit="10"
+                        strokeWidth="2"
                       >
                         <path d="m32.39 19.26h35.25v5.32h-35.25z" />
                         <path d="m34.85 24.58h31.08v14.31h-31.08z" />
