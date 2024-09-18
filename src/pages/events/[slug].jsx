@@ -14,7 +14,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Link from "next/link";
 import { Modal } from 'react-responsive-modal';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import 'react-responsive-modal/styles.css';
 export async function getStaticPaths() {
   const slugs = getPostSlugs(); // Get all post slugs
@@ -77,6 +77,16 @@ export default function Post({ postData }) {
     author_info: author_info || "No Author Info",
   };
 
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash === "#leaveReview") {
+      setOpen(true);
+
+      //remove the hash after opening the modal
+      window.history.replaceState(null, '', window.location.pathname)
+    }
+  });
+
   return (
     <Wrapper>
       <Head>
@@ -113,7 +123,7 @@ export default function Post({ postData }) {
       />
       <article className="container postbox__area">
         <div className="pb-100">
-          <div className="blog-details-img-area mb-80">
+          <div className="blog-details-img-area mb-30">
             <div className="blog-details-big-img z-index-2">
               {hero_image && (
                 <Image
@@ -130,7 +140,7 @@ export default function Post({ postData }) {
           <div className="row">
             <div className="col-xxl-4 col-xl-4 col-lg-4 align-self-start sticky-lg-top"></div>
             <div className="col-12">
-              <div className="postbox__details-wrapper pr-20">
+              <div className="postbox__details-wrapper pr-20 pb-10">
                 <h2>Event Description</h2>
 
                 {description}
