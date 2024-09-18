@@ -88,6 +88,14 @@ gap: 10px !important;
     font-size: 16px !important;
     padding: 10px 30px !important;
 }
+.react-tabs__tab--selected {
+    background: var(--tp-dark-light) !important;
+    border-color: var(--tp-dark-mid) !important;
+    color: var(--tp-common-white) !important;
+}
+.react-tabs__tab-list{
+  border-bottom: 2px solid var(--tp-dark-light) !important;
+}
 
 .react-responsive-modal-modal{
     padding: 0  !important;
@@ -97,7 +105,7 @@ gap: 10px !important;
 
 .modal-iframe{
   width: 100% !important;
-  height: 75vh !important;
+  height: 77vh !important;
 }
 
 .review-btn{
