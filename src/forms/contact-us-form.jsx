@@ -182,7 +182,7 @@ const ContactUsForm = () => {
                     />
                   </svg>
                 )}
-                Send your Request
+                Schedule a Meeting
               </button>
             </div>
           </div>

@@ -90,4 +90,29 @@ gap: 10px !important;
 
 .react-responsive-modal-modal{
     padding: 0  !important;
+    width: 90% !important;
+}
+
+.modal-iframe{
+  width: 100% !important;
+  height: 500px !important;
+}
+
+.review-btn{
+  top: -40px !important;
+}
+
+@media screen and (min-width:768px) {
+
+  .review-btn{
+  top: 0px !important;
+}
+
+  .react-responsive-modal-modal{
+    width: auto !important;
+  }
+  .modal-iframe{
+  width: 500px !important;
+  height: 500px !important;
+}
 }
