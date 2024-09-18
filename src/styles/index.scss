@@ -26,13 +26,14 @@
 
 .phone-no{
     position: absolute;
-     top: -5px !important;
+     top: -10px !important;
     left: 20px !important;
     font-size: 13px !important;
     font-weight: 400 !important;
     color: var(--tp-common-white) !important; 
     background-color: var(--tp-dark-mid) !important;
-    padding: 0px 4px !important;
+    padding: 2px 6px !important;
+    border-radius: 1rem;
 }
 
 .react-international-phone-country-selector-dropdown{

@@ -21,7 +21,7 @@ const blog_page_data = [
     date: "Sep 19, 2024",
 
     title: "Boost your Business Credibility with the Power of AI",
-    link: "/events/setoo-presentation",
+    link: "/events/boost-business-credibility-with-ai",
     des: (
       <>
         We are excited to invite you to an exclusive event on Boosting your
@@ -42,7 +42,7 @@ const EventLising = () => {
       <div className="postbox__area pt-90 pb-90">
         <div className="container">
           <div className="row">
-            <div className="col-xxl-8 col-xl-8 col-lg-8">
+            <div className="col-xxl-9 col-xl-9 col-lg-9">
               <div id="blog" className="postbox__wrapper pr-20">
                 {blog_page_data.map((item, i) => (
                   <article
