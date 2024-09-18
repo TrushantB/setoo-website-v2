@@ -100,7 +100,8 @@ gap: 10px !important;
 }
 
 .review-btn{
-  top: -40px !important;
+  top: -55px !important;
+  
 }
 
 @media screen and (min-width:768px) {
@@ -111,9 +112,28 @@ gap: 10px !important;
 
   .react-responsive-modal-modal{
     width: auto !important;
+    height: 95% !important;
+    overflow: hidden !important;
+    max-height: 700px !important;
   }
   .modal-iframe{
   width: 500px !important;
-  height: 500px !important;
+  height: 100% !important;
+}
+
+.react-responsive-modal-modal::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+.react-responsive-modal-modal::-webkit-scrollbar-track {
+  background: #f1f1f1 !important; 
+}
+
+.react-responsive-modal-modal::-webkit-scrollbar-thumb {
+  background: #888 !important; 
+}
+
+.react-responsive-modal-container{
+  overflow: hidden !important;
 }
 }
