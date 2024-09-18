@@ -10,7 +10,7 @@ const Events = () => {
     <>
       <Header />
       <main>
-        <BreadcrumbTwo title={"Our Events"} innertitle={"Event"} />
+        <BreadcrumbTwo title={"Our Events"} innertitle={"Events"} />
         <EventLising />
         {/* <Portfolio /> */}
         <CtaArea />

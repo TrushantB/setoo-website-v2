@@ -163,7 +163,7 @@ export default function Post({ postData }) {
                   <iframe
                     src="https://call-rating-ai.vercel.app"
                     className="w-full modal-iframe"
-                    frameborder="0"
+                    frameBorder="0"
                   ></iframe>
                 </Modal>
 
@@ -222,7 +222,9 @@ export default function Post({ postData }) {
                           alt="location icon"
                         />
                         <p className="mb-0">
+                          <Link href={'https://maps.app.goo.gl/W8FkbpQiJVDPtqkJ7'} target="_blank">
                           The Sky Kitchen, Singhad Road, Pune
+                          </Link>
                         </p>
                       </div>
                     </div>
@@ -230,7 +232,7 @@ export default function Post({ postData }) {
                   <TabPanel className="">
                     <iframe
                       src="https://call-rating-ai.vercel.app/dashboard"
-                      frameborder="0"
+                      frameBorder="0"
                       className="w-100 tabs"
                       height={500}
                     ></iframe>
