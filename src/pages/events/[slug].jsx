@@ -42,8 +42,13 @@ export async function getStaticProps({ params }) {
 export default function Post({ postData }) {
 
    const [open, setOpen] = useState(false);
+  const [tabIndex, setTabIndex] = useState(0);
 
-  const onOpenModal = () => setOpen(true);
+  const onOpenModal = () => {
+    setOpen(true);
+    setTabIndex(1);
+  }
+
   const onCloseModal = () => setOpen(false);
     
   // console.log('Post Data:', postData); // Check data in the browser console
@@ -175,15 +180,15 @@ export default function Post({ postData }) {
                     frameBorder="0"
                   ></iframe>
                 </Modal>
-
                 <Tabs
                   className={"position-relative py-2"}
                   focusTabOnClick={false}
+                  selectedIndex={tabIndex}
+                  onSelect={(index) => setTabIndex(index)}
                 >
                   <button
                     onClick={onOpenModal}
                     className={`tp-btn-yellow tp-btn-hover  d-md-inline-block position-absolute top-0 end-0 review-btn`}
-                    href="#"
                   >
                     <span>Leave a Review</span>
                     <b></b>
