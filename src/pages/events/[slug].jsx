@@ -14,7 +14,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Link from "next/link";
 import { Modal } from 'react-responsive-modal';
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import 'react-responsive-modal/styles.css';
 export async function getStaticPaths() {
   const slugs = getPostSlugs(); // Get all post slugs
@@ -43,6 +43,7 @@ export default function Post({ postData }) {
 
    const [open, setOpen] = useState(false);
   const [tabIndex, setTabIndex] = useState(0);
+  const scrollToRef = useRef(null);
 
   const onOpenModal = () => setOpen(true);
 
@@ -99,8 +100,22 @@ export default function Post({ postData }) {
       // Access the data sent from the iframe
       setTabIndex(1);
       onCloseModal();
+      handleScrollToElement();
     });
   },[])
+
+
+  // Function to scroll to the element
+  const handleScrollToElement = () => {
+    if (scrollToRef.current) {
+     const elementPosition = scrollToRef.current.getBoundingClientRect().top + window.pageYOffset;
+      const offset = - 100; // Adjust this value to add more scroll offset
+      window.scrollTo({
+        top: elementPosition + offset,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <Wrapper>
@@ -200,7 +215,7 @@ export default function Post({ postData }) {
                     onClick={onOpenModal}
                     className={`tp-btn-yellow tp-btn-hover  d-md-inline-block position-absolute top-0 end-0 review-btn`}
                   >
-                    <span>Leave a Review</span>
+                    <span  ref={scrollToRef}>Leave a Review</span>
                     <b></b>
                   </button>
                   <TabList>
