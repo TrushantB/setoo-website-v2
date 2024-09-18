@@ -162,9 +162,7 @@ export default function Post({ postData }) {
 
                   <iframe
                     src="https://call-rating-ai.vercel.app"
-                    className="w-full"
-                    width={500}
-                    height={500}
+                    className="w-full modal-iframe"
                     frameborder="0"
                   ></iframe>
                 </Modal>
@@ -175,10 +173,10 @@ export default function Post({ postData }) {
                 >
                   <button
                     onClick={onOpenModal}
-                    className={`tp-btn-yellow tp-btn-hover d-none d-md-inline-block position-absolute top-0 end-0`}
+                    className={`tp-btn-yellow tp-btn-hover  d-md-inline-block position-absolute top-0 end-0 review-btn`}
                     href="#"
                   >
-                    <span>Give Review</span>
+                    <span>Leave a Review</span>
                     <b></b>
                   </button>
                   <TabList>
@@ -203,7 +201,7 @@ export default function Post({ postData }) {
                       </li>
                     </ul>
 
-                    <div className="d-flex gap-5 mt-50">
+                    <div className="d-flex flex-column flex-lg-row gap-3 gap-lg-5 mt-50">
                       <div className="d-flex gap-2 align-items-center">
                         <img
                           src="/assets/img/events/Date.svg"
