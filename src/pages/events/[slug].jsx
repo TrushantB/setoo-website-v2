@@ -44,10 +44,7 @@ export default function Post({ postData }) {
    const [open, setOpen] = useState(false);
   const [tabIndex, setTabIndex] = useState(0);
 
-  const onOpenModal = () => {
-    setOpen(true);
-    setTabIndex(1);
-  }
+  const onOpenModal = () => setOpen(true);
 
   const onCloseModal = () => setOpen(false);
     
@@ -91,6 +88,19 @@ export default function Post({ postData }) {
       window.history.replaceState(null, '', window.location.pathname)
     }
   });
+
+  useEffect(() => {
+    window.addEventListener("message", (event) => {
+      // For security, you can check the origin of the message
+      if (event.origin !== "https://fp.setoo.ai") {
+        return;
+      }
+    
+      // Access the data sent from the iframe
+      setTabIndex(1);
+      onCloseModal();
+    });
+  },[])
 
   return (
     <Wrapper>
@@ -175,7 +185,7 @@ export default function Post({ postData }) {
                   </button>
 
                   <iframe
-                    src="https://call-rating-ai.vercel.app"
+                    src="https://fp.setoo.ai"
                     className="w-full modal-iframe"
                     frameBorder="0"
                   ></iframe>
@@ -251,7 +261,7 @@ export default function Post({ postData }) {
                   </TabPanel>
                   <TabPanel className="">
                     <iframe
-                      src="https://call-rating-ai.vercel.app/dashboard"
+                      src="https://fp.setoo.ai/dashboard"
                       frameBorder="0"
                       className="w-100 tabs"
                       height={500}
