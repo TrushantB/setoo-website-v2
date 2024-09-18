@@ -26,13 +26,14 @@
 
 .phone-no{
     position: absolute;
-     top: -5px !important;
+     top: -10px !important;
     left: 20px !important;
     font-size: 13px !important;
     font-weight: 400 !important;
     color: var(--tp-common-white) !important; 
     background-color: var(--tp-dark-mid) !important;
-    padding: 0px 4px !important;
+    padding: 2px 6px !important;
+    border-radius: 1rem;
 }
 
 .react-international-phone-country-selector-dropdown{
@@ -81,4 +82,38 @@ gap: 10px !important;
 
 .contact-btn:disabled{
     cursor: not-allowed;
+}
+
+.react-tabs__tab {
+    font-size: 16px !important;
+    padding: 10px 30px !important;
+}
+
+.react-responsive-modal-modal{
+    padding: 0  !important;
+    width: 90% !important;
+}
+
+.modal-iframe{
+  width: 100% !important;
+  height: 500px !important;
+}
+
+.review-btn{
+  top: -40px !important;
+}
+
+@media screen and (min-width:768px) {
+
+  .review-btn{
+  top: 0px !important;
+}
+
+  .react-responsive-modal-modal{
+    width: auto !important;
+  }
+  .modal-iframe{
+  width: 500px !important;
+  height: 500px !important;
+}
 }
