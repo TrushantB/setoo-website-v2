@@ -11,7 +11,7 @@ import React from "react";
 const inner_content = {
   title: "Get in Touch!",
   description: <>We will contact again after we receive your request in
-  <span className="text-primary">24h</span></>,
+  <span className="text-primary text-primary d-inline mx-1">24h</span></>,
 
   contact_data: [
     {
@@ -39,7 +39,7 @@ const { title, description, contact_data } = inner_content;
 const ContactInner = () => {
   return (
     <>
-      <div className="contact-inner-area pb-130">
+      <div className="contact-inner-area pb-90">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">

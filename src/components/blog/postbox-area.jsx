@@ -80,7 +80,7 @@ const PostboxArea = () => {
         <div className="postbox__area pt-90 pb-90">
             <div className="container">
                <div className="row">
-                  <div className="col-xxl-8 col-xl-8 col-lg-8">
+                  <div className="col-xxl-9 col-xl-9 col-lg-9">
                      <div id="blog" className="postbox__wrapper pr-20">
                         {blog_page_data.map((item, i)  => 
                             <article key={i} className={`postbox__item ${item.cls} mb-70 transition-3`}>

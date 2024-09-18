@@ -19,7 +19,7 @@ const {sub_title, tilte, info}  =  contact_content
 const ContactFormArea = () => {
     return (
       <>
-        <div id="scheduleMeeting" className="contact-form-area pb-120 pt-10">
+        <div id="scheduleMeeting" className="contact-form-area pb-90 pt-10">
           <div className="container">
             <div className="row gx-0">
               <div className="col-xl-5 col-lg-6">
