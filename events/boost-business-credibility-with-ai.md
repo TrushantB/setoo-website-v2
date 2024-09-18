@@ -9,10 +9,10 @@ date: "2023-09-26"
 openGraph:
   type: "article"
   url: "https://setoo.co/blog/best-react-chart-libraries"
-  image: "/assets/img/blogs/react-chart-libraries.png"
+  image: "/assets/img/events/banner-image.png"
   site_name: "Setoo"
-  title: "Setoo Presentation"
-  description: "Discover 7 effective React libraries for seamless data visualization. Elevate your web app's data-driven insights and user experience effortlessly."
+  title: "Boost your Business Credibility with the Power of AI - Setoo"
+  description: "Be a part of an exclusive event on Boosting your Business Credibility with AI for SMEs, designed to help you explore the innovative ways artificial intelligence can transform your business"
 schema:
   logo:
     url: "/setoo-logo.jpeg"
@@ -22,14 +22,10 @@ schema:
   breadcrumb:
     - name: "Home"
       url: "https://setoo.co/"
-    - name: "Setoo Event"
+    - name: "Setoo Events"
       url: "https://setoo.co/events/"
-    - name: "7 Most effective React libraries for effortless data visualisation"
-      url: "https://setoo.co/blog/best-react-chart-libraries"
-  article:
-    author: "Kumudini K"
-    publisher: "Setoo"
-    mainEntityOfPage: "https://setoo.co/blog/best-react-chart-libraries"
+    - name: "Boost your Business Credibility with the Power of AI - Setoo"
+      url: "https://www.setoo.co/events/boost-business-credibility-with-ai"  
 ---
 
 <!-- # The Ultimate Guide to Markdown -->
