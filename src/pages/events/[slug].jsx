@@ -194,7 +194,7 @@ export default function Post({ postData }) {
                   </TabList>
 
                   <TabPanel>
-                    <h4 className="my-4 fw-medium h5">At this Session you will</h4>
+                    <h4 className="my-4 fw-medium Tag">At this Session you will</h4>
                     <div className="tp-plan-feature">
                       <ul className="mx-0">
                         <li>
@@ -204,10 +204,6 @@ export default function Post({ postData }) {
                         <li>
                           <i className="far fa-check"></i>
                           Learn from industry expert and AI specialist.
-                        </li>{" "}
-                        <li>
-                          <i className="far fa-check"></i>
-                          Discover AI strategies to build business credibility.
                         </li>{" "}
                         <li>
                           <i className="far fa-check"></i>

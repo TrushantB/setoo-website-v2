@@ -1,10 +1,10 @@
-import Breadcrumb from "./breadcrumb";
+import Breadcrumb from "../../components/associate-hr/breadcrumb";
 import FooterFour from "@/layout/footers/footer-4";
 import Header from "@/layout/headers/header";
 import React from "react";
-import JobArea from "./job-area";
-import CtaArea from "./cta-area";
-import CareerDetailsArea from "./career-details-area";
+import JobArea from "../../components/associate-hr/job-area";
+import CtaArea from "../../components/associate-hr/cta-area";
+import CareerDetailsArea from "../../components/associate-hr/career-details-area";
 
 const CareerDetails = () => {
   return (
