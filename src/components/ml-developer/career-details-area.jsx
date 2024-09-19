@@ -13,13 +13,13 @@ const career_content ={
             id: 1, 
             cls: "mb-45",
             title: "Job Responsibilities",
-            description: <><p>This is a full-time on-site / remote role for a Machine Learning Developer
+            description: <div><p>This is a full-time on-site / remote role for a Machine Learning Developer
                at Setoo Solutions located in Pune. </p> <p>As a Machine Learning Developer, you will be
                responsible for developing and deploying machine learning models, performing data
                analysis, and optimizing algorithms to solve complex business challenges. </p>
                <p>Your expertise in Python, PyTorch, NLP, and LLMs, along with your experience in data
                storage, retrieval, and serverless architectures, will be crucial for this role.
-               </p></>, 
+               </p></div>
         },
         {
             id: 2, 
@@ -113,7 +113,7 @@ const CareerDetailsArea = () => {
                            {job_post_details.map((item, i)  => 
                               <div key={i} className={`career-details-job-responsiblity ${item.cls}`}>
                               <h4 className="career-details-title-sm">{item.title}</h4>
-                              <p className="pb-15">{item.description}</p>
+                              <div className="pb-15">{item.description}</div>
                               {item.experiences && 
                               <div className="career-details-job-list">
                                  <ul>

@@ -24,17 +24,15 @@ export async function getPostData(slug) {
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data, content: markdownContent } = matter(fileContents);
 
-    console.log(`Processing markdown for slug: ${slug}`);
-    console.log(
-      "Markdown content preview:",
-      markdownContent.slice(0, 100) + "..."
-    );
+    // console.log(`Processing markdown for slug: ${slug}`);
+    // console.log(
+    //   "Markdown content preview:",
+    //   markdownContent.slice(0, 100) + "..."
+    // );
 
     const { tocHtml, contentHtml } = await markdownToHtml(markdownContent);
-
-    console.log(`TOC HTML length: ${tocHtml.length}`);
-    console.log(`Content HTML length: ${contentHtml.length}`);
-
+    // console.log(`TOC HTML length: ${tocHtml.length}`);
+    // console.log(`Content HTML length: ${contentHtml.length}`);
     return {
       slug,
       ...data,

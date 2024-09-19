@@ -7,6 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 import ScrollToTop from "@/hooks/scroll-to-top";
 import { animationCreate } from "../../utils/utils";
 import SEO from "@/common/seo";
+import Head from "next/head";
 
 
 const Wrapper = ({ children, seo = {} }) => {
@@ -19,6 +20,9 @@ const Wrapper = ({ children, seo = {} }) => {
 
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+      </Head>
       <SEO seo={seo} />
       {children}
       <ScrollToTop />
