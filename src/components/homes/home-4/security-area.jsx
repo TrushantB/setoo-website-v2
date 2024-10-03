@@ -85,7 +85,7 @@ const security_data = [
     {
         id: 4,
         img: ecommerce_icon,
-        title: <>e-commerce</>,        
+        title: <>E-commerce</>,        
     },
     {
         id: 5,

@@ -8,12 +8,14 @@ import "react-international-phone/style.css";
 
 const ContactUsForm = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const [isChecked, setIsChecked] = useState(true); // Default checked
 
   const [data, setData] = useState({
     name: "",
     email: "",
     phone: "",
   });
+
   const {
     register,
     control,
@@ -23,28 +25,34 @@ const ContactUsForm = () => {
     formState: { errors },
   } = useForm();
 
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
+
   const onSubmit = (formData) => {
     setIsLoading(true);
     setData({
       name: formData.fullName,
       email: formData.email,
       phone: `${formData.phoneNumber}`,
+      consent: isChecked, // Use isChecked for consent
     });
 
     postData("submit", {
       name: formData.fullName,
       email: formData.email,
       phone: `${formData.phoneNumber}`,
+      consent: isChecked, // Send consent state
     })
       .then((res) => {
-        if (res.status == 201) {
+        if (res.status === 201) {
           toast.success(res.message);
           setIsLoading(false);
           reset();
         }
       })
       .catch((err) => {
-        toast.error("something went wrong!");
+        toast.error("Something went wrong!");
         setIsLoading(false);
       });
   };
@@ -104,7 +112,6 @@ const ContactUsForm = () => {
                 }}
                 render={({ field, fieldState: { error } }) => (
                   <>
-                    {/* PhoneInput component from react-international-phone */}
                     <PhoneInput
                       {...field}
                       defaultCountry="in"
@@ -114,54 +121,36 @@ const ContactUsForm = () => {
                   </>
                 )}
               />
-              <span className=" phone-no">Phone Number</span>
+              <span className="phone-no">Phone Number</span>
             </div>
             {errors.phoneNumber && (
               <p className="error-message">{errors.phoneNumber.message}</p>
             )}
           </div>
-          {/* <div className="col-12">
-            <div className="postbox__select mt-30">
-              <NiceSelect
-                options={[
-                  { value: "", text: "Your Inquiry about" },
-                  { value: "AI Lab", text: "AI Lab" },
-                  { value: "Web Studio", text: "Web Studio" },
-                  {
-                    value: "Software Development",
-                    text: "Software Development",
-                  },
-                  { value: "Jamstack", text: "Jamstack" },
-                  { value: "Staff Augmentation", text: "Staff Augmentation" },
-                  { value: "DevOps", text: "DevOps" },
-                  { value: "Other", text: "Other" },
-                ]}
-                defaultCurrent={0}
-                {...register("inquiry", {
-                  required: "Inquiry type is required",
-                })}
-                onChange={selectHandler}
-              />
-            </div>
-            {errors.inquiry && (
-              <p className="error-message">{errors.inquiry.message}</p>
-            )}
+          <div className="col-12">
+            <div className="postbox__comment-input mt-30 d-flex gap-2 align-items-start">
+              
+                <input
+                  type="checkbox"
+                  className="mt-1 form-check-input mr-5"
+                  checked={isChecked}
+                  onChange={handleCheckboxChange}
+                  id="isConsent"
+                  required
+                />
+              <label htmlFor="isConsent">By checking this box, you consent to us contacting you via phone or email to discuss your inquiry and provide further information about our services.</label>
+              {errors.callConsent && (
+                <p className="error-message">{errors.callConsent.message}</p>
+              )}              
+            </div>            
           </div>
           <div className="col-xxl-12">
-            <div className="postbox__comment-input mt-30">
-              <textarea
-                className="textareaText"
-                {...register("message", { required: "Message is required" })}
-              ></textarea>
-              <span className="floating-label-2">Message...</span>
-            </div>
-            {errors.message && (
-              <p className="error-message">{errors.message.message}</p>
-            )}
-          </div> */}
-          <div className="col-xxl-12">
             <div className="postbox__btn-box mt-30">
-              <button disabled={isLoading}  className={`submit-btn w-100 ${isLoading? "contact-btn":""} `} type="submit">
+              <button
+                disabled={isLoading}
+                className={`submit-btn w-100 ${isLoading ? "contact-btn" : ""}`}
+                type="submit"
+              >
                 {isLoading && (
                   <svg
                     width={24}
