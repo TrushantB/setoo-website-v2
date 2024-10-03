@@ -24,7 +24,7 @@ const ContactFormArea = () => {
             <div className="row gx-0">
               <div className="col-xl-5 col-lg-6">
                 <div className="contact-form-left">
-                  <div className="contact-form-section-box pb-80">
+                  <div className="contact-form-section-box pb-20">
                     <h5 className="inner-section-subtitle">{sub_title}</h5>
                     <h4 className="tp-section-title pb-10">{tilte}</h4>
                     <p>{info}</p>

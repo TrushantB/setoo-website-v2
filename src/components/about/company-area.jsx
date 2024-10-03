@@ -6,12 +6,16 @@ const company_content ={
    title: <>Setoo is Made <br />For the Businesses.</>,
    info_1: <>Setoo has been in business for half a decade. The company is operating worldwide 
       in the IT industry with its focus to revolutionise business with AI, Web, and Product 
-      Development solutions. The additional offerings include DevOps and Remote Soucing.</>,
-   info_2: <><strong>Vision:</strong> Bridging innovation to weave expertise with excellence</>,
-   info_3: <><strong>Mission:</strong> Always on the path to transform our ways to provide an 
-   exceptional experience </>,
+      Development solutions. The additional offerings include DevOps and Remote Sourcing.</>,
+   info_2: <>We are talented and diverse team of young professionals working with a detailed 
+      process-originated approach to make <strong>AI-driven software solutions</strong>. The solutions are made future-ready with a focus on maximising the customer experience. Building on the foundation of reliability we make every project efficient and effective with high-quality solutions.</>,
+   info_3: <></>,   
+   vision: <><small className='text-primary'>Vision</small><h3>Transforming the Future with AI-Driven Digital Solutions.</h3></>,
+   vision_desc: <>At Setoo, we aim to reshape industries by empowering businesses with transformative AI technology. Our vision is to harness innovation and drive global success, turning groundbreaking ideas into dynamic digital solutions that redefine the future of technology.</>,
+   mission: <><small className='text-primary'>Mission</small><h3>Creating Smarter, Faster, and Scalable Solutions with AI.</h3></>,
+   mission_desc: <>Setoo is dedicated to delivering cutting-edge AI-driven software solutions that drive digital transformation. We partner with businesses to turn ambitious ideas into impactful technology, offering scalable solutions that accelerate growth and make a lasting market impact.</>,
 }
-const {sub_title, title, info_1, info_2, info_3}  = company_content
+const {sub_title, title, info_1, info_2, info_3, vision, vision_desc, mission, mission_desc}  = company_content
 
 
 const CompanyArea = () => {
@@ -38,7 +42,8 @@ const CompanyArea = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="row align-items-center">
+                
+                  <div className="row align-items-center pt-75 pb-75">
                      <div className="col-xl-4 align-self-start">
                         {/* <div className="ab-company-video">
                            <a className="popup-video" 
@@ -82,6 +87,22 @@ const CompanyArea = () => {
                               </div>
                            </div>
                         </div>
+                     </div>
+                  </div>
+                  <div className="row ab-company-section-space">
+                     <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <p>{vision}</p>
+                     </div>
+                     <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <p>{vision_desc}</p>
+                     </div>
+                  </div>
+                  <div className="row ab-company-section-space">
+                     <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <p>{mission}</p>
+                     </div>
+                     <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <p>{mission_desc}</p>
                      </div>
                   </div>
                </div>
