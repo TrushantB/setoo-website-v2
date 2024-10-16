@@ -13,7 +13,7 @@ const ExperienceArea = () => {
     return (
         <>
             <div className="tp-blog-area blue-bg pt-60 pb-90">
-                <div className="container">
+                <div className="container">                    
                     <div className="row align-items-end tp-blog-four-section-space">
                         <div className="col-xl-6 col-lg-6">
                             <div className="tp-blog-four-section-box">
@@ -38,7 +38,7 @@ const ExperienceArea = () => {
                                     <div className="tp-blog-four-content-wrapper d-flex flex-column flex-grow-1">
                                         <div className="tp-blog-four-meta">
                                             <span className="child-1">{item.category}</span>
-                                            <span className="child-2">{item.date}</span>
+                                            {/* <span className="child-2">{item.date}</span> */}
                                         </div>
                                         <div className="tp-blog-four-info">
                                             <h4 className="tp-blog-four-title-sm"><Link href={item.experience_link} target="_blank">{item.title}</Link></h4>

@@ -2,13 +2,16 @@ import author_img_1 from "../../public/assets/img/blog/blog-avata-1.png";
 import author_img_2 from "../../public/assets/img/blog/blog-avata-2.png";
 import author_img_3 from "../../public/assets/img/blog/blog-avata-3.png";
 
-import img_4 from "../../public/assets/img/blog/blog-4-1.jpg"
-import img_5 from "../../public/assets/img/blog/blog-4-2.jpg"
+import img_1 from "../../public/assets/img/experience/on-call-doctor-healthcare-session.png"
+import img_2 from "../../public/assets/img/experience/customer-interaction-digital-human.png"
+import img_3 from "../../public/assets/img/experience/conference-room-meeting.png"
+import img_4 from "../../public/assets/img/experience/ai-booking-scheduling-agent.png"
+import img_5 from "../../public/assets/img/experience/ai-bot-for-client-reviews.png"
 
 const experience_data = [
     {
         id: 1,
-        img: img_4,
+        img: img_1,
         category: "AI Lab",
         color: "1",
         date: "3 August, 2023",
@@ -19,7 +22,7 @@ const experience_data = [
     },
     {
         id: 2,
-        img: img_4,
+        img: img_2,
         category: "AI Lab",
         color: "2",
         date: "5 September, 2023",
@@ -31,7 +34,7 @@ const experience_data = [
     },
     {
         id: 3,
-        img: img_4,
+        img: img_3,
         category: "AI Lab",
         color: "3",
         date: "26 September, 2023",

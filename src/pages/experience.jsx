@@ -58,15 +58,14 @@ const Experience = () => {
     };
     return (
         <Wrapper seo={seo}>
-            <HeaderFour />
-            <div className="container pt-160 pb-60">
-                <h2>Welcome to <strong className="text-primary">Setoo Experience</strong></h2>
-                <LoginLink>Sign in</LoginLink> &nbsp;
-                <RegisterLink>Sign up</RegisterLink>
-                <ExperienceArea />
-            </div>
-            <FooterFour />
-            <ScrollToTop />
+            <>
+                <HeaderFour />
+                <div className="container pt-160 pb-60">
+                    <ExperienceArea />
+                </div>
+                <FooterFour />
+                <ScrollToTop />
+            </>
         </Wrapper>
     );
 };
