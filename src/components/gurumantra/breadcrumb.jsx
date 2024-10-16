@@ -72,7 +72,7 @@ const BreadcrumbEight = () => {
                            <div className="breadcrumb__client-info space-left-4">
                               <span>Project Link</span>
                               <div className="breadcrumb__live-btn">
-                                 <Link className="tp-btn-inner-border" href="http://admin.egurumantra.com/">
+                                 <Link className="tp-btn-inner-border" href="http://admin.egurumantra.com/" target="_blank">
                                     See live 
                                     <i className="fal fa-arrow-up"></i>
                                 </Link>
