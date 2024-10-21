@@ -138,7 +138,7 @@ const ContactUsForm = () => {
                   id="isConsent"
                   required
                 />
-              <label htmlFor="isConsent">By checking this box, you consent to us contacting you via phone or email to discuss your inquiry and provide further information about our services.</label>
+              <label name="isConsent" htmlFor="isConsent">By checking this box, you consent to us contacting you via phone or email to discuss your inquiry and provide further information about our services.</label>
               {errors.callConsent && (
                 <p className="error-message">{errors.callConsent.message}</p>
               )}              

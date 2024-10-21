@@ -101,13 +101,13 @@ const PlatformArea = ({style_carrer}) => {
                             data-wow-duration={style_carrer && ".9s"} 
                             data-wow-delay={style_carrer && ".3s"} >
                         <div className="tp-platform-section-box"> 
-                           <span className={`${style_carrer ? "inner-section-subtitle" : "tp-section-subtitle-4"} pb-10`}>{sub_title}</span>
-                           <h2 className={`${style_carrer ? "tp-section-title" : "tp-section-title-4"}`}>{title}</h2>
+                                <span className={`${style_carrer ? "inner-section-subtitle" : "tp-section-subtitle-4"} pb-10`} name="core-services-subtitle">{sub_title}</span>
+                           <h2 className={`${style_carrer ? "tp-section-title" : "tp-section-title-4"}`} name="core-services-title">{title}</h2>
                         </div>
                      </div>
                      <div className="col-xl-5 col-lg-6  wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-platform-text">
-                           <p>{description}</p>
+                           <p name="core-services-lead-content">{description}</p>
                         </div>
                      </div>
                   </div>
@@ -124,15 +124,15 @@ const PlatformArea = ({style_carrer}) => {
                                 <div key={i} className={`col-custom ${active === "all" ? "active" : item.id === active ? "active" : ""}`}  onClick={active !== "all" ? () => handleToggle(item.id) : () => handleAll() }>
                                     <div className="tp-panel-item">
                                         <div className="tp-panel-content">
-                                        <span>{item.count}.</span>
+                                        <span name="core-service-index">{item.count}.</span>
                                         <h4 className={`tp-panel-title child-${item.cls}`}> {item.sub_title}</h4>
                                         </div>
                                     </div>
                                     <div className="tp-panel-item-2">
                                         <div className="tp-panel-content-2">
-                                        <span>{item.count}.</span>
-                                        <h4 className="tp-panel-title-2">{item.title}</h4>
-                                        <p>{item.des}</p>
+                                        <span name="core-service-count">{item.count}.</span>
+                                        <h4 className="tp-panel-title-2" name="core-service-title">{item.title}</h4>
+                                        <p name="core-service-description">{item.des}</p>
                                         {/* <Link className='text-primary mt-30 d-inline-block' href={item.link}>Read more about {item.title} <i className='fal fa-arrow-right'></i> </Link> */}
                                         </div>
                                     </div>

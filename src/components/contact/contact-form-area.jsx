@@ -25,9 +25,9 @@ const ContactFormArea = () => {
               <div className="col-xl-5 col-lg-6">
                 <div className="contact-form-left">
                   <div className="contact-form-section-box pb-20">
-                    <h5 className="inner-section-subtitle">{sub_title}</h5>
-                    <h4 className="tp-section-title pb-10">{tilte}</h4>
-                    <p>{info}</p>
+                    <h5 className="inner-section-subtitle" name="form-section-subtitle">{sub_title}</h5>
+                    <h4 className="tp-section-title pb-10" name="form-section-title">{tilte}</h4>
+                    <p name="form-section-info">{info}</p>
                   </div>
                   <div className="contact-form-social-box p-relative">
                     <div className="contact-form-social-item">

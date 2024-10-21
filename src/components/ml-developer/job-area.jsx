@@ -33,13 +33,13 @@ const JobArea = ({style_carrer}) => {
                         <div className="job-section-box text-center mb-40">
                            {style_carrer ? 
                               <>
-                              <h3 className="tp-section-title">{carrer_title}</h3>
-                              <p>{carrer_info}</p>
+                              <h3 className="tp-section-title" name="career-title">{carrer_title}</h3>
+                              <p name="career-info">{carrer_info}</p>
                               </> 
                               : 
                               <>
-                              <h4 className="inner-section-subtitle">{sub_title}</h4>
-                              <h3 className="tp-section-title">{title}</h3>
+                              <h4 className="inner-section-subtitle" name="job-inner-subtitle">{sub_title}</h4>
+                              <h3 className="tp-section-title" name="job-inner-title">{title}</h3>
                               </>
                            }
                         </div>

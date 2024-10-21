@@ -45,10 +45,10 @@ const HeroArea = () => {
                   <div className="col-xl-11">
                      <div className="tp-hero-title-box text-center">
                         <h2 className="tp-hero-title-3 hero-text-anim pb-5">
-                           <i><i className="child-1">{title_1}</i></i>
-                           <i><i className="child-1">{title_2}</i></i>
+                           <i><i className="child-1" name="hero-title">{title_1}</i></i>
+                           <i><i className="child-1" name="hero-title-2">{title_2}</i></i>
                         </h2>
-                        <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
+                        <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s" name="lead-content">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
                         <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="#">

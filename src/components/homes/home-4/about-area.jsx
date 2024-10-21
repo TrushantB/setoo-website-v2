@@ -39,7 +39,7 @@ const AboutArea = () => {
                      <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-security-section-wrapper">
                            <div className="tp-security-section-box mb-45">
-                              <h5 className="tp-section-subtitle-4 pb-10">{sub_title}</h5>
+                              <h5 className="tp-section-subtitle-4 pb-10" name="section-subtitle">{sub_title}</h5>
                               <h3 className="tp-section-title-4 pb-25">{title}</h3>
                               <p>{des}</p>
                            </div>
