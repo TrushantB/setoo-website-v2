@@ -46,7 +46,7 @@ const CountArea = () => {
                   <Count number={item.count} text={item.simble} />
                 </span>
               </h4>
-              <p>{item.description}</p>
+              <p name="fact-description">{item.description}</p>
             </div>
           </div>
         ))}

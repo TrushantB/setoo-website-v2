@@ -44,7 +44,7 @@ const CounterArea = () => {
                             <Count number={item.counter} text={item.counter_icon} />
                           </span> 
                         </h4>
-                        <p>{item.title}</p>
+                        <p name="testimonoal-author">{item.title}</p>
                       </div>
                     </div>
                   </div>

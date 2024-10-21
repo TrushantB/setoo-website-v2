@@ -51,19 +51,18 @@ const CompanyArea = () => {
                            ><i className="fas fa-play"></i></a>
                            <span>Watch Demo</span>
                         </div> */}
-                        <h3 className='h3'>
+                        <h3 className='h3' name="highlight-title">
                          Setoo's Highlights
                         </h3>
                      </div>
                      <div className="col-xl-8">
                         <div className="row">
-
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-start">
                                  <div className="ab-company-fun-fact">
-                                    <span>RESPONSE TIME</span>
-                                    <h4>24<em>hr</em></h4>
-                                    <p>Issue Resolution</p>
+                                    <span name="response-time-label">RESPONSE TIME</span>
+                                    <h4 name="response-time">24<em>hr</em></h4>
+                                    <p name="response-time-text">Issue Resolution</p>
                                  </div>
                               </div>
                            </div>
@@ -71,18 +70,18 @@ const CompanyArea = () => {
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
-                                    <span>RATE</span>
-                                    <h4>95<em>%</em></h4>
-                                    <p>Client Satisfaction</p>
+                                    <span name="rate-label">RATE</span>
+                                    <h4 name="rate-count">95<em>%</em></h4>
+                                    <p name="rate-text">Client Satisfaction</p>
                                  </div>
                               </div>
                            </div>
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
-                                    <span>TEAM OF</span>
-                                    <h4>80<em>+</em></h4>
-                                    <p>Expert Professionals</p>
+                                    <span name="team-label">TEAM OF</span>
+                                    <h4 name="team-count">80<em>+</em></h4>
+                                    <p name="team-text">Expert Professionals</p>
                                  </div>
                               </div>
                            </div>
@@ -91,18 +90,18 @@ const CompanyArea = () => {
                   </div>
                   <div className="row ab-company-section-space">
                      <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <p>{vision}</p>
+                        <p name="vision-text">{vision}</p>
                      </div>
                      <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <p>{vision_desc}</p>
+                        <p name="vision-description">{vision_desc}</p>
                      </div>
                   </div>
                   <div className="row ab-company-section-space">
                      <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <p>{mission}</p>
+                        <p name="mission-text">{mission}</p>
                      </div>
                      <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <p>{mission_desc}</p>
+                        <p name="mission-description">{mission_desc}</p>
                      </div>
                   </div>
                </div>

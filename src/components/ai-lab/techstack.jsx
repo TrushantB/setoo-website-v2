@@ -150,13 +150,13 @@ const TechStack = ({style_integraton}) => {
                         <div className="tp-integration-section-box">
                             {style_integraton ? 
                                 <>
-                                    <h5 className="tp-integration-subtitle">{sub_title}</h5>
+                                    <h5 className="tp-integration-subtitle" name="techstack-subtitle">{sub_title}</h5>
                                     <h3 className="tp-section-title-3">{int_title}</h3>                                
                                 </> 
                                 : 
                                 <>
-                                    <h5 className="tp-integration-subtitle">{sub_title}</h5>
-                                    <h3 className="tp-section-title-3">{title}</h3>                                
+                                    <h5 className="tp-integration-subtitle" name="techstack-subtitle">{sub_title}</h5>
+                                    <h3 className="tp-section-title-3" name="techstack-title">{title}</h3>                                
                                 </>
                             }
                         </div>

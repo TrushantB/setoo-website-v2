@@ -17,7 +17,7 @@ const {dataRef} = useMultipleAnime();
             <div className="row">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <div className="tp-team-section-box text-center">
-                  <h5 className="inner-section-subtitle pb-10">
+                  <h5 className="inner-section-subtitle pb-10" name="journey-subtitle">
                     Talented Team
                   </h5>
                   <h3 className="tp-section-title mb-0 text-white">

@@ -34,8 +34,8 @@ const FaqArea = ({style_service}) => {
                         <div className="tp-faq-left-wrapper p-relative">
                            <div className={`tp-faq-section-box ${style_service && "tp-inner-font tp-inner-faq-box"} pb-20`}>
                               <span className={`${style_service ? "inner-section-subtitle" : "tp-section-subtitle-2 text-white"}`}>{sub_title}</span>
-                              <h2 className={`${style_service ? "tp-section-title" : "tp-section-title-lg"}`}>{title}</h2>
-                              <p>{description}</p>
+                              <h2 name="faq-title" className={`${style_service ? "tp-section-title" : "tp-section-title-lg"}`}>{title}</h2>
+                              <p name="faq-description">{description}</p>
                            </div>
                            <div className="tp-faq-btn">
                               {/* <Link className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn"} `} 

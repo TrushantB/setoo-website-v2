@@ -52,7 +52,7 @@ const CaseStudies = () => {
                <div className="row">
                   <div className="col-xl-6">
                      <div className="tp-project__section-box wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
-                        <h3 className="tp-section-title">Check Some Of Our Recent Work.</h3>
+                        <h3 className="tp-section-title" name="recent-work-title">Check Some Of Our Recent Work.</h3>
                      </div>
                   </div>
                </div>
@@ -90,16 +90,16 @@ const CaseStudies = () => {
                                              <h4 className="tp-project__title-sm">
                                                 <Link href={item.link}>{item.title}</Link>
                                              </h4>
-                                             <p>{item.description}</p>
+                                             <p name="project-description">{item.description}</p>
                                           </div>
                                           <div className="tp-project__meta d-flex align-items-center">
                                              <div className="tp-project__author-info">
-                                                <span>Client Name</span>
-                                                <h4>{item.client_name}</h4>
+                                                <span name="client-name-label">Client Name</span>
+                                                <h4 name="client-name">{item.client_name}</h4>
                                              </div>
                                              <div className="tp-project__budget">
-                                                <span>Year</span>
-                                                <h4>{item.year}</h4>
+                                                <span name="project-completion-year-label">Year</span>
+                                                <h4 name="project-completion-year">{item.year}</h4>
                                              </div>
                                              <div className="tp-project__link">
                                                 <Link href={item.link}>

@@ -42,8 +42,8 @@ const Brand = () => {
               <div className="row">
                 <div className="col-12">
                   <div className="ab-brand-section-box text-center mb-50">
-                    <h3 className="ab-brand-title">{titel}</h3>
-                    <p>{description}</p>
+                    <h3 className="ab-brand-title" name="brand-title">{titel}</h3>
+                    <p name="brand-lead-content">{description}</p>
                   </div>
                 </div>
               </div>

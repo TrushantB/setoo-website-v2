@@ -60,7 +60,7 @@ const RatedArea = () => {
                                     <BlurStart />                                      
                                     <BlurStart />                                      
                               </div>
-                              <h5 className="tp-section-title-3 text-white pb-40">
+                              <h5 name="testimonial-title" className="tp-section-title-3 text-white pb-40">
                                 {title}
                               </h5>
                               <Link className="tp-btn-blue-lg tp-btn-hover alt-color-white" href="#">
@@ -82,7 +82,7 @@ const RatedArea = () => {
                                             <span><i className="fas fa-star"></i></span>
                                             <span><i className="fas fa-star"></i></span>
                                         </div>
-                                        <p>{item.title}</p>
+                                        <p name="testimonoal-author">{item.title}</p>
                                         <div className="author-rated-logo">
                                             <Image src={item.img} alt="author logo"/>
                                         </div>

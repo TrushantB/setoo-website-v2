@@ -51,10 +51,10 @@ const BreadcrumbEight = () => {
                      <div className="row justify-content-center">
                         <div className="col-xl-12">
                            <div className="breadcrumb__content z-index-3 mb-60">
-                              <div className="breadcrumb__text wow tpfadeIn" data-wow-duration=".9s" data-wow-delay=".6s">
+                              <div className="breadcrumb__text wow tpfadeIn" name="breadcrumb-category" data-wow-duration=".9s" data-wow-delay=".6s">
                                  <span>WebJ Development</span>
                               </div>
-                              <h3 ref={animeRef} className="breadcrumb__title anime_text">Vishwamitra</h3>
+                              <h3 ref={animeRef} className="breadcrumb__title anime_text" name="breadcrumb-title">Vishwamitra</h3>
                            </div>
                         </div>
                      </div>
@@ -62,8 +62,8 @@ const BreadcrumbEight = () => {
                         {our_service.map((item, i)  => 
                             <div key={i} className="col-xl-3 col-lg-3 col-md-6 mb-40 pd-border-right">
                                 <div className={`breadcrumb__client-info ${item.cls}`}>
-                                <span>{item.title}</span>
-                                <p>{item.description}</p>
+                                <span name="project-title-label">{item.title}</span>
+                                <p name="project-description">{item.description}</p>
                                 </div>
                             </div>                        
                         )} 
