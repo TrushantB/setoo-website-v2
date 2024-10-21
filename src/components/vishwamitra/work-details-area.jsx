@@ -136,7 +136,7 @@ const WorkDetailsArea = () => {
                      <div className="col-xl-2 col-lg-2 social-box-pin">
                         <div className="pd-details-social-box text-lg-center text-start p-relative">
                            <div className="pd-details-social-title">
-                              <span>Share This <br />Story</span>
+                              <span name="share-this-text">Share This <br />Story</span>
                            </div>
                            <div className="pd-details-social">
                             <SocialLinks /> 

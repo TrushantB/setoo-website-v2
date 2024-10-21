@@ -25,13 +25,13 @@ const ServiceArea = () => {
                   <div className="row align-items-end mb-60">
                      <div className="col-xl-6 col-lg-6">
                         <div className="tp-service-section-four">
-                           <span className="tp-section-subtitle-4 d-inline-block pb-10">{sub_title}</span>
-                           <h2 className="tp-section-title-4">{title}</h2>
+                           <span className="tp-section-subtitle-4 d-inline-block pb-10" name="our-studio-subtitle">{sub_title}</span>
+                         <h2 className="tp-section-title-4" name="out-studio-title">{title}</h2>
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-6  wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-service-sction-content pb-15 d-flex justify-content-md-start justify-content-end">
-                           <p>{description}</p>
+                           <p name="our-studio-lead-content">{description}</p>
                         </div>
                      </div>
                   </div>
@@ -44,9 +44,9 @@ const ServiceArea = () => {
                                         <Image src={item.img} alt="theme-pure" />
                                     </div>
                                     <div className="tp-service-4-content">
-                                        <span>{item.sub_title}</span>
-                                        <h4 className="tp-service-4-title"><Link href={item.link}>{item.title}</Link></h4>
-                                        <p>{item.description}</p>
+                                        <span name="our-studio-service-subtitle">{item.sub_title}</span>
+                                       <h4 className="tp-service-4-title" name="our-studio-service-title"><Link href={item.link}>{item.title}</Link></h4>
+                                       <p name="our-studio-service-description">{item.description}</p>
                                        <Link className="tp-btn-service" href={item.link}>Explore {item.title}</Link>
                                     </div>
                                 </div>

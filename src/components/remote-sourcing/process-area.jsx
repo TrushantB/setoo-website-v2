@@ -89,8 +89,8 @@ const ProcessArea = () => {
             <div className="row">
               <div className="col-12">
                 <div className="journey-section-box">
-                  <h5 className="inner-section-subtitle pb-10">Process</h5>
-                  <h3 className="ab-brand-title pb-0 mb-0">
+                  <h5 className="inner-section-subtitle pb-10" name="journey-subtitle">Process</h5>
+                  <h3 className="ab-brand-title pb-0 mb-0" name="journey-title">
                     Steps to Hire Remote Professionals
                   </h3>
                 </div>
@@ -121,7 +121,7 @@ const ProcessArea = () => {
                         </div>
                         <div className="journey-slider-content">
                           <h4 className="journey-slider-title">{item.title}</h4>
-                          <p>{item.description}</p>
+                          <p name="journey-slider-description">{item.description}</p>
                         </div>
                       </SwiperSlide>
                     ))}

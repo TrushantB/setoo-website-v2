@@ -90,7 +90,7 @@ const BrandArea = () => {
                               <div className="tp-barnd-icon">
                                  <Image src={shape_2} alt="theme-pure" />
                               </div>
-                              <h5 className="tp-barnd-title-sm">Bridging Innovation to Deliver Success</h5>
+                              <h5 className="tp-barnd-title-sm" name="brand-title">Bridging Innovation to Deliver Success</h5>
                            </div>
                         </div>
                         <div className="col-xl-8 col-lg-8">

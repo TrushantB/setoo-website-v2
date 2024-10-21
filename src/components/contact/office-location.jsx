@@ -98,10 +98,10 @@ const OfficeLocation = () => {
                     </svg>
                   </div>
                   <div className="contact-info-title-box">
-                    <h5 className="contact-info-title-sm">
+                    <h5 className="contact-info-title-sm" name="office-info-title">
                       <Link href="#">{item.location}</Link>
                     </h5>
-                    <p>{item.address}</p>
+                    <p name="office-address-text">{item.address}</p>
                   </div>
                 </div>
               </div>

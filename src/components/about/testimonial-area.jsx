@@ -106,7 +106,7 @@ const TestimonialArea = () => {
                   <div className="row justify-content-center">
                      <div className="col-xl-8">
                         <div className="tp-testimonial-2-section-box mb-15 text-center">
-                           <h3 className="tp-section-title-lg text-white">{title}</h3>
+                           <h3 className="tp-section-title-lg text-white" name="testimonials-title">{title}</h3>
                         </div>
                      </div>
                   </div>
@@ -135,15 +135,15 @@ const TestimonialArea = () => {
                                         </span> 
                                         </div> */}
                                         <div className="tp-testimonial-2-content">
-                                        <p>{item.info}</p>
+                                        <p name="testimonial-content">{item.info}</p>
                                         </div>
                                         <div className="tp-testimonial-2-author d-flex align-items-center mt-auto">
                                         {/* <div className="tp-testimonial-2-img">
                                             <Image src={item.img} alt="theme-pure" />
                                         </div> */}
                                         <div className="tp-testimonial-2-author-info">
-                                            <h5>{item.name}</h5>
-                                            <span>{item.job}</span>
+                                            <h5 name="testimonial-author-name">{item.name}</h5>
+                                            <span name="testimonial-author-job-position">{item.job}</span>
                                         </div>
                                         </div>
                                     </div>

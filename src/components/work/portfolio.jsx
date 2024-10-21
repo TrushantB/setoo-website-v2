@@ -58,9 +58,9 @@ const Portfolio = () => {
                                 </div> */}
                             </div>
                             <div className="inner-project-content d-flex flex-column flex-grow-1">
-                                <span className="inner-project-category-title">{item.job_title}</span>
-                                <h4 className="inner-project-title"><Link href={item.link}>{item.title}</Link></h4>
-                                <p>{item.des}</p>
+                                <span className="inner-project-category-title" name="project-category-title">{item.job_title}</span>
+                                <h4 className="inner-project-title" name="project-title"><Link href={item.link}>{item.title}</Link></h4>
+                                <p name="project-description">{item.des}</p>
                                 <p className="pb-0 mt-auto"><Link href={item.link} className="tp-btn-service">Read Case Study</Link></p>
                             </div>
                             </div>

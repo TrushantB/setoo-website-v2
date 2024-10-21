@@ -153,8 +153,8 @@ const SecurityArea = () => {
                      <div className="col-xl-8">
                         <div className="tp-security-section-box text-center pb-100">
                            <span className="tp-section-subtitle-4 both pb-10 wow tpfadeUp" data-wow-duration=".9s"
-                              data-wow-delay=".3s">Industries Expertise</span>
-                            <h2 className="tp-section-title-4">Our Expertise Spans Across Industries</h2>
+                              data-wow-delay=".3s" name="industries-section-subtitle">Industries Expertise</span>
+                            <h2 className="tp-section-title-4" name="industries-section-title">Our Expertise Spans Across Industries</h2>
                         </div>
                      </div>
                   </div>
@@ -166,10 +166,10 @@ const SecurityArea = () => {
                                 <div className="tp-security-wrapper d-flex align-items-center justify-content-between">
                                     <div className="tp-security-item d-flex align-items-center">
                                         <div className="tp-security-img">
-                                            <Image src={item.img} alt="theme-pure" />
+                                            <Image src={item.img} alt="theme-pure" name="industry-brand-image" />
                                         </div>
                                         <div className="tp-security-content">
-                                            <h4 className="tp-security-title-sm">{item.title}</h4>
+                                            <h4 className="tp-security-title-sm" name="industry-name">{item.title}</h4>
                                         </div>
                                     </div>
                                     {/* <div className="tp-security-link">

@@ -22,7 +22,7 @@ const CtaArea = () => {
                      <div className="col-12">
                         <div className="tp-cta-bg" style={{backgroundImage: `url(${bg_img})`}}>
                            <div className="tp-cta-content text-center">
-                              <h3 className="tp-section-title-lg text-white">{title}</h3>
+                              <h3 className="tp-section-title-lg text-white" name="testimonials-title">{title}</h3>
                               <p>{info}</p>
                               {/* <Link className="tp-btn-green" href="/contact">{btn_text}</Link> */}
                               <PopupButton

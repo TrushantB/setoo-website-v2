@@ -31,8 +31,8 @@ const CtaArea = () => {
                         // style={{backgroundImage: `url(${bg_img})`}}
                         >
                            <div className="tp-cta-content tp-inner-font text-center">
-                              <h3 className="tp-section-title text-white">{title}</h3>
-                              <p>{description}</p>
+                              <h3 className="tp-section-title text-white" name="cta-title">{title}</h3>
+                              <p name="cta-description">{description}</p>
                               {/* <Link className="tp-btn-inner white-bg text-black" href="https://calendar.app.google/ysZR4E4rDsJe">{btn_text}</Link> */}
                               <PopupButton
                                  pageSettings={pageSettings}

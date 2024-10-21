@@ -29,7 +29,7 @@ const ProductService = () => {
                                 <h3 className="tp-section-title-5 pb-15">
                                     {title}
                                 </h3>
-                                <p className="pb-20">
+                                <p className="pb-20" name="service-description">
                                     {description}
                                 </p>
                             </div>

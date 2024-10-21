@@ -102,7 +102,7 @@ const TestimonialArea = () => {
                      <div className="row">
                         <div className="col-12">
                            <div className="tp-testimonial-3-section-box d-flex justify-content-between align-items-end mb-60">
-                              <h2 className="tp-section-title-3 text-white">{title}</h2>
+                              <h2 name="testimonial-title" className="tp-section-title-3 text-white">{title}</h2>
                               <div className="tp-test-arrow d-flex pb-10">
                                 <button
                                   onClick={() => sliderRef.current?.slickPrev()}
@@ -134,19 +134,19 @@ const TestimonialArea = () => {
                                              <span><i className="fas fa-star"></i></span>
                                              <span><i className="fas fa-star"></i></span>
                                           </div>
-                                          <p>{item.description}</p>
+                                          <p name="testimonial-content">{item.description}</p>
                                           <div className="tp-testimonial-3-author-info d-flex align-items-center mt-auto">
                                              <div className="tp-testimonial-3-sm-thumb d-md-none">
-                                                <Image src={item.img} alt={item.name} />
+                                                <Image src={item.img} alt={item.name} name="testimonial-avatar" />
                                              </div>
                                              <div>
-                                                <h5>{item.name}</h5>
-                                                <span>{item.job_title}</span>
+                                                <h5 name="testimonial-author">{item.name}</h5>
+                                                <span name="testimonial-author-job">{item.job_title}</span>
                                              </div>
                                           </div>
                                        </div>
                                        <div className="tp-testimonial-3-thumb d-none d-md-block">
-                                          <Image src={item.img} alt="theme-pure" />
+                                          <Image src={item.img} alt="theme-pure" name="testimonial-avatar" />
                                        </div>
                                     </div>
                                  </div>
