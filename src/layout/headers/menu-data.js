@@ -38,7 +38,7 @@ const menu_data = [
     sub_menus: [
       { link: "/blog", title: "Blogs" },
       { link: "/events", title: "Events" },
-      { link: "/experience", title: "Experiences" }
+      { link: "/experiences", title: "Experiences" }
     ],
   },
   {
