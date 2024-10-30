@@ -9,8 +9,6 @@ const experience_content = {
 }
 const { sub_title, title } = experience_content
 
-const { login } = useKindeAuth();
-
 const ExperienceArea = () => {
     return (
         <>
@@ -31,7 +29,7 @@ const ExperienceArea = () => {
                     </div>
                     <div className="row">
                         {experience_data.map((item, i) =>
-                            <div  onClick={login} key={i} className="col-xl-6 col-lg-6 col-md-6 mb-40 wow tpfadeUp" data-wow-duration=".9s"
+                            <div key={i} className="col-xl-6 col-lg-6 col-md-6 mb-40 wow tpfadeUp" data-wow-duration=".9s"
                                 data-wow-delay=".7s">
                                 <div className="tp-blog-four-item p-relative fix h-100 d-flex flex-column">
                                     <div className="tp-blog-four-img fix">
