@@ -6,5 +6,5 @@ export default withAuth({
 });
 
 export const config = {
-    matcher: ['/experience'],  // Protect this route
+  matcher: ["/experience/:path*"], // Protect this route
 };

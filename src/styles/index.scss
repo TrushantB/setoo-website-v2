@@ -1,12 +1,10 @@
- 
-
-
 
 @import "node_modules/react-modal-video/scss/modal-video.scss";
 @import "slick-carousel/slick/slick.css"; 
 @import "~bootstrap/scss/bootstrap";
 @import "swiper/css/bundle"; 
 @import "/public/assets/scss/main.scss";
+
 
 
 .react-international-phone-country-selector button{
@@ -145,4 +143,37 @@ gap: 10px !important;
 .react-responsive-modal-container{
   overflow: hidden !important;
 }
+}
+
+.tp-yellow-3{
+  color: #FF5733;
+}
+
+.details-wrapper{
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.details-iframe{
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.details-wrapper::-webkit-scrollbar {
+  width: 10px !important;
+  
+}
+
+.details-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 20px;
+}
+
+.details-wrapper::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 20px;
+}
+
+.back-btn:hover{
+  color: #FF5733 !important;
 }
