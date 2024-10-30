@@ -1,11 +1,11 @@
 
 'use client';
 import React from "react";
-import Wrapper from "../layout/wrapper";
+import Wrapper from "../../layout/wrapper";
 import { RegisterLink, LoginLink } from "@kinde-oss/kinde-auth-nextjs/components";
 import ExperienceArea from "@/components/experience/experience-area";
 import HeaderFour from "@/layout/headers/header";
-import ScrollToTop from "../../hooks/scroll-to-top";
+import ScrollToTop from "../../../hooks/scroll-to-top";
 import FooterFour from "@/layout/footers/footer-4";
 
 const Experience = () => {
