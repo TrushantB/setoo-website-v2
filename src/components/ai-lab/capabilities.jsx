@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import plan_img_1 from "../../../public/assets/img/service/ai-capabilities.png"
+import plan_img_1 from "../../../public/assets/img/service/catalyst.png";
 import plan_img_2 from "../../../public/assets/img/plan/plan-1-2.png"
 import plan_img_3 from "../../../public/assets/img/plan/plan-1-3.png"
 import plan_img_4 from "../../../public/assets/img/plan/plan-1-4.png"
