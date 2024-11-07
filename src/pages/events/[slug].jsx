@@ -14,7 +14,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Link from "next/link";
 import { Modal } from 'react-responsive-modal';
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import 'react-responsive-modal/styles.css';
 export async function getStaticPaths() {
   const slugs = getPostSlugs(); // Get all post slugs
@@ -42,8 +42,11 @@ export async function getStaticProps({ params }) {
 export default function Post({ postData }) {
 
    const [open, setOpen] = useState(false);
+  const [tabIndex, setTabIndex] = useState(0);
+  const scrollToRef = useRef(null);
 
   const onOpenModal = () => setOpen(true);
+
   const onCloseModal = () => setOpen(false);
     
   // console.log('Post Data:', postData); // Check data in the browser console
@@ -86,6 +89,33 @@ export default function Post({ postData }) {
       window.history.replaceState(null, '', window.location.pathname)
     }
   });
+
+  useEffect(() => {
+    window.addEventListener("message", (event) => {
+      // For security, you can check the origin of the message
+      if (event.origin !== "https://fp.setoo.ai") {
+        return;
+      }
+    
+      // Access the data sent from the iframe
+      setTabIndex(1);
+      onCloseModal();
+      handleScrollToElement();
+    });
+  },[])
+
+
+  // Function to scroll to the element
+  const handleScrollToElement = () => {
+    if (scrollToRef.current) {
+     const elementPosition = scrollToRef.current.getBoundingClientRect().top + window.pageYOffset;
+      const offset = - 100; // Adjust this value to add more scroll offset
+      window.scrollTo({
+        top: elementPosition + offset,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <Wrapper>
@@ -170,22 +200,22 @@ export default function Post({ postData }) {
                   </button>
 
                   <iframe
-                    src="https://call-rating-ai.vercel.app"
+                    src="https://fp.setoo.ai"
                     className="w-full modal-iframe"
                     frameBorder="0"
                   ></iframe>
                 </Modal>
-
                 <Tabs
                   className={"position-relative py-2"}
                   focusTabOnClick={false}
+                  selectedIndex={tabIndex}
+                  onSelect={(index) => setTabIndex(index)}
                 >
                   <button
                     onClick={onOpenModal}
                     className={`tp-btn-yellow tp-btn-hover  d-md-inline-block position-absolute top-0 end-0 review-btn`}
-                    href="#"
                   >
-                    <span>Leave a Review</span>
+                    <span  ref={scrollToRef}>Leave a Review</span>
                     <b></b>
                   </button>
                   <TabList>
@@ -242,7 +272,7 @@ export default function Post({ postData }) {
                   </TabPanel>
                   <TabPanel className="">
                     <iframe
-                      src="https://call-rating-ai.vercel.app/dashboard"
+                      src="https://fp.setoo.ai/dashboard"
                       frameBorder="0"
                       className="w-100 tabs"
                       height={500}
