@@ -44,7 +44,7 @@ const ExperienceArea = () => {
               >
                 <div className="tp-blog-four-item p-relative fix h-100 d-flex flex-column">
                   <div className="tp-blog-four-img fix">
-                    <Link href={"#" || item.experience_link} target="_self">
+                    <Link href={item.experience_link} target="_self">
                       <Image src={item.img} alt="theme-pure" />
                     </Link>
                   </div>
@@ -55,7 +55,7 @@ const ExperienceArea = () => {
                     </div>
                     <div className="tp-blog-four-info">
                       <h4 className="tp-blog-four-title-sm">
-                        <Link href={"#" || item.experience_link} target="_self">
+                        <Link href={item.experience_link} target="_self">
                           {item.title}
                         </Link>
                       </h4>
@@ -64,7 +64,7 @@ const ExperienceArea = () => {
                     <div className="tp-blog-four-btn mt-auto">
                       <Link
                         className="tp-btn-service tp-btn-yellow text-white tp-btn-hover"
-                        href={"#" || item.experience_link}
+                        href={ item.experience_link}
                         target="_self"
                       >
                         Experience It Live <span>&#8599;</span>
