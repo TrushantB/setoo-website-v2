@@ -111,6 +111,10 @@ gap: 10px !important;
   
 }
 
+.details-iframe{
+  height: 500px;
+}
+
 @media screen and (min-width:768px) {
 
   .review-btn{
@@ -145,32 +149,43 @@ gap: 10px !important;
 }
 }
 
+@media screen and (min-width:1024px) {
+.iframe-wrapper {
+  position: sticky;
+ padding-bottom: 10px;
+  top: 110px !important; 
+  max-height: calc(100vh - 120px); /* Ensures iframe fits within viewport height */
+  overflow: hidden; /* Hide overflow to control scroll within iframe */
+}
+
+.details-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+}
+
 .tp-yellow-3{
   color: #FF5733;
 }
 
-.details-wrapper{
-  height: 80vh;
-  overflow-y: auto;
-}
 
-.details-iframe{
-  height: 80vh;
-  overflow-y: auto;
-}
 
-.details-wrapper::-webkit-scrollbar {
+
+
+
+::-webkit-scrollbar {
   width: 10px !important;
   
 }
 
-.details-wrapper::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-  border-radius: 20px;
+::-webkit-scrollbar-track {
+  background: transparent; 
+ 
 }
 
-.details-wrapper::-webkit-scrollbar-thumb {
-  background: #888; 
+::-webkit-scrollbar-thumb {
+  background: #FF5733; 
   border-radius: 20px;
 }
 
