@@ -13,5 +13,5 @@ export const config = {
     "/experience/ai-on-call-for-meetings",
     "/experience/ai-on-call-for-client-reviews",
     "/experience/experience-personalized-engagement-ai",
-  ], // Protect these routes
+   ]
 };
