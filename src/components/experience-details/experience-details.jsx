@@ -42,31 +42,35 @@ const ExperienceDetails = () => {
   return (
     <>
       <HeaderFour />
-      <div className="pt-120 pb-120 experience-details container mx-auto">
-        <div>
-          <Link className="tp-yellow-3 back-btn align-items-center d-flex gap-2" href={"/experiences"}>
-            <svg
-              fill="#FF5733"
-              width={20}
-              height={20}
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 320 512"
-            >
-              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-            </svg>{" "}
-            Back
-          </Link>
-        </div>
-        <div className="row">
-          <div className="col-12 col-lg-6">
+      <div className="pt-120 pb-120 experience-details  container mx-auto">
+        <div className="row position-relative">
+          <div className="col-12 col-lg-6 d-flex justify-content-between flex-column iframe-wrapper">
+            <div>
+              <Link
+                className="tp-yellow-3 back-btn align-items-center d-flex gap-2"
+                href={"/experiences"}
+              >
+                <svg
+                  fill="#FF5733"
+                  width={20}
+                  height={20}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512"
+                >
+                  <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                </svg>{" "}
+                Back
+              </Link>
+            </div>
             <iframe
-              className="w-100 details-iframe"
+              className="w-100 details-iframe "
               src={content.iframeSrc || "https://prework.setoo.ai"}
               frameBorder="0"
               title={content.title}
             />
           </div>
-          <div className="col-12 col-lg-6 details-wrapper">
+
+          <div className="col-12 col-lg-6 ">
             <div className="d-flex flex-column gap-4">
               <h2 className="tp-yellow-3">{content.title}</h2>
               <p>{content.description}</p>
