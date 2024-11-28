@@ -19,7 +19,7 @@ const experience_data = [
     title: <>On-call Doctor for Healthcare sessions</>,
     description: <>Feel free to ask him any questions related to healthcare</>,
     author_img: author_img_1,
-    experience_link: "/experience/ai-on-call-for-doctor",
+    experience_link: "https://prework.setoo.ai",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const experience_data = [
         and could be used as co presentation for events
       </>
     ),
-    experience_link: "experience/digital-human-avatar",
+    experience_link: "https://clove.setoo.ai",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const experience_data = [
         presentations. Elevate your collaboration!
       </>
     ),
-    experience_link: "/experience/multiple-people-conference-room-ai",
+    experience_link: "https://call.setoo.ai",
   },
 
   {
@@ -70,7 +70,7 @@ const experience_data = [
       </>
     ),
     author_img: author_img_3,
-    experience_link: "/experience/ai-on-call-for-meetings",
+    experience_link: "https://call-rating-ai.vercel.app",
   },
   {
     id: 5,
@@ -87,7 +87,7 @@ const experience_data = [
       </>
     ),
     author_img: author_img_3,
-    experience_link: "/experience/ai-on-call-for-client-reviews",
+    experience_link: "https://call-rating-ai.vercel.app",
   },
 
   {
@@ -110,7 +110,7 @@ const experience_data = [
       </>
     ),
     author_img: author_img_3,
-    experience_link: "/experience/experience-personalized-engagement-ai",
+    experience_link: "https://2d-avatar.setoo.ai",
   },
 ];
 export default experience_data
